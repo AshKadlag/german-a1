@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>German A1 — Complete Study Guide</title>
+<meta name="description" content="Free German A1 Goethe-Zertifikat study guide — full exam vocabulary, flashcards (English + Marathi), exam structure, practice questions.">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f8f7f4;--surface:#fff;--surface2:#f1efe9;--border:#e4e0d8;
+  --text:#1a1814;--text2:#6b6760;--text3:#9b9890;
+  --purple-bg:#eeecfe;--purple-border:#c5bff5;--purple-text:#3d35a8;
+  --green-bg:#eaf4e1;--green-border:#b8dda0;--green-text:#2d6b17;
+  --amber-bg:#fef3e2;--amber-border:#f5d48a;--amber-text:#7a4f0a;
+  --blue-bg:#e8f2fd;--blue-border:#aacff5;--blue-text:#1455a4;
+  --coral-bg:#fdeeed;--coral-border:#f5bab5;--coral-text:#922018;
+  --pink-bg:#fce9f3;--pink-border:#f0b8d8;--pink-text:#8c1a55;
+  --teal-bg:#e2f5f0;--teal-border:#9ddec9;--teal-text:#0e6b50;
+  --r:10px;--rl:14px;
+}
+@media(prefers-color-scheme:dark){:root{--bg:#141210;--surface:#1e1c19;--surface2:#252320;--border:#302e2a;--text:#f0ede8;--text2:#9b9890;--text3:#6b6760;--purple-bg:#1e1840;--purple-border:#4a3fa0;--purple-text:#b8b0f5;--green-bg:#112b0a;--green-border:#2d6b17;--green-text:#8dcc6a;--amber-bg:#2a1e06;--amber-border:#7a4f0a;--amber-text:#f0c070;--blue-bg:#091d38;--blue-border:#1455a4;--blue-text:#80b8f5;--coral-bg:#2a0d0b;--coral-border:#922018;--coral-text:#f59080;--pink-bg:#2a0b1a;--pink-border:#8c1a55;--pink-text:#f090c0;--teal-bg:#071f18;--teal-border:#0e6b50;--teal-text:#60d4b0;}}
+html,body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);font-size:15px;line-height:1.6;min-height:100vh}
+.page-wrap{max-width:800px;margin:0 auto;padding:0 1rem 5rem}
+.page-header{padding:1.25rem 0 .5rem;text-align:center}
+.page-header h1{font-size:24px;font-weight:600;letter-spacing:-.5px;margin-bottom:4px}
+.page-header p{font-size:13px;color:var(--text2)}
+.top-tabs{display:flex;border-bottom:2px solid var(--border);margin-bottom:1.25rem;background:var(--bg);position:sticky;top:0;z-index:20}
+.top-tab{flex:1;padding:12px 8px;text-align:center;font-size:13px;font-weight:500;cursor:pointer;color:var(--text3);border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .18s;user-select:none}
+.top-tab:hover{color:var(--text2)}
+.top-tab.active{color:var(--purple-text);border-bottom-color:var(--purple-text)}
+.tab-pane{display:none}.tab-pane.active{display:block}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:1rem}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:10px 12px;text-align:center}
+.stat-num{font-size:22px;font-weight:600;letter-spacing:-1px;font-family:'DM Mono',monospace}
+.stat-label{font-size:11px;color:var(--text3);margin-top:2px}
+.pbar-wrap{height:5px;background:var(--surface2);border-radius:3px;margin-bottom:1rem;overflow:hidden}
+.pbar{height:100%;border-radius:3px;background:var(--purple-text);transition:width .4s;width:0%}
+.btn-row{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:.875rem}
+.btn{padding:7px 14px;border:1px solid var(--border);border-radius:var(--r);font-size:12px;font-family:'DM Sans',sans-serif;background:var(--surface);color:var(--text);cursor:pointer;transition:all .15s}
+.btn:hover{background:var(--surface2)}
+.btn.on{background:var(--purple-bg);border-color:var(--purple-border);color:var(--purple-text)}
+.btn-reset{background:transparent;border:1px solid var(--border);color:var(--text2);font-size:11px;padding:5px 10px}
+.btn-reset:hover{border-color:var(--coral-border);color:var(--coral-text);background:var(--coral-bg)}
+.btn-reset-sec{background:transparent;border:1px solid var(--border);color:var(--text3);font-size:10px;padding:2px 7px;border-radius:6px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s}
+.btn-reset-sec:hover{border-color:var(--amber-border);color:var(--amber-text);background:var(--amber-bg)}
+.toggle-row{display:flex;align-items:center;gap:10px;margin-bottom:.875rem;flex-wrap:wrap}
+.toggle-row label{font-size:12px;color:var(--text2);white-space:nowrap}
+.pills{display:flex;gap:4px;flex-wrap:wrap}
+.pill{padding:4px 11px;border:1px solid var(--border);border-radius:20px;font-size:11.5px;cursor:pointer;background:var(--surface);color:var(--text3);transition:all .15s;font-family:'DM Sans',sans-serif}
+.pill:hover{color:var(--text);border-color:var(--text3)}
+.pill.active{background:var(--teal-bg);border-color:var(--teal-border);color:var(--teal-text);font-weight:500}
+.lang-row{display:none;align-items:center;gap:7px;margin-bottom:.875rem}
+.lang-row label{font-size:12px;color:var(--text2);white-space:nowrap}
+.flash-hint{display:none;font-size:12px;padding:8px 12px;border-radius:var(--r);margin-bottom:1rem;background:var(--purple-bg);border:1px solid var(--purple-border);color:var(--purple-text);line-height:1.5}
+.flash-hint.show{display:block}
+.collapsible{background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);margin-bottom:1rem;overflow:hidden}
+.col-toggle{display:flex;align-items:center;gap:8px;padding:.75rem 1rem;cursor:pointer;user-select:none}
+.col-toggle:hover{background:var(--surface2)}
+.col-toggle h2{font-size:13.5px;font-weight:500;color:var(--text);flex:1;margin:0}
+.col-tag{font-size:10px;padding:2px 8px;border-radius:5px;font-weight:500;white-space:nowrap;background:var(--blue-bg);color:var(--blue-text);border:1px solid var(--blue-border)}
+.col-chevron{font-size:10px;color:var(--text3);transition:transform .25s;flex-shrink:0}
+.col-chevron.open{transform:rotate(180deg)}
+.col-body{overflow:hidden;max-height:0;transition:max-height .4s ease}
+.col-body.open{max-height:3000px}
+.col-inner{border-top:1px solid var(--border);padding:1.1rem}
+.es-score-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.1rem}
+.es-score-pill{flex:1;min-width:85px;background:var(--surface2);border:1px solid var(--border);border-radius:var(--r);padding:8px 10px;text-align:center}
+.es-score-num{font-size:17px;font-weight:600;font-family:'DM Mono',monospace;color:var(--purple-text)}
+.es-score-lbl{font-size:10px;color:var(--text3);margin-top:2px}
+.es-module{border-radius:var(--r);border:1px solid;margin-bottom:.75rem;overflow:hidden}
+.es-mod-head{display:flex;align-items:center;justify-content:space-between;padding:.6rem .875rem;gap:6px;flex-wrap:wrap}
+.es-mod-title{font-size:13px;font-weight:600}
+.es-mod-meta{display:flex;gap:5px;flex-wrap:wrap}
+.es-badge{font-size:10px;font-weight:500;padding:2px 7px;border-radius:5px;white-space:nowrap;font-family:'DM Mono',monospace}
+.es-listen{background:var(--blue-bg);border-color:var(--blue-border)}.es-listen .es-mod-title{color:var(--blue-text)}.es-listen .es-badge{background:var(--blue-bg);color:var(--blue-text);border:1px solid var(--blue-border)}
+.es-read{background:var(--green-bg);border-color:var(--green-border)}.es-read .es-mod-title{color:var(--green-text)}.es-read .es-badge{background:var(--green-bg);color:var(--green-text);border:1px solid var(--green-border)}
+.es-write{background:var(--amber-bg);border-color:var(--amber-border)}.es-write .es-mod-title{color:var(--amber-text)}.es-write .es-badge{background:var(--amber-bg);color:var(--amber-text);border:1px solid var(--amber-border)}
+.es-speak{background:var(--pink-bg);border-color:var(--pink-border)}.es-speak .es-mod-title{color:var(--pink-text)}.es-speak .es-badge{background:var(--pink-bg);color:var(--pink-text);border:1px solid var(--pink-border)}
+.es-teile{background:var(--surface);border-top:1px solid var(--border)}
+.es-teil-row{display:flex;border-bottom:1px solid var(--border)}.es-teil-row:last-child{border-bottom:none}
+.es-teil-lbl{font-size:11px;font-weight:600;font-family:'DM Mono',monospace;padding:.55rem .875rem;min-width:100px;border-right:1px solid var(--border);color:var(--text2);display:flex;flex-direction:column;gap:2px;flex-shrink:0}
+.es-teil-lbl span{font-size:10px;font-weight:400;color:var(--text3)}
+.es-teil-content{padding:.55rem .875rem;font-size:12px;color:var(--text2);line-height:1.55;flex:1}
+.es-teil-content strong{font-weight:500;color:var(--text)}
+.es-teil-mark{font-size:10px;font-family:'DM Mono',monospace;color:var(--text3);white-space:nowrap;padding:.55rem .6rem .55rem 0;display:flex;align-items:flex-start;flex-shrink:0}
+.es-note{font-size:12px;color:var(--text2);line-height:1.6;background:var(--surface2);padding:9px 11px;border-left:3px solid var(--purple-border);margin-top:.75rem}
+.es-note strong{font-weight:500;color:var(--text)}
+.es-source{font-size:11px;color:var(--text3);margin-top:.6rem;text-align:right}
+.es-source a{color:var(--blue-text);text-decoration:none}
+.sec-tabs{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:1rem}
+.sec-tab{padding:5px 11px;border:1px solid var(--border);border-radius:20px;font-size:11.5px;cursor:pointer;background:var(--surface);color:var(--text2);transition:all .15s}
+.sec-tab:hover{color:var(--text);border-color:var(--text3)}
+.sec-tab.active{background:var(--purple-bg);border-color:var(--purple-border);color:var(--purple-text);font-weight:500}
+.sec-tab .cnt{opacity:.6;margin-left:2px}
+.section{background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);padding:.875rem 1rem;margin-bottom:.75rem}
+.sec-head{display:flex;align-items:center;gap:8px;margin-bottom:.625rem}
+.sec-icon{width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.sec-title{font-size:13.5px;font-weight:500;color:var(--text)}
+.sec-meta{display:flex;align-items:center;gap:6px;margin-left:auto;flex-wrap:wrap}
+.sec-count{font-size:11px;color:var(--text3);font-family:'DM Mono',monospace}
+.sec-done-badge{font-size:10px;font-weight:500;padding:2px 7px;border-radius:5px;background:var(--green-bg);color:var(--green-text);border:1px solid var(--green-border)}
+.tip{font-size:12px;padding:8px 10px;border-radius:7px;margin-bottom:.75rem;line-height:1.5;color:var(--text2)}
+.word-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:5px}
+.wc{background:var(--surface2);border:1px solid transparent;border-radius:7px;padding:8px 10px;cursor:pointer;transition:all .18s;user-select:none}
+.wc:hover{border-color:var(--border)}
+.de{font-size:12.5px;font-weight:500;color:var(--text)}
+.tr{font-size:11px;color:var(--text2);margin-top:2px}
+.fc-wrap{user-select:none;min-height:90px;perspective:700px}
+.fc-inner{position:relative;width:100%;height:90px;transform-style:preserve-3d;transition:transform .38s cubic-bezier(.4,0,.2,1);border-radius:7px}
+.fc-wrap.flipped .fc-inner{transform:rotateY(180deg)}
+.fc-front,.fc-back{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:7px;border:1px solid;cursor:pointer}
+.fc-front{background:var(--blue-bg);border-color:var(--blue-border);padding:8px 10px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.fc-front-mr{background:var(--teal-bg);border-color:var(--teal-border)}
+.fc-lbl{font-size:9px;font-weight:500;letter-spacing:.5px;text-transform:uppercase;margin-bottom:2px;opacity:.65}
+.fc-front .fc-lbl{color:var(--blue-text)}.fc-front-mr .fc-lbl{color:var(--teal-text)}
+.fc-front .fc-word{font-size:12px;font-weight:500;color:var(--blue-text);line-height:1.3}
+.fc-front-mr .fc-word{font-size:11.5px;font-weight:500;color:var(--teal-text);line-height:1.3}
+.fc-back{background:var(--purple-bg);border-color:var(--purple-border);transform:rotateY(180deg);padding:8px 10px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.fc-back .fc-lbl{color:var(--purple-text)}
+.fc-back .fc-de{font-size:12px;font-weight:500;color:var(--purple-text);line-height:1.3}
+.fc-back .fc-sub{font-size:10px;color:var(--text2);margin-top:2px;opacity:.8}
+.fc-back .fc-no{position:absolute;bottom:5px;left:7px;background:none;border:none;cursor:pointer;font-size:8px;line-height:1;padding:1px 2px;color:var(--coral-text);opacity:.65;transition:opacity .15s;user-select:none}
+.fc-back .fc-no:hover{opacity:1}
+.sec-empty{text-align:center;padding:1rem;color:var(--text3);font-size:12px}
+.all-done{display:none;text-align:center;padding:2rem 1rem;background:var(--surface);border:1px solid var(--green-border);border-radius:var(--rl);margin-bottom:.875rem}
+.all-done.show{display:block}
+.all-done .trophy{font-size:40px;margin-bottom:.5rem}
+.all-done h2{font-size:18px;font-weight:500;color:var(--green-text)}
+.all-done p{color:var(--text2);font-size:13px}
+.exam-intro{background:var(--blue-bg);border:1px solid var(--blue-border);border-radius:var(--rl);padding:1rem;margin-bottom:1.25rem;font-size:13px;color:var(--blue-text);line-height:1.6}
+.exam-intro strong{font-weight:600}
+.score-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.25rem}
+.score-pill{flex:1;min-width:90px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:8px 10px;text-align:center}
+.score-num{font-size:17px;font-weight:600;font-family:'DM Mono',monospace;color:var(--purple-text)}
+.score-lbl{font-size:10px;color:var(--text3);margin-top:2px}
+.ep-section{background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);margin-bottom:1rem;overflow:hidden}
+.ep-head{display:flex;align-items:center;gap:8px;padding:.75rem 1rem;cursor:pointer;user-select:none}
+.ep-head:hover{background:var(--surface2)}
+.ep-icon{font-size:15px;flex-shrink:0}
+.ep-title{font-size:14px;font-weight:500;flex:1}
+.ep-badges{display:flex;gap:5px;margin-left:auto;flex-wrap:wrap}
+.ep-badge{font-size:10px;font-weight:500;padding:2px 7px;border-radius:5px;white-space:nowrap;font-family:'DM Mono',monospace}
+.ep-chev{font-size:10px;color:var(--text3);transition:transform .25s;flex-shrink:0}
+.ep-chev.open{transform:rotate(180deg)}
+.ep-body{overflow:hidden;max-height:0;transition:max-height .4s ease}
+.ep-body.open{max-height:6000px}
+.ep-inner{border-top:1px solid var(--border);padding:1rem}
+.ep-listen .ep-title{color:var(--blue-text)}.ep-listen .ep-badge{background:var(--blue-bg);color:var(--blue-text);border:1px solid var(--blue-border)}
+.ep-read .ep-title{color:var(--green-text)}.ep-read .ep-badge{background:var(--green-bg);color:var(--green-text);border:1px solid var(--green-border)}
+.ep-write .ep-title{color:var(--amber-text)}.ep-write .ep-badge{background:var(--amber-bg);color:var(--amber-text);border:1px solid var(--amber-border)}
+.ep-speak .ep-title{color:var(--pink-text)}.ep-speak .ep-badge{background:var(--pink-bg);color:var(--pink-text);border:1px solid var(--pink-border)}
+.ex-block{margin-bottom:1.25rem}
+.ex-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--text3);margin-bottom:.5rem}
+.ex-text{background:var(--surface2);border-radius:8px;padding:10px 12px;font-size:13px;color:var(--text);line-height:1.6;margin-bottom:.75rem;border-left:3px solid var(--border)}
+.ex-q{font-size:13px;color:var(--text);margin-bottom:.5rem;font-weight:500}
+.ex-options{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:.75rem}
+.ex-opt{padding:6px 14px;border:1px solid var(--border);border-radius:20px;font-size:12px;cursor:pointer;background:var(--surface);color:var(--text);transition:all .15s;font-family:'DM Sans',sans-serif}
+.ex-opt:hover{border-color:var(--purple-border);background:var(--purple-bg);color:var(--purple-text)}
+.ex-opt.correct{background:var(--green-bg);border-color:var(--green-border);color:var(--green-text);font-weight:500}
+.ex-opt.wrong{background:var(--coral-bg);border-color:var(--coral-border);color:var(--coral-text)}
+.ex-opt.reveal-correct{background:var(--green-bg);border-color:var(--green-border);color:var(--green-text)}
+.ex-feedback{font-size:12px;padding:7px 10px;border-radius:7px;margin-bottom:.75rem;line-height:1.5}
+.ex-feedback.correct{background:var(--green-bg);color:var(--green-text);border:1px solid var(--green-border)}
+.ex-feedback.wrong{background:var(--coral-bg);color:var(--coral-text);border:1px solid var(--coral-border)}
+.tf-opts{display:flex;gap:6px;margin-bottom:.75rem}
+.tf-opt{padding:6px 18px;border:1px solid var(--border);border-radius:20px;font-size:12px;cursor:pointer;background:var(--surface);color:var(--text);transition:all .15s;font-family:'DM Sans',sans-serif;font-weight:500}
+.tf-opt:hover{border-color:var(--purple-border);background:var(--purple-bg);color:var(--purple-text)}
+.tf-opt.correct{background:var(--green-bg);border-color:var(--green-border);color:var(--green-text)}
+.tf-opt.wrong{background:var(--coral-bg);border-color:var(--coral-border);color:var(--coral-text)}
+.tf-opt.reveal-correct{background:var(--green-bg);border-color:var(--green-border);color:var(--green-text)}
+.ex-divider{border:none;border-top:1px dashed var(--border);margin:1rem 0}
+.tip-box{background:var(--amber-bg);border:1px solid var(--amber-border);border-radius:8px;padding:9px 12px;font-size:12px;color:var(--amber-text);margin-bottom:1rem;line-height:1.55}
+.tip-box strong{font-weight:600}
+.write-template{background:var(--purple-bg);border:1px solid var(--purple-border);border-radius:8px;padding:10px 12px;font-size:12.5px;color:var(--purple-text);line-height:1.8;margin-bottom:.75rem;font-family:'DM Mono',monospace}
+.speak-card{background:var(--surface2);border-radius:8px;padding:10px 12px;margin-bottom:.5rem;font-size:13px;line-height:1.6}
+.speak-card strong{font-weight:500;color:var(--text)}
+.speak-card .example{font-size:12px;color:var(--text2);margin-top:4px}
+.speak-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:.75rem}
+@media(max-width:480px){.speak-grid{grid-template-columns:1fr}}
+.ep-score-track{display:flex;align-items:center;gap:8px;padding:.5rem 1rem;border-top:1px solid var(--border);background:var(--surface2);font-size:12px;color:var(--text2)}
+.ep-score-num{font-family:'DM Mono',monospace;font-weight:600;color:var(--green-text)}
+
+/* ── Flashcard-style exam questions ── */
+.qblock{background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);padding:1rem;margin-bottom:.875rem;transition:border-color .2s}
+.qblock.answered-correct{border-color:var(--green-border);background:var(--green-bg)}
+.qblock.answered-wrong{border-color:var(--coral-border)}
+.q-opts{display:flex;gap:8px;flex-wrap:wrap;margin-top:.625rem}
+.q-opts.tf{flex-direction:row;gap:10px}
+.q-opt{padding:8px 16px;border:1.5px solid var(--border);border-radius:var(--r);font-size:12.5px;cursor:pointer;background:var(--surface);color:var(--text);font-family:'DM Sans',sans-serif;transition:all .18s;text-align:left;line-height:1.4}
+.q-opt:hover:not(:disabled){border-color:var(--purple-border);background:var(--purple-bg);color:var(--purple-text)}
+.q-opt:disabled{cursor:not-allowed}
+.q-opt.selected-correct{background:var(--green-bg)!important;border-color:var(--green-border)!important;color:var(--green-text)!important;font-weight:600}
+.q-opt.selected-wrong{background:var(--coral-bg)!important;border-color:var(--coral-border)!important;color:var(--coral-text)!important;font-weight:600}
+.q-opt.show-correct{background:var(--green-bg)!important;border-color:var(--green-border)!important;color:var(--green-text)!important;font-weight:500}
+.q-reveal{margin-top:.75rem;padding:10px 12px;border-radius:8px;font-size:12.5px;line-height:1.55}
+.q-reveal.correct{background:var(--green-bg);border:1px solid var(--green-border);color:var(--green-text)}
+.q-reveal.wrong{background:var(--coral-bg);border:1px solid var(--coral-border);color:var(--coral-text)}
+.q-reveal strong{font-weight:600}
+.strategy-box{background:var(--purple-bg);border:1px solid var(--purple-border);border-radius:var(--rl);padding:1rem;font-size:12.5px;color:var(--purple-text);line-height:1.7;margin-top:.5rem}
+.strategy-box strong{font-weight:600}
+.source-line{font-size:11px;color:var(--text3);margin-top:.75rem;text-align:right}
+.source-line a{color:var(--blue-text);text-decoration:none}
+footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;padding:1rem 0;border-top:1px solid var(--border)}
+.sched-row{display:flex;gap:10px;padding:9px 1rem;border-bottom:1px solid var(--border)}
+.sched-row:last-child{border-bottom:none}
+.sched-t{font-family:'DM Mono',monospace;font-size:10.5px;color:var(--text3);min-width:58px;flex-shrink:0;padding-top:2px}
+.sched-d{font-size:12.5px;color:var(--text2)}
+.sched-d strong{font-weight:500;color:var(--text)}
+
+/* ── Milestone selector ── */
+.milestone-bar{display:flex;align-items:center;gap:10px;padding:.75rem 1rem;background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);margin-bottom:1rem;flex-wrap:wrap}
+.milestone-label{font-size:12px;font-weight:500;color:var(--text2);white-space:nowrap}
+.milestone-btns{display:flex;gap:6px;flex:1;min-width:0}
+.ms-btn{flex:1;padding:8px 12px;border:2px solid var(--border);border-radius:var(--r);font-size:12.5px;font-weight:500;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .2s;text-align:center;background:var(--surface);color:var(--text2);line-height:1.3}
+.ms-btn:hover{border-color:var(--purple-border);color:var(--purple-text)}
+.ms-btn.active-ms1{background:var(--blue-bg);border-color:var(--blue-border);color:var(--blue-text)}
+.ms-btn.active-ms2{background:var(--green-bg);border-color:var(--green-border);color:var(--green-text)}
+.ms-btn .ms-count{font-size:11px;opacity:.75;display:block;font-weight:400;font-family:'DM Mono',monospace}
+.ms-banner{font-size:12px;padding:6px 10px;border-radius:7px;margin-bottom:.875rem;text-align:center;line-height:1.5}
+.ms-banner.ms1{background:var(--blue-bg);border:1px solid var(--blue-border);color:var(--blue-text)}
+.ms-banner.ms2{background:var(--green-bg);border:1px solid var(--green-border);color:var(--green-text)}
+.ms-tag{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;padding:1px 6px;border-radius:4px;margin-left:5px;vertical-align:middle}
+.ms-tag.t1{background:var(--blue-bg);color:var(--blue-text);border:1px solid var(--blue-border)}
+.ms-tag.t2{background:var(--green-bg);color:var(--green-text);border:1px solid var(--green-border)}
+</style>
+</head>
+<body>
+<div class="page-wrap">
+<div class="page-header">
+  <h1>🇩🇪 German A1 — Complete Study Guide</h1>
+  <p>Goethe-Zertifikat A1 · Full exam vocabulary · English &amp; Marathi · Exam structure &amp; practice for 90%+</p>
+</div>
+<div class="top-tabs">
+  <div class="top-tab active" id="ttab-vocab" onclick="switchTopTab('vocab')">📚 Vocabulary</div>
+  <div class="top-tab" id="ttab-exam" onclick="switchTopTab('exam')">🎯 Exam Practice</div>
+  <div class="top-tab" id="ttab-sprechen" onclick="switchTopTab('sprechen')">🗣️ Sprechen</div>
+</div>
+
+<!-- ══ VOCAB TAB ══ -->
+<div class="tab-pane active" id="pane-vocab">
+  <div class="milestone-bar">
+    <span class="milestone-label">📍 Milestone:</span>
+    <div class="milestone-btns">
+      <button class="ms-btn active-ms1" id="ms1-btn" onclick="setMilestone(1)">
+        🌱 Step 1 — Core Words
+        <span class="ms-count" id="ms1-count">292 words</span>
+      </button>
+      <button class="ms-btn" id="ms2-btn" onclick="setMilestone(2)">
+        🏆 Step 2 — All Words
+        <span class="ms-count" id="ms2-count">700 words</span>
+      </button>
+    </div>
+  </div>
+  <div class="ms-banner ms1" id="ms-banner">
+    🌱 <strong>Step 1 — Core 292 words.</strong> These cover everything you need to pass. Complete Step 1 before moving to Step 2.
+  </div>
+  <div class="stats">
+    <div class="stat"><div class="stat-num" id="lc" style="color:var(--purple-text)">0</div><div class="stat-label">learned</div></div>
+    <div class="stat"><div class="stat-num" id="tc">0</div><div class="stat-label">total</div></div>
+    <div class="stat"><div class="stat-num" id="pc" style="color:var(--teal-text)">0%</div><div class="stat-label">progress</div></div>
+  </div>
+  <div class="pbar-wrap"><div class="pbar" id="pb"></div></div>
+  <div class="btn-row">
+    <button class="btn" id="fb" onclick="toggleFlash()">👁 Flashcard mode</button>
+    <button class="btn btn-reset" onclick="resetAll()">↺ Reset all</button>
+  </div>
+  <div class="toggle-row" id="display-row">
+    <label>Show:</label>
+    <div class="pills">
+      <button class="pill active" onclick="setDisplay('both')" id="disp-both">German + Translation</button>
+      <button class="pill" onclick="setDisplay('en')" id="disp-en">🇬🇧 English only</button>
+      <button class="pill" onclick="setDisplay('mr')" id="disp-mr">🇮🇳 मराठी only</button>
+    </div>
+  </div>
+  <div class="lang-row" id="lang-row">
+    <label>Flashcard language:</label>
+    <div class="pills">
+      <button class="pill active" onclick="setLang('en')" id="pill-en">🇬🇧 English</button>
+      <button class="pill" onclick="setLang('mr')" id="pill-mr">🇮🇳 मराठी</button>
+    </div>
+  </div>
+  <div class="flash-hint" id="fh">🃏 Click card to flip and reveal German. Click again to mark as learned. Tap ↩ (bottom-left) to try again.</div>
+  <div class="collapsible">
+    <div class="col-toggle" onclick="colToggle('sched')"><h2>⏱ 1-hour study plan</h2><span class="col-chevron" id="sched-chevron">▼</span></div>
+    <div class="col-body" id="sched-body"><div style="border-top:1px solid var(--border)">
+      <div class="sched-row"><div class="sched-t">0–10 min</div><div class="sched-d"><strong>Greetings &amp; Exam Phrases</strong> — Every phrase out loud. Especially the „Ich weiß das Wort nicht" survival phrases.</div></div>
+      <div class="sched-row"><div class="sched-t">10–20 min</div><div class="sched-d"><strong>People, Family &amp; Introductions</strong> — Pairs: Vater/Mutter. Practice full intro: <em>Ich heiße ___, ich komme aus ___, ich bin ___ Jahre alt, von Beruf bin ich ___.</em></div></div>
+      <div class="sched-row"><div class="sched-t">20–30 min</div><div class="sched-d"><strong>Numbers, Time &amp; All Weekdays</strong> — 1–100, all 7 weekdays, all 4 seasons. Dates come up in forms.</div></div>
+      <div class="sched-row"><div class="sched-t">30–40 min</div><div class="sched-d"><strong>All Verbs + Modal Verbs</strong> — Modals are critical in every section: müssen, können, dürfen, sollen, wollen, möchten.</div></div>
+      <div class="sched-row"><div class="sched-t">40–50 min</div><div class="sched-d"><strong>Home, Objects &amp; Clothing</strong> — Signs and forms in Lesen use these. Sprechen Teil 3 image cards come from this group.</div></div>
+      <div class="sched-row"><div class="sched-t">50–60 min</div><div class="sched-d"><strong>Travel, Food, Shopping &amp; Adjectives</strong> — Focus on opposites: billig/teuer, langsam/schnell, hell/dunkel, groß/klein.</div></div>
+    </div></div>
+  </div>
+  <div class="sec-tabs" id="sec-tabs"></div>
+  <div id="vocab-content"></div>
+  <div class="all-done" id="alldone"><div class="trophy">🏆</div><h2>All done!</h2><p>Every word learned. Use reset to practise again.</p></div>
+</div>
+
+<!-- ══ EXAM TAB ══ -->
+<div class="tab-pane" id="pane-exam">
+  <div class="collapsible">
+    <div class="col-toggle" onclick="colToggle('examstruct')"><h2>📋 Exam Structure — Complete Overview</h2><span class="col-tag">ℹ️ Reference</span><span class="col-chevron" id="examstruct-chevron">▼</span></div>
+    <div class="col-body" id="examstruct-body"><div class="col-inner">
+      <div class="es-score-row">
+        <div class="es-score-pill"><div class="es-score-num">60</div><div class="es-score-lbl">Total marks</div></div>
+        <div class="es-score-pill"><div class="es-score-num">60%</div><div class="es-score-lbl">Pass (36/60)</div></div>
+        <div class="es-score-pill"><div class="es-score-num">~85 min</div><div class="es-score-lbl">Total duration</div></div>
+        <div class="es-score-pill"><div class="es-score-num">4</div><div class="es-score-lbl">Modules</div></div>
+      </div>
+      <div class="es-module es-listen"><div class="es-mod-head"><div class="es-mod-title">🎧 Hören — Listening</div><div class="es-mod-meta"><span class="es-badge">20 min</span><span class="es-badge">15 marks</span><span class="es-badge">3 parts</span></div></div><div class="es-teile">
+        <div class="es-teil-row"><div class="es-teil-lbl">Teil 1<span>(6 marks)</span></div><div class="es-teil-content"><strong>6 short dialogues</strong> — heard <strong>twice</strong>. One question each, 3 options (A, B, C).</div><div class="es-teil-mark">6 Qs</div></div>
+        <div class="es-teil-row"><div class="es-teil-lbl">Teil 2<span>(4 marks)</span></div><div class="es-teil-content"><strong>4 announcements</strong> — heard <strong>once only</strong>. Select <strong>True or False</strong>.</div><div class="es-teil-mark">4 Qs</div></div>
+        <div class="es-teil-row"><div class="es-teil-lbl">Teil 3<span>(5 marks)</span></div><div class="es-teil-content"><strong>5 phone monologues</strong> — heard <strong>twice</strong>. One question each, 3 options (A, B, C).</div><div class="es-teil-mark">5 Qs</div></div>
+      </div></div>
+      <div class="es-module es-read"><div class="es-mod-head"><div class="es-mod-title">📖 Lesen — Reading</div><div class="es-mod-meta"><span class="es-badge">45 min*</span><span class="es-badge">15 marks</span><span class="es-badge">3 parts</span></div></div><div class="es-teile">
+        <div class="es-teil-row"><div class="es-teil-lbl">Teil 1<span>(5 marks)</span></div><div class="es-teil-content"><strong>2 short emails</strong> — 5 True/False questions total.</div><div class="es-teil-mark">5 Qs</div></div>
+        <div class="es-teil-row"><div class="es-teil-lbl">Teil 2<span>(5 marks)</span></div><div class="es-teil-content"><strong>5 purpose-matching</strong> — two website screenshots (A/B). Pick which matches the need.</div><div class="es-teil-mark">5 Qs</div></div>
+        <div class="es-teil-row"><div class="es-teil-lbl">Teil 3<span>(5 marks)</span></div><div class="es-teil-content"><strong>5 signs / notices</strong> — one statement each. Select <strong>True or False</strong>.</div><div class="es-teil-mark">5 Qs</div></div>
+      </div></div>
+      <div class="es-module es-write"><div class="es-mod-head"><div class="es-mod-title">✍️ Schreiben — Writing</div><div class="es-mod-meta"><span class="es-badge">20 min*</span><span class="es-badge">15 marks</span><span class="es-badge">2 parts</span></div></div><div class="es-teile">
+        <div class="es-teil-row"><div class="es-teil-lbl">Teil 1<span>(5 marks)</span></div><div class="es-teil-content"><strong>Fill in a form</strong> — given info, fill in <strong>5 blanks</strong>.</div><div class="es-teil-mark">5 blanks</div></div>
+        <div class="es-teil-row"><div class="es-teil-lbl">Teil 2<span>(10 marks)</span></div><div class="es-teil-content"><strong>Write a short email</strong> (~30 words). Address <strong>3 points</strong>.</div><div class="es-teil-mark">~30 words</div></div>
+      </div></div>
+      <div class="es-module es-speak"><div class="es-mod-head"><div class="es-mod-title">🗣️ Sprechen — Speaking</div><div class="es-mod-meta"><span class="es-badge">15 min</span><span class="es-badge">15 marks</span><span class="es-badge">3 parts</span></div></div><div class="es-teile">
+        <div class="es-teil-row"><div class="es-teil-lbl">Teil 1<span>(3 marks)</span></div><div class="es-teil-content"><strong>Self-introduction</strong> — intro, spell a word, say a number.</div><div class="es-teil-mark">3 marks</div></div>
+        <div class="es-teil-row"><div class="es-teil-lbl">Teil 2<span>(6 marks)</span></div><div class="es-teil-content"><strong>W-Questions in group</strong> — word card + theme → form W-question.</div><div class="es-teil-mark">6 marks</div></div>
+        <div class="es-teil-row"><div class="es-teil-lbl">Teil 3<span>(6 marks)</span></div><div class="es-teil-content"><strong>Request questions</strong> — image card → polite request. Partner replies yes/no.</div><div class="es-teil-mark">6 marks</div></div>
+      </div></div>
+      <div class="es-note"><strong>* Lesen + Schreiben combined</strong> in one 45-min paper. <strong>No sectional cut-off</strong>. Speaking held separately in groups. Prep: <strong>80–120 hours</strong>.</div>
+      <div class="es-source">Source: <a href="https://www.thelanguageoffice.com/exam-pattern-of-goethe-institut-a1/" target="_blank">The Language Office</a> · <a href="https://www.goethe.de/en/spr/prf/ueb/pa1.html" target="_blank">Goethe-Institut official</a></div>
+    </div></div>
+  </div>
+
+  <!-- LIVE SCORE TRACKER -->
+  <div class="exam-intro"><strong>Target: 90%+ (54/60 marks)</strong> — Flashcard-style practice. Read the question, select your answer, then the correct answer is revealed and your score updates.</div>
+  <div class="score-row">
+    <div class="score-pill"><div class="score-num">60</div><div class="score-lbl">Total marks</div></div>
+    <div class="score-pill"><div class="score-num">60%</div><div class="score-lbl">Pass mark</div></div>
+    <div class="score-pill"><div class="score-num" id="ep-total">0/30</div><div class="score-lbl">Your score</div></div>
+    <div class="score-pill"><div class="score-num" id="ep-pct">0%</div><div class="score-lbl">Progress</div></div>
+    <div class="score-pill"><div class="score-num" id="ep-correct" style="color:var(--green-text)">0</div><div class="score-lbl">Correct</div></div>
+    <div class="score-pill"><div class="score-num" id="ep-wrong" style="color:var(--coral-text)">0</div><div class="score-lbl">Wrong</div></div>
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:1.25rem">
+    <button class="btn btn-reset" onclick="resetAllExam()" style="font-size:12px">↺ Reset all answers &amp; score</button>
+  </div>
+
+  <!-- HÖREN -->
+  <div class="ep-section ep-listen">
+    <div class="ep-head" onclick="epToggle('hoeren')"><span class="ep-icon">🎧</span><span class="ep-title">Hören — Listening Practice</span><div class="ep-badges"><span class="ep-badge">20 min</span><span class="ep-badge">15 marks</span></div><span class="ep-chev" id="chev-hoeren">▼</span></div>
+    <div class="ep-body" id="body-hoeren"><div class="ep-inner">
+      <div class="tip-box"><strong>Tip:</strong> Read the question first. For Teil 2 (once only) — focus on numbers, negations. Revealed answer shows explanation.</div>
+
+      <div id="qblock-h1q1" class="qblock">
+        <div class="ex-label">Teil 1 — Dialogue (heard twice, pick A/B/C)</div>
+        <div class="ex-text">🔊 <em>[Shop]</em> — Kunde sucht eine Jacke in Größe 42. Verkäuferin: „Leider nur noch Größe 40 und 44. Die Jacke kostet 65 Euro."</div>
+        <div class="ex-q">What size does the customer want?</div>
+        <div class="q-opts" id="opts-h1q1">
+          <button class="q-opt" onclick="answerQ('h1q1','A','B')">A — Size 40</button>
+          <button class="q-opt" onclick="answerQ('h1q1','B','B')">B — Size 42</button>
+          <button class="q-opt" onclick="answerQ('h1q1','C','B')">C — Size 44</button>
+        </div>
+        <div id="reveal-h1q1" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-h1q2" class="qblock">
+        <div class="ex-text">🔊 <em>[Restaurant]</em> — Gast: „Ich nehme den Fisch. Meine Frau möchte den Salat."</div>
+        <div class="ex-q">What does the man order to eat?</div>
+        <div class="q-opts" id="opts-h1q2">
+          <button class="q-opt" onclick="answerQ('h1q2','A','C')">A — Salad</button>
+          <button class="q-opt" onclick="answerQ('h1q2','B','C')">B — Soup</button>
+          <button class="q-opt" onclick="answerQ('h1q2','C','C')">C — Fish</button>
+        </div>
+        <div id="reveal-h1q2" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-h1q3" class="qblock">
+        <div class="ex-text">🔊 <em>[Hotel desk]</em> — Gast: „Ich habe ein Zimmer bestellt." Rezeption: „Für drei Nächte, Zimmer 254, zweiter Stock."</div>
+        <div class="ex-q">Which room number does the guest have?</div>
+        <div class="q-opts" id="opts-h1q3">
+          <button class="q-opt" onclick="answerQ('h1q3','A','B')">A — Zimmer 245</button>
+          <button class="q-opt" onclick="answerQ('h1q3','B','B')">B — Zimmer 254</button>
+          <button class="q-opt" onclick="answerQ('h1q3','C','B')">C — Zimmer 524</button>
+        </div>
+        <div id="reveal-h1q3" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <hr class="ex-divider">
+
+      <div id="qblock-h2q1" class="qblock">
+        <div class="ex-label">Teil 2 — Announcement (heard ONCE — True/False)</div>
+        <div class="ex-text">🔊 „Achtung auf Gleis 7. Der ICE 542 nach München hat heute leider 20 Minuten Verspätung."</div>
+        <div class="ex-q">Statement: <em>Der Zug nach München fährt pünktlich ab.</em></div>
+        <div class="q-opts tf" id="opts-h2q1">
+          <button class="q-opt tf-opt" onclick="answerQ('h2q1','R','F')">✓ Richtig</button>
+          <button class="q-opt tf-opt" onclick="answerQ('h2q1','F','F')">✗ Falsch</button>
+        </div>
+        <div id="reveal-h2q1" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-h2q2" class="qblock">
+        <div class="ex-text">🔊 „Liebe Kunden, heute von 15 bis 18 Uhr: frisches Obst und Gemüse zum halben Preis in Abteilung 3."</div>
+        <div class="ex-q">Statement: <em>Das Obst und Gemüse ist heute günstiger.</em></div>
+        <div class="q-opts tf" id="opts-h2q2">
+          <button class="q-opt tf-opt" onclick="answerQ('h2q2','R','R')">✓ Richtig</button>
+          <button class="q-opt tf-opt" onclick="answerQ('h2q2','F','R')">✗ Falsch</button>
+        </div>
+        <div id="reveal-h2q2" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-h2q3" class="qblock">
+        <div class="ex-text">🔊 „Hier ist die Praxis von Dr. Boll. Unsere Sprechzeiten sind Dienstag, Donnerstag und Freitag von 10 bis 13 Uhr und Mittwoch von 14 bis 18 Uhr."</div>
+        <div class="ex-q">Statement: <em>Die Praxis ist am Montag geöffnet.</em></div>
+        <div class="q-opts tf" id="opts-h2q3">
+          <button class="q-opt tf-opt" onclick="answerQ('h2q3','R','F')">✓ Richtig</button>
+          <button class="q-opt tf-opt" onclick="answerQ('h2q3','F','F')">✗ Falsch</button>
+        </div>
+        <div id="reveal-h2q3" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <hr class="ex-divider">
+
+      <div id="qblock-h3q1" class="qblock">
+        <div class="ex-label">Teil 3 — Phone monologue (heard twice, A/B/C)</div>
+        <div class="ex-text">🔊 „Hallo Maria, hier ist Klaus. Ich rufe wegen unserem Treffen am Donnerstag an. Kannst du um 18 Uhr kommen? Ich koche Pasta."</div>
+        <div class="ex-q">When does Klaus want to meet?</div>
+        <div class="q-opts" id="opts-h3q1">
+          <button class="q-opt" onclick="answerQ('h3q1','A','B')">A — Wednesday at 18:00</button>
+          <button class="q-opt" onclick="answerQ('h3q1','B','B')">B — Thursday at 18:00</button>
+          <button class="q-opt" onclick="answerQ('h3q1','C','B')">C — Friday at 18:00</button>
+        </div>
+        <div id="reveal-h3q1" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-h3q2" class="qblock">
+        <div class="ex-text">🔊 „Hallo, hier ist Christine. Ich bin gerade am Bahnhof angekommen. Ich nehme jetzt den Bus Nr. 3 und fahre sofort zur Universität. Wir sehen uns dann dort im Café. Du kannst mich auf dem Handy anrufen."</div>
+        <div class="ex-q">Where does Christine suggest they meet?</div>
+        <div class="q-opts" id="opts-h3q2">
+          <button class="q-opt" onclick="answerQ('h3q2','A','C')">A — At the train station</button>
+          <button class="q-opt" onclick="answerQ('h3q2','B','C')">B — At the bus stop</button>
+          <button class="q-opt" onclick="answerQ('h3q2','C','C')">C — At the café near the university</button>
+        </div>
+        <div id="reveal-h3q2" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div class="ep-score-track">Hören score: <span class="ep-score-num" id="sc-hoeren">0</span>/5 answered</div>
+    </div></div>
+  </div>
+
+  <!-- LESEN -->
+  <div class="ep-section ep-read">
+    <div class="ep-head" onclick="epToggle('lesen')"><span class="ep-icon">📖</span><span class="ep-title">Lesen — Reading Practice</span><div class="ep-badges"><span class="ep-badge">~25 min</span><span class="ep-badge">15 marks</span></div><span class="ep-chev" id="chev-lesen">▼</span></div>
+    <div class="ep-body" id="body-lesen"><div class="ep-inner">
+      <div class="tip-box"><strong>Tip:</strong> Scan the passage for keywords before reading the statement. Negations (nicht/kein/nie/verboten) are the most common traps.</div>
+
+      <div id="qblock-l1q1" class="qblock">
+        <div class="ex-label">Teil 1 — Email (True/False)</div>
+        <div class="ex-text">📧 „Hallo Anna! Am Samstag mache ich eine Party. Wir fangen um 20 Uhr an und feiern im Garten. Bitte bring etwas zu trinken mit. Ich koche das Essen. Bis Samstag! Ralf"</div>
+        <div class="ex-q">Statement: <em>Ralf's party starts at 8 PM.</em></div>
+        <div class="q-opts tf" id="opts-l1q1">
+          <button class="q-opt tf-opt" onclick="answerQ('l1q1','R','R')">✓ Richtig</button>
+          <button class="q-opt tf-opt" onclick="answerQ('l1q1','F','R')">✗ Falsch</button>
+        </div>
+        <div id="reveal-l1q1" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-l1q2" class="qblock">
+        <div class="ex-q">Statement: <em>Anna should bring food to the party.</em></div>
+        <div class="q-opts tf" id="opts-l1q2">
+          <button class="q-opt tf-opt" onclick="answerQ('l1q2','R','F')">✓ Richtig</button>
+          <button class="q-opt tf-opt" onclick="answerQ('l1q2','F','F')">✗ Falsch</button>
+        </div>
+        <div id="reveal-l1q2" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-l1q3" class="qblock">
+        <div class="ex-text">📧 „Lieber Max! Ich habe nächste Woche Urlaub. Ich fahre mit dem Zug nach Hamburg. Das Hotel ist in der Nähe vom Bahnhof. Ich bin vom 10. bis 15. Juli dort. Kannst du mich am 12. besuchen? LG, Petra"</div>
+        <div class="ex-q">Statement: <em>Petra fährt mit dem Auto nach Hamburg.</em></div>
+        <div class="q-opts tf" id="opts-l1q3">
+          <button class="q-opt tf-opt" onclick="answerQ('l1q3','R','F')">✓ Richtig</button>
+          <button class="q-opt tf-opt" onclick="answerQ('l1q3','F','F')">✗ Falsch</button>
+        </div>
+        <div id="reveal-l1q3" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <hr class="ex-divider">
+
+      <div id="qblock-l2q1" class="qblock">
+        <div class="ex-label">Teil 2 — Website matching (choose A or B)</div>
+        <div class="ex-q">You want to buy fresh vegetables and fruit online.</div>
+        <div class="q-opts" id="opts-l2q1">
+          <button class="q-opt" onclick="answerQ('l2q1','A','B')">A — techshop.de: Electronics, computers, phones. Free shipping over €50.</button>
+          <button class="q-opt" onclick="answerQ('l2q1','B','B')">B — bauernmarkt.de: Fresh vegetables, fruit and dairy. Order online, next-day delivery.</button>
+        </div>
+        <div id="reveal-l2q1" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-l2q2" class="qblock">
+        <div class="ex-q">You are looking for a German language course in the evenings.</div>
+        <div class="q-opts" id="opts-l2q2">
+          <button class="q-opt" onclick="answerQ('l2q2','A','A')">A — sprachschule-berlin.de: German courses A1–C2. Evening classes Mon–Fri 18:00–20:00.</button>
+          <button class="q-opt" onclick="answerQ('l2q2','B','A')">B — fitnessstudio.de: Morning yoga, afternoon pilates, weekend spinning.</button>
+        </div>
+        <div id="reveal-l2q2" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-l2q3" class="qblock">
+        <div class="ex-q">You need a doctor's appointment as soon as possible.</div>
+        <div class="q-opts" id="opts-l2q3">
+          <button class="q-opt" onclick="answerQ('l2q3','A','A')">A — dr-boll-praxis.de: Allgemeinmedizin. Termine online buchen. Auch kurzfristig möglich.</button>
+          <button class="q-opt" onclick="answerQ('l2q3','B','A')">B — tierpension.de: Tierhotel und -pension für Hunde und Katzen. Plätze buchen.</button>
+        </div>
+        <div id="reveal-l2q3" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <hr class="ex-divider">
+
+      <div id="qblock-l3q1" class="qblock">
+        <div class="ex-label">Teil 3 — Sign / notice (True/False)</div>
+        <div class="ex-text" style="font-size:13px;font-weight:500;text-align:center;padding:12px;border:2px solid var(--border)">🚂 AM BAHNHOF<br><span style="font-size:12px;font-weight:400">Auf dem gesamten Bahnhof ist das Rauchen verboten.</span></div>
+        <div class="ex-q" style="margin-top:.75rem">Statement: <em>Sie können hier Zigaretten rauchen.</em></div>
+        <div class="q-opts tf" id="opts-l3q1">
+          <button class="q-opt tf-opt" onclick="answerQ('l3q1','R','F')">✓ Richtig</button>
+          <button class="q-opt tf-opt" onclick="answerQ('l3q1','F','F')">✗ Falsch</button>
+        </div>
+        <div id="reveal-l3q1" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-l3q2" class="qblock">
+        <div class="ex-text" style="font-size:13px;font-weight:500;text-align:center;padding:12px;border:2px solid var(--border)">🏪 SUPERMARKT<br><span style="font-size:12px;font-weight:400">Geöffnet: Mo–Sa 8:00–20:00 Uhr. Sonntags geschlossen.</span></div>
+        <div class="ex-q" style="margin-top:.75rem">Statement: <em>Der Supermarkt ist am Sonntag geöffnet.</em></div>
+        <div class="q-opts tf" id="opts-l3q2">
+          <button class="q-opt tf-opt" onclick="answerQ('l3q2','R','F')">✓ Richtig</button>
+          <button class="q-opt tf-opt" onclick="answerQ('l3q2','F','F')">✗ Falsch</button>
+        </div>
+        <div id="reveal-l3q2" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-l3q3" class="qblock">
+        <div class="ex-text" style="font-size:13px;font-weight:500;text-align:center;padding:12px;border:2px solid var(--border)">🏫 VOLKSHOCHSCHULE<br><span style="font-size:12px;font-weight:400">Sprachkurse A1–C2. Nächster Kurs beginnt am 1. September. Anmeldung online oder am Schalter.</span></div>
+        <div class="ex-q" style="margin-top:.75rem">Statement: <em>Man kann sich am Schalter anmelden.</em></div>
+        <div class="q-opts tf" id="opts-l3q3">
+          <button class="q-opt tf-opt" onclick="answerQ('l3q3','R','R')">✓ Richtig</button>
+          <button class="q-opt tf-opt" onclick="answerQ('l3q3','F','R')">✗ Falsch</button>
+        </div>
+        <div id="reveal-l3q3" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div class="ep-score-track">Lesen score: <span class="ep-score-num" id="sc-lesen">0</span>/8 answered</div>
+    </div></div>
+  </div>
+
+  <!-- SCHREIBEN -->
+  <div class="ep-section ep-write">
+    <div class="ep-head" onclick="epToggle('schreiben')"><span class="ep-icon">✍️</span><span class="ep-title">Schreiben — Writing Practice</span><div class="ep-badges"><span class="ep-badge">~20 min</span><span class="ep-badge">15 marks</span></div><span class="ep-chev" id="chev-schreiben">▼</span></div>
+    <div class="ep-body" id="body-schreiben"><div class="ep-inner">
+      <div class="tip-box"><strong>Tip:</strong> Form vocab tested directly — Geburtsdatum, Geburtsort, Postleitzahl, Beruf, Vorname. Cover ALL 3 points in Teil 2 for full marks.</div>
+
+      <div id="qblock-s1q1" class="qblock">
+        <div class="ex-label">Teil 1 — Form vocab (tap the correct field label)</div>
+        <div class="ex-text">📋 Marco Rossi, geboren am 15.3.1990 in Neapel. Wohnt in München, Schillerstraße 12, 80336. Arbeitet als Ingenieur.</div>
+        <div class="ex-q">Which field asks for his profession? (Beruf / Wohnort / Geburtsort)</div>
+        <div class="q-opts" id="opts-s1q1">
+          <button class="q-opt" onclick="answerQ('s1q1','A','A')">A — Beruf: Ingenieur</button>
+          <button class="q-opt" onclick="answerQ('s1q1','B','A')">B — Wohnort: Ingenieur</button>
+          <button class="q-opt" onclick="answerQ('s1q1','C','A')">C — Geburtsort: Ingenieur</button>
+        </div>
+        <div id="reveal-s1q1" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-s1q2" class="qblock">
+        <div class="ex-q">Which field contains „80336"?</div>
+        <div class="q-opts" id="opts-s1q2">
+          <button class="q-opt" onclick="answerQ('s1q2','A','B')">A — Telefonnummer</button>
+          <button class="q-opt" onclick="answerQ('s1q2','B','B')">B — Postleitzahl</button>
+          <button class="q-opt" onclick="answerQ('s1q2','C','B')">C — Geburtsdatum</button>
+        </div>
+        <div id="reveal-s1q2" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <hr class="ex-divider">
+
+      <div id="qblock-s2q1" class="qblock">
+        <div class="ex-label">Teil 2 — Email structure (select correct answer)</div>
+        <div class="ex-text">📝 Your friend Lisa invited you to her party. You need to: 1. Accept · 2. Ask what time · 3. Ask what to bring.</div>
+        <div class="ex-q">Which opening is correct for an informal email to Lisa?</div>
+        <div class="q-opts" id="opts-s2q1">
+          <button class="q-opt" onclick="answerQ('s2q1','A','A')">A — „Liebe Lisa,"</button>
+          <button class="q-opt" onclick="answerQ('s2q1','B','A')">B — „Sehr geehrter Herr Lisa,"</button>
+          <button class="q-opt" onclick="answerQ('s2q1','C','A')">C — „Hallo Liebe,"</button>
+        </div>
+        <div id="reveal-s2q1" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-s2q2" class="qblock">
+        <div class="ex-q">Which sentence covers Point 1 (accepting the invitation)?</div>
+        <div class="q-opts" id="opts-s2q2">
+          <button class="q-opt" onclick="answerQ('s2q2','A','B')">A — „Um wie viel Uhr beginnt die Party?"</button>
+          <button class="q-opt" onclick="answerQ('s2q2','B','B')">B — „Vielen Dank für die Einladung! Ich komme sehr gerne."</button>
+          <button class="q-opt" onclick="answerQ('s2q2','C','B')">C — „Soll ich etwas mitbringen?"</button>
+        </div>
+        <div id="reveal-s2q2" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div class="ep-score-track">Schreiben score: <span class="ep-score-num" id="sc-schreiben">0</span>/4 answered · Full email marked by examiner</div>
+    </div></div>
+  </div>
+
+  <!-- SPRECHEN -->
+  <div class="ep-section ep-speak">
+    <div class="ep-head" onclick="epToggle('sprechen')"><span class="ep-icon">🗣️</span><span class="ep-title">Sprechen — Speaking Knowledge Check</span><div class="ep-badges"><span class="ep-badge">15 min</span><span class="ep-badge">15 marks</span></div><span class="ep-chev" id="chev-sprechen">▼</span></div>
+    <div class="ep-body" id="body-sprechen"><div class="ep-inner">
+      <div class="tip-box"><strong>Tip:</strong> These check your knowledge of speaking rules. The Sprechen tab has full card practice. Here: alphabet, request starters, W-question rules.</div>
+
+      <div id="qblock-sp1q1" class="qblock">
+        <div class="ex-label">Teil 1 — Alphabet & spelling</div>
+        <div class="ex-q">How do you say the letter „W" in German?</div>
+        <div class="q-opts" id="opts-sp1q1">
+          <button class="q-opt" onclick="answerQ('sp1q1','A','C')">A — „Veh"</button>
+          <button class="q-opt" onclick="answerQ('sp1q1','B','C')">B — „Doppel-Vu"</button>
+          <button class="q-opt" onclick="answerQ('sp1q1','C','C')">C — „Weh"</button>
+        </div>
+        <div id="reveal-sp1q1" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-sp1q2" class="qblock">
+        <div class="ex-q">How do you say the letter „Z" in German?</div>
+        <div class="q-opts" id="opts-sp1q2">
+          <button class="q-opt" onclick="answerQ('sp1q2','A','B')">A — „Zed"</button>
+          <button class="q-opt" onclick="answerQ('sp1q2','B','B')">B — „Tset"</button>
+          <button class="q-opt" onclick="answerQ('sp1q2','C','B')">C — „Zeh"</button>
+        </div>
+        <div id="reveal-sp1q2" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <hr class="ex-divider">
+
+      <div id="qblock-sp2q1" class="qblock">
+        <div class="ex-label">Teil 2 — W-Question rules</div>
+        <div class="ex-q">Theme: Einkaufen · Word: Getränke. Which question is CORRECT?</div>
+        <div class="q-opts" id="opts-sp2q1">
+          <button class="q-opt" onclick="answerQ('sp2q1','A','A')">A — „Wo kaufst du Getränke?"</button>
+          <button class="q-opt" onclick="answerQ('sp2q1','B','A')">B — „Magst du Getränke?"</button>
+          <button class="q-opt" onclick="answerQ('sp2q1','C','A')">C — „Wie viele Getränke hast du?"</button>
+        </div>
+        <div id="reveal-sp2q1" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <hr class="ex-divider">
+
+      <div id="qblock-sp3q1" class="qblock">
+        <div class="ex-label">Teil 3 — Polite request starters</div>
+        <div class="ex-q">You see an image of a glass of water. Which request is most natural?</div>
+        <div class="q-opts" id="opts-sp3q1">
+          <button class="q-opt" onclick="answerQ('sp3q1','A','A')">A — „Können Sie mir bitte ein Glas Wasser geben?"</button>
+          <button class="q-opt" onclick="answerQ('sp3q1','B','A')">B — „Ich will Wasser."</button>
+          <button class="q-opt" onclick="answerQ('sp3q1','C','A')">C — „Wasser hier!"</button>
+        </div>
+        <div id="reveal-sp3q1" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div id="qblock-sp3q2" class="qblock">
+        <div class="ex-q">Your partner says: „Darf ich bitte Ihr Handy benutzen?" — What is a correct positive reply?</div>
+        <div class="q-opts" id="opts-sp3q2">
+          <button class="q-opt" onclick="answerQ('sp3q2','A','A')">A — „Ja, natürlich. Hier bitte."</button>
+          <button class="q-opt" onclick="answerQ('sp3q2','B','A')">B — „Ich weiß nicht."</button>
+          <button class="q-opt" onclick="answerQ('sp3q2','C','A')">C — „Das Handy ist kaputt."</button>
+        </div>
+        <div id="reveal-sp3q2" class="q-reveal" style="display:none"></div>
+      </div>
+
+      <div class="ep-score-track">Sprechen score: <span class="ep-score-num" id="sc-sprechen">0</span>/5 answered · Full speaking marked by examiner</div>
+    </div></div>
+  </div>
+
+  <div class="strategy-box"><strong>90% strategy:</strong> Hören — read questions before audio. Lesen — scan keywords, trust the text. Schreiben — cover all 3 points, use the template. Sprechen — memorise intro, use „Können Sie bitte…" for requests.</div>
+  <div class="source-line">Practice based on official Goethe A1 Modellsatz + Books 1 &amp; 2 · <a href="https://www.goethe.de/en/spr/prf/ueb/pa1.html" target="_blank">Official materials →</a></div>
+</div>
+<!-- ══ SPRECHEN PRACTICE TAB ══ -->
+<div class="tab-pane" id="pane-sprechen">
+<style>
+.sp-intro{background:var(--pink-bg);border:1px solid var(--pink-border);border-radius:var(--rl);padding:1rem;margin-bottom:1.25rem;font-size:13px;color:var(--pink-text);line-height:1.6}
+.sp-intro strong{font-weight:600}
+.sp-section{background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);margin-bottom:1rem;overflow:hidden}
+.sp-head{display:flex;align-items:center;gap:8px;padding:.75rem 1rem;cursor:pointer;user-select:none;background:var(--surface)}
+.sp-head:hover{background:var(--surface2)}
+.sp-head-icon{font-size:16px;flex-shrink:0}
+.sp-head-title{font-size:14px;font-weight:500;flex:1}
+.sp-head-meta{display:flex;gap:5px;margin-left:auto;flex-wrap:wrap}
+.sp-badge{font-size:10px;font-weight:500;padding:2px 7px;border-radius:5px;white-space:nowrap;font-family:'DM Mono',monospace;background:var(--pink-bg);color:var(--pink-text);border:1px solid var(--pink-border)}
+.sp-chev{font-size:10px;color:var(--text3);transition:transform .25s;flex-shrink:0}
+.sp-chev.open{transform:rotate(180deg)}
+.sp-body{overflow:hidden;max-height:0;transition:max-height .4s ease}
+.sp-body.open{max-height:8000px}
+.sp-inner{border-top:1px solid var(--border);padding:1rem}
+.sp-tip{background:var(--amber-bg);border:1px solid var(--amber-border);border-radius:8px;padding:9px 12px;font-size:12px;color:var(--amber-text);margin-bottom:1rem;line-height:1.55}
+.sp-tip strong{font-weight:600}
+.sp-score{display:flex;align-items:center;justify-content:space-between;padding:.5rem 1rem;border-top:1px solid var(--border);background:var(--surface2);font-size:12px;color:var(--text2)}
+.sp-score-num{font-family:'DM Mono',monospace;font-weight:600;color:var(--green-text)}
+
+/* Card deck */
+.deck-controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem;align-items:center}
+.deck-btn{padding:7px 14px;border:1px solid var(--border);border-radius:var(--r);font-size:12px;font-family:'DM Sans',sans-serif;background:var(--surface);color:var(--text);cursor:pointer;transition:all .15s}
+.deck-btn:hover{background:var(--surface2)}
+.deck-btn.primary{background:var(--pink-bg);border-color:var(--pink-border);color:var(--pink-text)}
+.deck-progress{font-size:12px;color:var(--text3);margin-left:auto;font-family:'DM Mono',monospace}
+
+/* The practice card */
+.practice-card{border-radius:var(--rl);border:2px solid;min-height:160px;display:flex;flex-direction:column;cursor:pointer;user-select:none;transition:all .2s;margin-bottom:1rem;position:relative}
+.pc-front{background:var(--pink-bg);border-color:var(--pink-border);padding:1.25rem;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-height:160px;border-radius:12px}
+.pc-theme-label{font-size:9px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--pink-text);opacity:.6;margin-bottom:8px}
+.pc-theme{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--pink-text);opacity:.8;margin-bottom:12px;background:var(--surface);padding:3px 10px;border-radius:20px}
+.pc-word{font-size:20px;font-weight:600;color:var(--pink-text);margin-bottom:4px}
+.pc-hint{font-size:11px;color:var(--pink-text);opacity:.6;margin-top:4px}
+.pc-tap{font-size:10px;color:var(--pink-text);opacity:.4;margin-top:12px}
+
+.pc-back{background:var(--purple-bg);border-color:var(--purple-border);padding:1.25rem;min-height:160px;border-radius:12px}
+.pc-back-label{font-size:9px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--purple-text);opacity:.6;margin-bottom:8px}
+.pc-question{font-size:15px;font-weight:500;color:var(--purple-text);margin-bottom:.75rem;line-height:1.4}
+.pc-answers{display:flex;flex-direction:column;gap:5px}
+.pc-answer{font-size:12px;color:var(--text2);padding:6px 10px;background:var(--surface);border-radius:7px;border:1px solid var(--border);line-height:1.4}
+.pc-answer strong{color:var(--purple-text);font-weight:500}
+
+/* Teil 3 object card */
+.pc-front.t3{background:var(--teal-bg);border-color:var(--teal-border)}
+.pc-front.t3 .pc-theme-label{color:var(--teal-text)}
+.pc-front.t3 .pc-theme{color:var(--teal-text)}
+.pc-front.t3 .pc-word{font-size:48px}
+.pc-front.t3 .pc-hint{color:var(--teal-text)}
+.pc-front.t3 .pc-tap{color:var(--teal-text)}
+.pc-back.t3{background:var(--teal-bg);border-color:var(--teal-border)}
+.pc-back.t3 .pc-back-label{color:var(--teal-text)}
+.pc-back.t3 .pc-question{color:var(--teal-text)}
+
+/* Navigation */
+.card-nav{display:flex;gap:8px;align-items:center;justify-content:center;margin-bottom:.75rem}
+.nav-btn{padding:8px 20px;border:1px solid var(--border);border-radius:var(--r);font-size:13px;cursor:pointer;background:var(--surface);color:var(--text);font-family:'DM Sans',sans-serif;transition:all .15s}
+.nav-btn:hover{background:var(--surface2)}
+.nav-btn:disabled{opacity:.3;cursor:not-allowed}
+.card-counter{font-size:12px;color:var(--text3);font-family:'DM Mono',monospace;min-width:60px;text-align:center}
+
+/* Theme filter tabs */
+.theme-tabs{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:1rem}
+.theme-tab{padding:4px 10px;border:1px solid var(--border);border-radius:20px;font-size:11px;cursor:pointer;background:var(--surface);color:var(--text2);transition:all .15s;font-family:'DM Sans',sans-serif}
+.theme-tab:hover{border-color:var(--pink-border);color:var(--pink-text)}
+.theme-tab.active{background:var(--pink-bg);border-color:var(--pink-border);color:var(--pink-text);font-weight:500}
+
+.sp-divider{border:none;border-top:1px dashed var(--border);margin:1.25rem 0}
+.example-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:.75rem}
+@media(max-width:480px){.example-grid{grid-template-columns:1fr}}
+.example-card{background:var(--surface2);border-radius:8px;padding:10px 12px;font-size:12.5px;line-height:1.6}
+.example-card strong{font-weight:500;color:var(--text)}
+.example-card .ans{font-size:11.5px;color:var(--text2);margin-top:4px}
+.correct-box{background:var(--green-bg);border:1px solid var(--green-border);border-radius:7px;padding:9px 12px;font-size:12px;color:var(--green-text);margin-top:.75rem}
+.wrong-box{background:var(--coral-bg);border:1px solid var(--coral-border);border-radius:7px;padding:9px 12px;font-size:12px;color:var(--coral-text);margin-top:.75rem}
+</style>
+
+  <div class="sp-intro">
+    <strong>🗣️ Sprechen Practice — Teil 2 &amp; Teil 3</strong><br>
+    Click a card to reveal the model question and sample answers. Use ← → to navigate or shuffle. Practice until you can form the question immediately on seeing the word.
+  </div>
+
+  <!-- ── TEIL 2 ── -->
+  <div class="sp-section">
+    <div class="sp-head" onclick="spToggle('t2')">
+      <span class="sp-head-icon">🎴</span>
+      <span class="sp-head-title">Teil 2 — W-Question Cards</span>
+      <div class="sp-head-meta">
+        <span class="sp-badge">6 marks</span>
+        <span class="sp-badge" id="t2-count-badge">60 cards</span>
+      </div>
+      <span class="sp-chev" id="chev-t2">▼</span>
+    </div>
+    <div class="sp-body" id="body-t2"><div class="sp-inner">
+      <div class="sp-tip"><strong>How it works:</strong> You draw a card with a <strong>Theme</strong> + <strong>Word</strong>. Form a W-question (wer/was/wo/wann/wie/woher/wohin) linking both. Your partner answers, then draws their card and asks you.<br><strong>Rule:</strong> Your question MUST relate to the theme — the word alone is not enough.</div>
+
+      <div class="theme-tabs" id="t2-theme-tabs"></div>
+      <div class="deck-controls">
+        <button class="deck-btn primary" onclick="t2Shuffle()">🔀 Shuffle</button>
+        <button class="deck-btn" onclick="t2Reset()">↺ Reset</button>
+        <span class="deck-progress" id="t2-progress">1 / 60</span>
+      </div>
+
+      <div class="practice-card" id="t2-card" onclick="t2Flip()">
+        <div class="pc-front" id="t2-front">
+          <div class="pc-theme-label">Theme</div>
+          <div class="pc-theme" id="t2-theme-display">—</div>
+          <div class="pc-word" id="t2-word-display">—</div>
+          <div class="pc-tap">tap to reveal question →</div>
+        </div>
+      </div>
+
+      <div class="card-nav">
+        <button class="nav-btn" id="t2-prev" onclick="t2Nav(-1)">← Prev</button>
+        <span class="card-counter" id="t2-counter">1/60</span>
+        <button class="nav-btn" id="t2-next" onclick="t2Nav(1)">Next →</button>
+      </div>
+
+      <div class="sp-tip" style="margin-top:0;margin-bottom:0"><strong>Quick-fire model answers</strong> for common card types — use these as templates:</div>
+      <div class="example-grid" style="margin-top:.75rem">
+        <div class="example-card"><strong>Essen · Frühstück</strong><div class="ans">Q: „Was isst du zum Frühstück?"<br>A: „Ich esse meistens Brot mit Käse."</div></div>
+        <div class="example-card"><strong>Wohnen · Zimmer</strong><div class="ans">Q: „Wie viele Zimmer hat deine Wohnung?"<br>A: „Meine Wohnung hat drei Zimmer."</div></div>
+        <div class="example-card"><strong>Arbeit · Kollegen</strong><div class="ans">Q: „Hast du nette Kollegen bei der Arbeit?"<br>A: „Ja, meine Kollegen sind sehr freundlich."</div></div>
+        <div class="example-card"><strong>Freizeit · Sport</strong><div class="ans">Q: „Treibst du gern Sport in deiner Freizeit?"<br>A: „Ja, ich spiele Fußball dreimal pro Woche."</div></div>
+        <div class="example-card"><strong>Einkaufen · Preis</strong><div class="ans">Q: „Wie viel Geld gibst du beim Einkaufen aus?"<br>A: „Ich gebe etwa 50 Euro pro Woche aus."</div></div>
+        <div class="example-card"><strong>Reisen · Urlaub</strong><div class="ans">Q: „Wohin fährst du in den Urlaub?"<br>A: „Ich fahre gern ans Meer."</div></div>
+      </div>
+      <div class="wrong-box" style="margin-top:.75rem"><strong>✗ Common mistake:</strong> Card says Theme=Einkaufen, Word=Getränke. Wrong: „Magst du Getränke?" (no shopping connection). Right: „Wo kaufst du Getränke?" or „Wie viel kostet das Getränk?"</div>
+    </div></div>
+  </div>
+
+  <!-- ── TEIL 3 ── -->
+  <div class="sp-section">
+    <div class="sp-head" onclick="spToggle('t3')">
+      <span class="sp-head-icon">🖼️</span>
+      <span class="sp-head-title">Teil 3 — Request Cards (Bitten formulieren)</span>
+      <div class="sp-head-meta">
+        <span class="sp-badge">6 marks</span>
+        <span class="sp-badge" id="t3-count-badge">40 cards</span>
+      </div>
+      <span class="sp-chev" id="chev-t3">▼</span>
+    </div>
+    <div class="sp-body" id="body-t3"><div class="sp-inner">
+      <div class="sp-tip"><strong>How it works:</strong> You draw a card with an image (or word). Make a polite request using that object. Your partner replies yes or no, then draws their card.<br><strong>Key starters:</strong> „Können Sie mir bitte … geben/bringen/leihen?" · „Darf ich … benutzen?" · „Ich hätte gern …" · „Haben Sie vielleicht …?"</div>
+
+      <div class="deck-controls">
+        <button class="deck-btn primary" onclick="t3Shuffle()">🔀 Shuffle</button>
+        <button class="deck-btn" onclick="t3Reset()">↺ Reset</button>
+        <span class="deck-progress" id="t3-progress">1 / 40</span>
+      </div>
+
+      <div class="practice-card" id="t3-card" onclick="t3Flip()">
+        <div class="pc-front t3" id="t3-front">
+          <div class="pc-theme-label">Object / Image Card</div>
+          <div class="pc-word" id="t3-emoji-display">?</div>
+          <div class="pc-hint" id="t3-word-display">tap to reveal request</div>
+          <div class="pc-tap" style="color:var(--teal-text);opacity:.4">tap to reveal →</div>
+        </div>
+      </div>
+
+      <div class="card-nav">
+        <button class="nav-btn" id="t3-prev" onclick="t3Nav(-1)">← Prev</button>
+        <span class="card-counter" id="t3-counter">1/40</span>
+        <button class="nav-btn" id="t3-next" onclick="t3Nav(1)">Next →</button>
+      </div>
+
+      <div class="sp-tip" style="margin-top:0;margin-bottom:.75rem"><strong>Partner responses to practise:</strong></div>
+      <div class="example-grid">
+        <div class="example-card"><strong>Positive reply</strong><div class="ans">„Ja, natürlich!" / „Ja, gerne!" / „Kein Problem." / „Bitte sehr." / „Ja, hier bitte."</div></div>
+        <div class="example-card"><strong>Negative reply</strong><div class="ans">„Tut mir leid, nein." / „Leider nicht." / „Es tut mir leid, ich habe keins." / „Nein, leider."</div></div>
+      </div>
+    </div></div>
+  </div>
+
+  <div style="background:var(--pink-bg);border:1px solid var(--pink-border);border-radius:var(--rl);padding:1rem;font-size:12.5px;color:var(--pink-text);line-height:1.7">
+    <strong>Sprechen scoring tips:</strong> Fluency beats accuracy at A1 — don't freeze over grammar. Speak in complete sentences. Always relate Teil 2 questions to the theme. For Teil 3, use „bitte" in every request. Speak slowly and clearly — examiners reward confidence.
+  </div>
+  <div class="source-line" style="margin-top:.75rem">Cards compiled from Goethe A1 Modellsatz, Quizlet community decks, and official exam sample papers</div>
+</div>
+
+<footer>Goethe-Institut A1 Wortliste + Aishwarya's exam list + additional exam-critical vocabulary · Marathi translations for study aid</footer>
+</div>
+
+<script>
+const PALETTES=[
+  {bg:"var(--purple-bg)",border:"var(--purple-border)",text:"var(--purple-text)"},
+  {bg:"var(--teal-bg)",border:"var(--teal-border)",text:"var(--teal-text)"},
+  {bg:"var(--coral-bg)",border:"var(--coral-border)",text:"var(--coral-text)"},
+  {bg:"var(--blue-bg)",border:"var(--blue-border)",text:"var(--blue-text)"},
+  {bg:"var(--green-bg)",border:"var(--green-border)",text:"var(--green-text)"},
+  {bg:"var(--amber-bg)",border:"var(--amber-border)",text:"var(--amber-text)"},
+  {bg:"var(--pink-bg)",border:"var(--pink-border)",text:"var(--pink-text)"},
+];
+const G=[
+{id:"greet",icon:"👋",label:"Greetings & Exam Phrases",tip:"Say every phrase out loud. The last three are exam survival phrases — know them cold.",words:[
+["Hallo","Hello","नमस्कार"],["Guten Morgen","Good morning","शुभ सकाळ"],["Guten Tag","Good day / Hello","नमस्कार (दिवसा)"],["Guten Abend","Good evening","शुभ संध्याकाळ"],["Gute Nacht","Good night","शुभ रात्री"],["Auf Wiedersehen","Goodbye (formal)","पुन्हा भेटू"],["Tschüss","Bye (informal)","बाय"],["Bitte","Please / You're welcome","कृपया"],["Danke","Thank you","धन्यवाद"],["Vielen Dank","Many thanks","खूप धन्यवाद"],["Entschuldigung","Excuse me / Sorry","माफ करा"],["Ja","Yes","होय"],["Nein","No","नाही"],["Klar","Sure / Of course","नक्कीच"],["Wie bitte?","Pardon?","काय म्हणालात?"],["Alles klar?","Everything OK?","सर्व ठीक आहे का?"],["Das macht nichts","It doesn't matter","काही हरकत नाही"],["Herzlichen Glückwunsch!","Congratulations!","अभिनंदन!"],["Viel Glück!","Good luck!","शुभेच्छा!"],["Herzlich willkommen!","Welcome!","स्वागत आहे!"],["Können Sie langsamer sprechen?","Can you speak slower?","कृपया हळू बोला?"],["Ich weiß das Wort nicht auf Deutsch.","I don't know the word in German.","मला हा शब्द जर्मनमध्ये माहित नाही."],["Können Sie mir helfen?","Can you help me?","तुम्ही माझी मदत करू शकता का?"]]},
+
+{id:"people",icon:"🧑",label:"People & Family",tip:"Learn Vater, Mutter, Bruder, Schwester, Sohn, Tochter as individual words — each tested alone.",words:[
+["der Mann","man / husband","पुरुष / नवरा"],["die Frau","woman / wife","स्त्री / बायको"],["das Kind","child","मूल"],["der Junge","boy","मुलगा"],["das Mädchen","girl","मुलगी"],["der Vater","father","वडील"],["die Mutter","mother","आई"],["der Bruder","brother","भाऊ"],["die Schwester","sister","बहीण"],["der Sohn","son","मुलगा (स्वतःचा)"],["die Tochter","daughter","मुलगी (स्वतःची)"],["die Eltern","parents","आईवडील"],["die Großmutter","grandmother","आजी"],["der Großvater","grandfather","आजोबा"],["die Geschwister","siblings","भावंडे"],["die Familie","family","कुटुंब"],["der Freund","friend / boyfriend","मित्र"],["die Freundin","girlfriend / female friend","मैत्रीण"],["der Kollege","colleague","सहकर्मचारी"],["der Verwandte","relative","नातेवाईक"],["der Chef","boss","बॉस"],["das Baby","baby","बाळ"],["der Mitglied","member","सदस्य"]]},
+
+{id:"intro",icon:"🪪",label:"Introductions & Personal Info",tip:"Schreiben Teil 1 form fields — know each individually: Vorname, Familienname, Geburtsdatum, Geburtsort, Beruf, Wohnort.",words:[
+["Ich heiße …","My name is …","माझे नाव ... आहे"],["Ich komme aus …","I come from …","मी ... येतो/येते"],["Ich wohne in …","I live in …","मी ... राहतो/राहते"],["Ich bin … Jahre alt.","I am … years old.","मी ... वर्षांचा/ची आहे."],["Von Beruf bin ich …","My profession is …","माझा व्यवसाय ... आहे"],["Ich bin verheiratet.","I am married.","मी विवाहित आहे."],["Ich bin ledig.","I am single.","मी अविवाहित आहे."],["der Vorname","first name","पहिले नाव"],["der Familienname","surname","आडनाव"],["die Adresse","address","पत्ता"],["der Wohnort","place of residence","राहण्याचे ठिकाण"],["das Alter","age","वय"],["der Geburtstag","birthday","वाढदिवस"],["der Geburtsort","place of birth","जन्मस्थान"],["das Geburtsdatum","date of birth","जन्मतारीख"],["der Beruf","profession","व्यवसाय"],["die Fremdsprache","foreign language","परदेशी भाषा"],["die Freizeit","free time","मोकळा वेळ"],["die Zeit","time","वेळ"],["studieren","to study","शिकणे"],["arbeiten","to work","काम करणे"],["die Firma","company","कंपनी"],["selbstständig","self-employed","स्वयंरोजगारी"]]},
+
+{id:"numbers",icon:"🔢",label:"Numbers, Time & All Days",tip:"Each number/day is its own concept. Dates come up in Schreiben forms and Sprechen Teil 1.",words:[
+["eins","one","एक"],["zwei","two","दोन"],["drei","three","तीन"],["vier","four","चार"],["fünf","five","पाच"],["sechs","six","सहा"],["sieben","seven","सात"],["acht","eight","आठ"],["neun","nine","नऊ"],["zehn","ten","दहा"],["elf","eleven","अकरा"],["zwölf","twelve","बारा"],["zwanzig","twenty","वीस"],["dreißig","thirty","तीस"],["vierzig","forty","चाळीस"],["fünfzig","fifty","पन्नास"],["hundert","hundred","शंभर"],["tausend","thousand","हजार"],["Wie viel Uhr ist es?","What time is it?","किती वाजले?"],["Es ist … Uhr.","It is … o'clock.","... वाजले."],["halb drei","half past two (2:30)","अडीच"],["Viertel nach …","quarter past …","... वाजून पंधरा"],["Viertel vor …","quarter to …","... वाजायला पंधरा"],["heute","today","आज"],["morgen","tomorrow","उद्या"],["gestern","yesterday","काल"],["jetzt","now","आत्ता"],["sofort","immediately","लगेच"],["seit","since / for (time)","पासून"],["der Montag","Monday","सोमवार"],["der Dienstag","Tuesday","मंगळवार"],["der Mittwoch","Wednesday","बुधवार"],["der Donnerstag","Thursday","गुरुवार"],["der Freitag","Friday","शुक्रवार"],["der Samstag","Saturday","शनिवार"],["der Sonntag","Sunday","रविवार"],["die Woche","week","आठवडा"],["das Wochenende","weekend","आठवड्याचा शेवट"],["der Morgen","morning (6–9am)","सकाळ"],["der Vormittag","late morning (9–12)","पूर्वाह्न"],["der Mittag","midday (12–2pm)","दुपार"],["der Nachmittag","afternoon (2–6pm)","अपराह्न"],["der Abend","evening (6–10pm)","संध्याकाळ"],["die Nacht","night (10pm–6am)","रात्र"],["der Januar","January","जानेवारी"],["der Februar","February","फेब्रुवारी"],["der März","March","मार्च"],["der April","April","एप्रिल"],["der Mai","May","मे"],["der Juni","June","जून"],["der Juli","July","जुलै"],["der August","August","ऑगस्ट"],["der September","September","सप्टेंबर"],["der Oktober","October","ऑक्टोबर"],["der November","November","नोव्हेंबर"],["der Dezember","December","डिसेंबर"],["der Frühling","spring","वसंत ऋतू"],["der Sommer","summer","उन्हाळा"],["der Herbst","autumn","शरद ऋतू"],["der Winter","winter","हिवाळा"],["das Datum","the date","तारीख"]]},
+
+{id:"wh",icon:"❓",label:"Question Words & Key Connectors",tip:"W-questions tested directly in Sprechen Teil 2 — know all 10. Connectors appear in every section.",words:[
+["was","what","काय"],["wer","who","कोण"],["warum","why","का"],["wann","when","कधी"],["welche","which","कोणता"],["wo","where","कुठे"],["woher","where from","कुठून"],["wohin","where to (direction)","कुठे (दिशा)"],["wie","how","कसे"],["wie viele","how many","किती"],["aber","but","पण"],["oder","or","किंवा"],["auch","also / too","सुद्धा"],["denn","because","कारण"],["noch","still / yet","अजून"],["nur","only","फक्त"],["schon","already","आधीच"],["bis","until / by","पर्यंत"],["ab","from (time/place)","पासून"],["von","from","कडून"],["an","at / to","ला"],["etwas","something","काहीतरी"],["jeder","each / every","प्रत्येक"],["zusammen","together","एकत्र"]]},
+
+{id:"modal",icon:"🎯",label:"Modal Verbs — CRITICAL",tip:"All 6 modals appear in every exam section. Memorise all individually.",words:[
+["müssen","must / have to","पाहिजे / करायला हवे"],["können","can / to be able to","करू शकणे"],["dürfen","may / to be allowed to","परवानगी असणे"],["sollen","should / supposed to","करायला सांगितले आहे"],["wollen","to want to","हवे असणे"],["möchten","would like to","आवडेल"]]},
+
+{id:"adverbs",icon:"💬",label:"Key Adverbs",tip:"These small words appear in every section — in Hören dialogues, Lesen texts, and Sprechen replies.",words:[
+["leider","unfortunately","दुर्दैवाने"],["natürlich","naturally / of course","अर्थातच"],["vielleicht","maybe / perhaps","कदाचित"],["gern / gerne","gladly / with pleasure","आनंदाने"],["bald","soon","लवकरच"],["gleich","right away / straightaway","लगेच / एकाच"],["manchmal","sometimes","कधी कधी"],["meistens","mostly / usually","साधारणपणे"],["immer","always","नेहमी"],["nie","never","कधीच नाही"],["oft","often","अनेकदा"],["selten","rarely","क्वचित"],["ungefähr","approximately","अंदाजे"],["bestimmt","definitely / certainly","नक्कीच"],["wirklich","really","खरोखर"],["sehr","very","खूप"],["ein bisschen","a little bit","थोडे"],["zu","too (too much)","जास्त / अती"],["genug","enough","पुरेसे"],["fast","almost","जवळजवळ"]]},
+
+{id:"verbs1",icon:"⚡",label:"Core Verbs — Part 1",tip:"heißen, sein, haben, kommen, gehen, fahren, wohnen, arbeiten, machen — the absolute core.",words:[
+["heißen","to be called","नाव असणे"],["sein","to be","असणे"],["haben","to have","असणे (मालकी)"],["kommen","to come","येणे"],["gehen","to go","जाणे"],["fahren","to drive / travel","जाणे (वाहन)"],["wohnen","to live / reside","राहणे"],["leben","to live (exist)","जगणे"],["bleiben","to stay / remain","थांबणे"],["arbeiten","to work","काम करणे"],["machen","to make / do","करणे"],["sagen","to say","सांगणे"],["fragen","to ask","विचारणे"],["antworten","to answer","उत्तर देणे"],["rufen","to call / shout","बोलावणे"],["wissen","to know (facts)","माहित असणे"],["kennen","to know (people/places)","ओळखणे"],["verstehen","to understand","समजणे"],["sprechen","to speak","बोलणे"],["hören","to hear / listen","ऐकणे"],["lesen","to read","वाचणे"],["schreiben","to write","लिहिणे"],["suchen","to search","शोधणे"],["finden","to find","सापडणे"],["nehmen","to take","घेणे"],["geben","to give","देणे"],["bekommen","to receive","मिळणे"],["benutzen","to use","वापरणे"]]},
+
+{id:"verbs2",icon:"🔧",label:"Core Verbs — Part 2",tip:"Action verbs from Hören dialogues, Sprechen image cards, and Schreiben email prompts.",words:[
+["beginnen","to begin","सुरू करणे"],["anfangen","to start","सुरुवात करणे"],["bestellen","to order","मागवणे"],["einladen","to invite","आमंत्रण देणे"],["besuchen","to visit","भेट देणे"],["treffen","to meet","भेटणे"],["helfen","to help","मदत करणे"],["brauchen","to need","गरज असणे"],["kaufen","to buy","विकत घेणे"],["verkaufen","to sell","विकणे"],["bezahlen","to pay","पैसे देणे"],["leihen","to lend / borrow","उधार देणे/घेणे"],["schenken","to gift","भेट देणे"],["warten","to wait","थांबणे"],["laufen","to run","धावणे"],["lachen","to laugh","हसणे"],["weinen","to cry","रडणे"],["schlafen","to sleep","झोपणे"],["duschen","to shower","आंघोळ करणे"],["kochen","to cook","स्वयंपाक करणे"],["feiern","to celebrate","साजरे करणे"],["rauchen","to smoke","धुम्रपान करणे"],["ziehen","to move / relocate","हलणे"],["drucken","to print","छापणे"],["vergessen","to forget","विसरणे"],["schicken","to send","पाठवणे"]]},
+
+{id:"verbs3",icon:"🔄",label:"Separable & Direction Verbs",tip:"Separable verbs come up in signs, dialogues, and Sprechen cards. The prefix splits off at end of sentence.",words:[
+["aufmachen","to open","उघडणे"],["zumachen","to close","बंद करणे"],["öffnen","to open (formal)","उघडणे"],["schließen","to close (formal)","बंद करणे"],["anmachen","to turn on","चालू करणे"],["ausmachen","to turn off","बंद करणे"],["aufstehen","to get up","उठणे"],["einsteigen","to board","चढणे"],["aussteigen","to get off","उतरणे"],["abfahren","to depart","निघणे"],["ankommen","to arrive","पोहोचणे"],["anrufen","to call (phone)","फोन करणे"],["zurückrufen","to call back","परत फोन करणे"],["mitnehmen","to take along","सोबत घेणे"],["mitbringen","to bring along","सोबत आणणे"],["fernsehen","to watch TV","टीव्ही पाहणे"],["telefonieren","to phone","फोन करणे"],["einkaufen","to shop","खरेदी करणे"],["umziehen","to move house","घर बदलणे"],["abholen","to pick up (someone)","घ्यायला येणे"],["aufhören","to stop / finish","थांबणे / संपवणे"]]},
+
+{id:"places",icon:"🗺️",label:"Places & Directions",tip:"Each place and direction word is a separate tile. Directions are tested in Sprechen.",words:[
+["der Bahnhof","train station","रेल्वे स्थानक"],["der Bahnsteig","platform","रेल्वे प्लॅटफॉर्म"],["die Haltestelle","bus/tram stop","बस थांबा"],["die Straße","street","रस्ता"],["die Ecke","corner","कोपरा"],["der Ausgang","exit","बाहेर जाण्याचा मार्ग"],["der Eingang","entrance","प्रवेशद्वार"],["das Hotel","hotel","हॉटेल"],["das Restaurant","restaurant","रेस्टॉरंट"],["das Café","café","कॅफे"],["die Post","post office","पोस्ट ऑफिस"],["die Bank","bank","बँक"],["die Schule","school","शाळा"],["die Apotheke","pharmacy","औषधालय"],["das Krankenhaus","hospital","रुग्णालय"],["das Rathaus","town hall","नगरपालिका"],["links","left","डावीकडे"],["rechts","right","उजवीकडे"],["geradeaus","straight ahead","सरळ पुढे"],["oben","upstairs / above","वर"],["unten","downstairs / below","खाली"],["nah","near","जवळ"],["weit","far","दूर"],["der Stadtplan","city map","शहराचा नकाशा"],["die Sehenswürdigkeit","tourist sight","पर्यटन स्थळ"]]},
+
+{id:"travel",icon:"🚆",label:"Travel & Transport",tip:"Ticket vocabulary is common in Hören. Each transport word is its own tile.",words:[
+["die Fahrkarte","ticket (train/bus)","तिकीट"],["das Ticket","ticket (general)","तिकीट"],["die Eintrittskarte","entry ticket","प्रवेश तिकीट"],["einfach","single / one-way","एकेरी"],["hin und zurück","return ticket","येणे-जाणे"],["der Zug","train","रेल्वे"],["die Bahn","railway / train","बाह्न"],["der Bus","bus","बस"],["das Taxi","taxi","टॅक्सी"],["das Flugzeug","airplane","विमान"],["das Fahrrad","bicycle","सायकल"],["das Auto","car","कार"],["das Schiff","ship","जहाज"],["die Autobahn","motorway","महामार्ग"],["der Flughafen","airport","विमानतळ"],["der Ausflug","trip / excursion","सहल"],["die Abfahrt","departure","प्रस्थान"],["die Ankunft","arrival","आगमन"],["das Gepäck","luggage","सामान"],["der Koffer","suitcase","सूटकेस"],["die Tasche","bag","पिशवी"],["die Handtasche","handbag","हँडबॅग"],["die Aktentasche","briefcase","ब्रीफकेस"]]},
+
+{id:"food",icon:"🍽️",label:"Food & Drink",tip:"Ordering: Ich möchte … / Ich nehme … — comes up in Hören Teil 1. Each food item is its own tile.",words:[
+["das Frühstück","breakfast","नाश्ता"],["das Mittagessen","lunch","दुपारचे जेवण"],["das Abendessen","dinner","रात्रीचे जेवण"],["das Brot","bread","ब्रेड"],["das Brötchen","bread roll","छोटी ब्रेड"],["die Butter","butter","लोणी"],["der Käse","cheese","चीज"],["das Ei","egg","अंडे"],["das Fleisch","meat","मांस"],["der Fisch","fish","मासा"],["das Gemüse","vegetables","भाज्या"],["das Obst","fruit","फळे"],["der Apfel","apple","सफरचंद"],["die Banane","banana","केळ"],["die Tomate","tomato","टोमॅटो"],["die Kartoffel","potato","बटाटा"],["der Schinken","ham","हॅम"],["der Kuchen","cake","केक"],["das Salz","salt","मीठ"],["der Zucker","sugar","साखर"],["das Öl","oil","तेल"],["der Kaffee","coffee","कॉफी"],["der Tee","tea","चहा"],["das Wasser","water","पाणी"],["das Bier","beer","बीअर"],["der Wein","wine","वाईन"],["der Saft","juice","रस"],["die Milch","milk","दूध"],["die Flasche","bottle","बाटली"],["die Tasse","cup","कप"],["der Teller","plate","ताट"],["das Besteck","cutlery","चमचा-काटा-सुरी"],["das Messer","knife","सुरी"],["die Gabel","fork","काटा"],["der Löffel","spoon","चमचा"],["der Hunger","hunger","भूक"],["der Durst","thirst","तहान"],["schmecken","to taste","चव येणे"],["die Bäckerei","bakery","बेकरी"],["bestellen","to order","मागवणे"],["die Speisekarte","menu","मेनू"],["die Rechnung","the bill","बिल"],["Guten Appetit!","Enjoy your meal!","जेवण गोड होवो!"],["Zahlen, bitte!","The bill, please!","बिल द्या!"]]},
+
+{id:"shopping",icon:"🛍️",label:"Shopping & Money",tip:"Price signs in Lesen Teil 3. Clothing in Hören dialogues. Each item is its own tile.",words:[
+["kaufen","to buy","विकत घेणे"],["verkaufen","to sell","विकणे"],["kosten","to cost","किंमत असणे"],["bezahlen","to pay","पैसे देणे"],["der Preis","price","किंमत"],["das Geld","money","पैसे"],["bar","cash","रोख"],["die Karte","payment card","कार्ड"],["das Angebot","offer / deal","ऑफर"],["die Rechnung","bill","बिल"],["billig","cheap","स्वस्त"],["günstig","good value","परवडणारे"],["teuer","expensive","महाग"],["ausverkauft","sold out","संपले"],["die Jacke","jacket","जॅकेट"],["der Anzug","suit / coat","सूट"],["die Hose","trousers","पँट"],["das Hemd","shirt","शर्ट"],["der Pullover","sweater","स्वेटर"],["der Rock","skirt","स्कर्ट"],["die Socken","socks","मोजे"],["die Schuhe","shoes","बूट"],["die Größe","size","आकार"],["das Geschäft","shop","दुकान"],["der Supermarkt","supermarket","सुपरमार्केट"],["die Kasse","checkout","कॅशियर"],["das Geschenk","gift","भेट"]]},
+
+{id:"home",icon:"🏠",label:"Home, Rooms & Furniture",tip:"Room names in Sprechen Wohnen theme. Furniture words appear in Hören home scenes and Lesen signs.",words:[
+["die Wohnung","apartment","अपार्टमेंट"],["das Haus","house","घर"],["das Zimmer","room","खोली"],["die Küche","kitchen","स्वयंपाकघर"],["das Bad","bathroom","स्नानगृह"],["die Dusche","shower","शॉवर"],["das Schlafzimmer","bedroom","झोपण्याची खोली"],["der Balkon","balcony","गच्ची"],["der Garten","garden","बाग"],["das Dach","roof","छत"],["das Bett","bed","पलंग"],["das Sofa","sofa","सोफा"],["der Tisch","table","टेबल"],["der Esstisch","dining table","जेवणाचे टेबल"],["der Stuhl","chair","खुर्ची"],["der Schrank","wardrobe / cupboard","कपाट"],["die Lampe","lamp","दिवा"],["der Fernseher","TV","टीव्ही"],["der Kühlschrank","fridge","फ्रीज"],["der Herd","cooker","शेगडी"],["die Waschmaschine","washing machine","वॉशिंग मशीन"],["die Tür","door","दरवाजा"],["das Fenster","window","खिडकी"],["der Aufzug","lift / elevator","लिफ्ट"],["der Schlüssel","key","किल्ली"],["die Miete","rent","भाडे"],["mieten","to rent","भाड्याने घेणे"],["der Vermieter","landlord","मकानमालक"]]},
+
+{id:"objects",icon:"🧴",label:"Everyday Objects",tip:"Sprechen Teil 3 image cards come from this group — Stift, Handy, Glas, Buch are most common.",words:[
+["der Kugelschreiber","ballpoint pen","बॉलपेन"],["der Stift","pen","पेन"],["der Bleistift","pencil","पेन्सिल"],["die Armbanduhr","wristwatch","मनगटाचे घड्याळ"],["das Handy","mobile phone","मोबाईल"],["der Computer","computer","संगणक"],["der Drucker","printer","प्रिंटर"],["die Zeitung","newspaper","वर्तमानपत्र"],["das Buch","book","पुस्तक"],["die Briefmarken","stamps","तिकिटे (पोस्ट)"],["der Flaschenöffner","bottle opener","बाटली उघडणारा"],["das Paket","package / parcel","पार्सल"],["das Wörterbuch","dictionary","शब्दकोश"]]},
+
+{id:"health",icon:"💊",label:"Health & Body",tip:"Each body part is its own tile. weh tun = to hurt. Medical vocab comes up in Hören Teil 1 dialogues.",words:[
+["der Kopf","head","डोके"],["das Haar","hair","केस"],["das Auge","eye","डोळा"],["das Ohr","ear","कान"],["die Nase","nose","नाक"],["der Mund","mouth","तोंड"],["der Hals","throat / neck","घसा / मान"],["der Arm","arm","हात (वरचा)"],["die Hand","hand","हात"],["der Bauch","stomach","पोट"],["der Rücken","back","पाठ"],["das Bein","leg","पाय"],["der Fuß","foot","पाय (तळपाय)"],["krank","ill / sick","आजारी"],["gesund","healthy","निरोगी"],["weh tun","to hurt","दुखणे"],["der Schmerz","pain","दुखणे / वेदना"],["das Fieber","fever","ताप"],["das Medikament","medication","औषध"],["Mir ist schlecht.","I feel sick.","मला बरे वाटत नाही."],["Es geht mir besser.","I'm feeling better.","बरे वाटत आहे."],["der Arzt","doctor","डॉक्टर"],["die Praxis","doctor's surgery","दवाखाना"],["der Termin","appointment","अपॉइंटमेंट"],["die Apotheke","pharmacy","औषधालय"],["Wie geht's?","How are you? (informal)","कसे आहात?"],["Wie geht es Ihnen?","How are you? (formal)","तुम्ही कसे आहात?"]]},
+
+{id:"weather",icon:"🌤️",label:"Weather & Nature",tip:"Weather comes up in Sprechen (describing where you live) and Hören (travel/outdoor scene dialogues).",words:[
+["das Wetter","the weather","हवामान"],["die Sonne","the sun","सूर्य"],["sonnig","sunny","उन्हाळी / सनी"],["der Regen","rain","पाऊस"],["regnen","to rain","पाऊस पडणे"],["der Schnee","snow","बर्फ"],["schneien","to snow","बर्फ पडणे"],["der Wind","wind","वारा"],["windig","windy","वाऱ्याचे"],["die Wolke","cloud","ढग"],["bewölkt","cloudy","ढगाळ"],["der Nebel","fog","धुके"],["warm","warm","उबदार"],["kalt","cold","थंड"],["heiß","hot","गरम"],["kühl","cool","थोडे थंड"],["das Klima","climate","हवामान (दीर्घकालीन)"],["das Grad","degree (temperature)","अंश (तापमान)"],["der Baum","tree","झाड"],["die Blume","flower","फूल"],["der Hund","dog","कुत्रा"],["die Katze","cat","मांजर"],["das Tier","animal","प्राणी"]]},
+
+{id:"adjectives",icon:"✏️",label:"Adjectives",tip:"Each adjective is its own tile — learn them independently, not as pairs.",words:[
+["groß","big / tall","मोठा"],["klein","small / short","लहान"],["alt","old","जुना / वृद्ध"],["neu","new","नवीन"],["gut","good","चांगला"],["schlecht","bad","वाईट"],["schön","beautiful / nice","सुंदर"],["schnell","fast","जलद"],["langsam","slow","हळू"],["laut","loud","मोठ्याने"],["leise","quiet","हळूच"],["leicht","light / easy","हलके / सोपे"],["schwer","heavy / difficult","जड / कठीण"],["lang","long","लांब"],["kurz","short","छोटा"],["hell","bright / light","उजळ"],["dunkel","dark","अंधारे"],["viel","much / a lot","जास्त"],["wenig","little / few","कमी"],["müde","tired","थकलेला"],["fertig","done / ready","तयार"],["wichtig","important","महत्त्वाचे"],["richtig","correct / right","बरोबर"],["falsch","wrong / incorrect","चुकीचे"],["offen","open","उघडे"],["geschlossen","closed","बंद"],["frei","free / available","मोकळे"],["besetzt","occupied / taken","व्यापलेले"],["krank","ill / sick","आजारी"],["gesund","healthy","निरोगी"],["warm","warm","उबदार"],["kalt","cold","थंड"]]},
+
+{id:"leisure",icon:"🎉",label:"Leisure, Hobbies & Social",tip:"Hobbies come up in Sprechen Teil 1 self-intro. Social scenes appear in Hören Teil 1 dialogues.",words:[
+["die Freizeit","free time","मोकळा वेळ"],["das Hobby","hobby","छंद"],["der Sport","sport","खेळ"],["spielen","to play","खेळणे"],["schwimmen","to swim","पोहणे"],["wandern","to hike","भ्रमण करणे"],["die Musik","music","संगीत"],["das Konzert","concert","मैफल"],["das Kino","cinema","सिनेमा"],["feiern","to celebrate","साजरे करणे"],["die Party","party","पार्टी"],["die Ferien","school holidays","सुट्टी"],["der Urlaub","vacation / holiday","सुट्टी (प्रौढांसाठी)"],["der Verein","club / association","क्लब"],["einladen","to invite","आमंत्रण देणे"],["die Einladung","invitation","आमंत्रण"],["besuchen","to visit","भेट देणे"],["treffen","to meet","भेटणे"],["der Ausflug","trip / excursion","सहल"],["das Geschenk","gift","भेट"],["schenken","to give as a gift","भेट देणे"]]},
+
+{id:"housing_extra",icon:"🏘️",label:"Housing & Services",tip:"From Books 1&2 and official Wortliste — these appear in Lesen Teil 2 signs and Hören apartment dialogues.",words:[
+["die Anzeige","advertisement / notice","जाहिरात"],["besichtigen","to view / inspect","पाहणी करणे"],["vermieten","to rent out","भाड्याने देणे"],["der Vermieter","landlord","मकानमालक"],["die Treppe","staircase","जिना"],["der Stock","floor / storey","मजला"],["im ersten Stock","on the first floor","पहिल्या मजल्यावर"],["das Erdgeschoss","ground floor","तळमजला"],["der Keller","basement","तळघर"],["die Postleitzahl","postcode / zip code","पिनकोड"],["die Telefonnummer","phone number","फोन नंबर"],["die Vorwahl","area / dialling code","एरिया कोड"],["reserviert","reserved","राखीव"],["frei","free / available","मोकळे"],["besetzt","occupied / taken","व्यापलेले"],["die Heizung","heating","हीटिंग"],["die Strom","electricity","वीज"],["das Doppelzimmer","double room","डबल खोली"],["das Einzelzimmer","single room","एकल खोली"],["übernachten","to stay overnight","रात्री राहणे"],["die Unterkunft","accommodation","निवास"],["die Wohngemeinschaft","shared apartment (WG)","शेअर्ड फ्लॅट"]]},
+
+{id:"services_money",icon:"🏦",label:"Post, Bank & Services",tip:"From Book 1 (Bank/Post/Telefon section). These appear in Hören Teil 2 announcements and Lesen signs.",words:[
+["die Post","post office","पोस्ट ऑफिस"],["der Brief","letter","पत्र"],["das Paket","parcel / package","पार्सल"],["der Schalter","counter / window","काउंटर"],["die Auskunft","information","माहिती"],["das Formular","form","फॉर्म"],["ausfüllen","to fill in","भरणे"],["unterschreiben","to sign","सही करणे"],["die Unterschrift","signature","सही"],["überweisen","to transfer (money)","पैसे ट्रान्सफर करणे"],["abholen","to pick up","घ्यायला जाणे"],["schicken","to send","पाठवणे"],["das Konto","bank account","बँक खाते"],["die Kontonummer","account number","खाते क्रमांक"],["bar bezahlen","to pay cash","रोख पैसे देणे"],["die Kreditkarte","credit card","क्रेडिट कार्ड"],["der Geldautomat","ATM","एटीएम"],["wechseln","to exchange / change","बदल करणे"],["die Quittung","receipt","पावती"],["das Internet","internet","इंटरनेट"],["die E-Mail","email","ईमेल"]]},
+
+{id:"colours",icon:"🎨",label:"Colours",tip:"Colours come up in Sprechen (describing clothing) and Lesen (shop signs). Learn each individually.",words:[
+["schwarz","black","काळा"],["weiß","white","पांढरा"],["rot","red","लाल"],["blau","blue","निळा"],["grün","green","हिरवा"],["gelb","yellow","पिवळा"],["orange","orange","केशरी"],["lila","purple / violet","जांभळा"],["rosa","pink","गुलाबी"],["braun","brown","तपकिरी"],["grau","grey","राखाडी"],["bunt","colourful","रंगीत"],["die Farbe","colour","रंग"],["hell","light (shade)","फिका"],["dunkel","dark (shade)","गडद"]]},
+
+{id:"work_school",icon:"💼",label:"Work, School & Courses",tip:"From Book 2 Wortschatz chapter 11 and Book 1. Beruf vocab is directly tested in Schreiben forms.",words:[
+["der Unterricht","lesson / class","वर्ग"],["der Kurs","course","कोर्स"],["der Sprachkurs","language course","भाषा कोर्स"],["die Schule","school","शाळा"],["die Universität","university","विद्यापीठ"],["der Kindergarten","kindergarten","बालवाडी"],["die Hausaufgaben","homework","गृहपाठ"],["der Stundenplan","timetable","वेळापत्रक"],["die Klasse","class / classroom","वर्ग"],["die Prüfung","exam / test","परीक्षा"],["bestehen","to pass (exam)","परीक्षा उत्तीर्ण होणे"],["das Büro","office","ऑफिस"],["die Stelle","job / position","नोकरी"],["verdienen","to earn","कमवणे"],["der Lohn","wage / pay","पगार"],["das Gehalt","salary","पगार"],["die Ausbildung","vocational training","प्रशिक्षण"],["der Praktikant","intern","इंटर्न"],["der Chef","boss","बॉस"],["der Angestellte","employee","कर्मचारी"],["kündigen","to quit / resign","राजीनामा देणे"]]},
+
+{id:"social_events",icon:"🎂",label:"Social & Celebrations",tip:"Hochzeit, Geburtstag, Einladung — come up in Hören Teil 1 dialogues and Schreiben email prompts.",words:[
+["die Hochzeit","wedding","लग्न"],["der Geburtstag","birthday","वाढदिवस"],["die Party","party","पार्टी"],["die Feier","celebration / party","साजरा"],["feiern","to celebrate","साजरे करणे"],["die Einladung","invitation","आमंत्रण"],["einladen","to invite","आमंत्रण देणे"],["das Geschenk","gift","भेट"],["schenken","to give as a gift","भेट देणे"],["gratulieren","to congratulate","अभिनंदन करणे"],["Herzlichen Glückwunsch!","Congratulations!","अभिनंदन!"],["Alles Gute!","All the best!","शुभेच्छा!"],["Prost!","Cheers!","चिअर्स!"],["der Gast","guest","पाहुणा"],["gefallen","to like / to please","आवडणे"],["wunderbar","wonderful","अप्रतिम"],["toll","great / brilliant","छान"],["prima","great / excellent","उत्कृष्ट"],["langweilig","boring","कंटाळवाणे"],["interessant","interesting","मनोरंजक"]]},
+
+{id:"key_phrases",icon:"💡",label:"Key Phrases & Expressions",tip:"From Books 1&2 — fixed phrases that appear across all exam sections. Learn each as one unit.",words:[
+["Wie bitte?","Pardon? (didn't catch that)","काय म्हणालात?"],["Das ist mir egal.","I don't mind / It doesn't matter to me.","मला काही फरक पडत नाही."],["Das geht nicht.","That won't work / That's not possible.","ते शक्य नाही."],["Das geht.","That works / That's possible.","ते शक्य आहे."],["Kein Problem.","No problem.","काही हरकत नाही."],["Moment, bitte.","Just a moment, please.","एक मिनिट कृपया."],["In Ordnung.","OK / Alright.","ठीक आहे."],["Gern geschehen.","My pleasure. (after thanks)","माझा आनंद."],["Schade.","What a pity / Too bad.","खेदाची गोष्ट."],["Na ja.","Well... (hesitation)","असं आहे..."],["Stimmt!","That's right!","बरोबर!"],["Wie heißt das auf Deutsch?","What is this called in German?","जर्मनमध्ये याला काय म्हणतात?"],["Können Sie das wiederholen?","Can you repeat that?","तुम्ही ते पुन्हा सांगाल का?"],["Ich bin nicht sicher.","I'm not sure.","मला खात्री नाही."],["Das weiß ich nicht.","I don't know that.","मला माहित नाही."],["Was bedeutet…?","What does … mean?","... चा अर्थ काय?"],["zu Fuß gehen","to go on foot","पायी जाणे"],["nach Hause gehen","to go home","घरी जाणे"],["zu Hause","at home","घरी"],["Gute Reise!","Have a good trip!","प्रवास शुभ होवो!"]]},
+
+{id:"notes_time",icon:"⏱️",label:"Time Words & Expressions",tip:"From Aishwarya's notes — time prepositions and key phrases for telling and asking time.",words:[
+["gleich","almost / in a moment","जवळजवळ / थोड्याच वेळात"],["genau","exactly","बरोबर / नक्की"],["vor","before / to (time)","आधी / कमी (वेळ)"],["nach","after / past (time)","नंतर / वाजून (वेळ)"],["das Viertel","quarter (15 minutes)","एक चतुर्थांश (15 मिनिटे)"],["kurz","short / shortly","थोडक्यात / लवकरच"],["halb","half","अर्धा"],["halb acht","7:30 (half past seven)","साडेसात"],["um … Uhr","at … o'clock","... वाजता"],["verboten","forbidden / prohibited","बंदी / मनाई"],["draußen","outside","बाहेर"],["draußen gehen","to go outside","बाहेर जाणे"],["aufhören","to stop / to finish","थांबणे / संपवणे"],["leise sein","to be quiet","शांत असणे"],["Wie spät ist es?","What time is it? (How late is it?)","किती वाजले?"],["Können Sie mir sagen, wie spät es ist?","Can you tell me what time it is?","तुम्ही मला सांगाल का किती वाजले?"],["Wie viel Uhr ist es?","What time is it?","किती वाजले?"]]},
+
+{id:"notes_transport",icon:"🚉",label:"Transport & Travel Words",tip:"From Aishwarya's notes — transport verbs especially umsteigen (to change trains) which is very common in Hören.",words:[
+["einsteigen","to board / step in","चढणे"],["aussteigen","to get off / step out","उतरणे"],["umsteigen","to change (train/bus)","बदलणे (रेल्वे/बस)"],["abholen","to pick up (someone)","घ्यायला जाणे"],["die Auskunft","information / enquiry desk","माहिती केंद्र"],["der Koffer","suitcase","सूटकेस"],["der Schalter","counter / ticket window","काउंटर"]]},
+
+{id:"notes_requests",icon:"🙏",label:"Request Phrases & Grammar Notes",tip:"From Aishwarya's notes — key patterns for Sprechen Teil 3 and Schreiben. bringen/geben/leihen always use 'mir'.",words:[
+["Können Sie hier unterschreiben?","Can you sign here?","तुम्ही इथे सही कराल का?"],["Können Sie mir etwas kochen, bitte?","Can you please cook something for me?","तुम्ही मला काहीतरी शिजवाल का?"],["Können wir uns treffen?","Can we meet?","आपण भेटू शकतो का?"],["der Termin","appointment","वेळ / अपॉइंटमेंट"],["der Kalender","calendar","कॅलेंडर"],["Haben Sie Zeit am … um … Uhr?","Do you have time on … at …?","तुम्हाला ... ला वेळ आहे का?"],["bringen → mir","to bring → (bring) to me","आणणे → मला"],["geben → mir","to give → (give) to me","देणे → मला"],["leihen → mir","to lend → (lend) to me","उधार देणे → मला"],["kaufen → mir","to buy → (buy) for me","विकत घेणे → माझ्यासाठी"],["schreiben → dir / Ihnen","to write → to you (inf/formal)","लिहिणे → तुला / तुम्हाला"],["Können Sie zum Chefbüro gehen?","Can you go to the boss's office?","तुम्ही बॉसच्या ऑफिसला जाल का?"]]},
+
+{id:"notes_objects2",icon:"🕶️",label:"More Objects & Useful Verbs",tip:"From Aishwarya's notes — objects and verbs that appear in Sprechen Teil 3 image cards and Lesen.",words:[
+["die Brille","glasses / spectacles","चश्मा"],["die Handschuhe","gloves","हातमोजे"],["die Birne","pear","नाशपाती"],["das Glas","glass (drinking)","पेला / ग्लास"],["fotografieren","to take a photo","फोटो काढणे"],["allein","alone / by oneself","एकटे"],["auf sein","to be open / switched on","उघडे असणे / चालू असणे"],["zu sein","to be closed / switched off","बंद असणे"],["zufrieden","satisfied / content","समाधानी"],["zufrieden sein","to be satisfied","समाधानी असणे"]]},
+
+{id:"notes_places",icon:"🏘️",label:"Places, Housing & Environment",tip:"From Aishwarya's notes — housing vocabulary and place words from the official Wortliste Umwelt/Wohnen themes.",words:[
+["das Dorf","village","गाव"],["das Land","country / countryside","देश / गाव / खेड्यातील भाग"],["die Länder","countries (plural)","देश (बहुवचन)"],["das Licht","light","प्रकाश"],["das Feuer","fire","आग"],["das Einzelzimmer","single room","एकल खोली"],["die Anzeige","advertisement / notice","जाहिरात / नोटिस"],["die Treppe","staircase","जिना"],["der Stock","floor / storey","मजला"],["die Etage","floor / storey (formal)","मजला"],["das Erdgeschoss","ground floor","तळमजला"],["das Untergeschoss","underground / basement floor","तळघर"],["die Möbel","furniture (plural)","फर्निचर"],["die Heimat","homeland / home","मातृभूमी / घर"],["die Ecke","corner","कोपरा"],["holen","to fetch / get / pick up","आणणे / घ्यायला जाणे"],["übernachten","to stay overnight","रात्री राहणे"]]}
+];
+
+let learned=new Set(),flipped=new Set(),flashMode=false,activeSecTab="all",lang="en",displayMode="both";
+const colState={sched:false,examstruct:false};
+const epState={hoeren:false,lesen:false,schreiben:false,sprechen:false};
+const answered={};
+
+function switchTopTab(t){
+  document.querySelectorAll('.top-tab').forEach(e=>e.classList.remove('active'));
+  document.querySelectorAll('.tab-pane').forEach(e=>e.classList.remove('active'));
+  document.getElementById('ttab-'+t).classList.add('active');
+  document.getElementById('pane-'+t).classList.add('active');
+}
+function pal(i){return PALETTES[i%PALETTES.length];}
+function updateStats(){
+  let total, learnedCount;
+  if(currentMilestone === 1){
+    // Step 1: unique words only
+    const ms1set = new Set();
+    const ms1learned = new Set();
+    G.forEach(g => g.words.forEach(([de]) => {
+      if(STEP1_WORDS[g.id] && STEP1_WORDS[g.id].has(de)){
+        ms1set.add(de);
+        if(learned.has(de)) ms1learned.add(de);
+      }
+    }));
+    total = ms1set.size;
+    learnedCount = ms1learned.size;
+  } else {
+    // Step 2: all 700 words (sections can share words — each tile is independent)
+    total = STEP2_TOTAL;
+    learnedCount = learned.size;
+  }
+  document.getElementById("tc").textContent=total;
+  document.getElementById("lc").textContent=learnedCount;
+  const p=total>0?Math.round(learnedCount/total*100):0;
+  document.getElementById("pc").textContent=p+"%";
+  document.getElementById("pb").style.width=p+"%";
+  // Update milestone button sub-labels
+  const ms1el=document.getElementById('ms1-count');
+  const ms2el=document.getElementById('ms2-count');
+  if(ms1el){
+    const s=new Set(),sl=new Set();
+    G.forEach(g=>g.words.forEach(([de])=>{if(STEP1_WORDS[g.id]&&STEP1_WORDS[g.id].has(de)){s.add(de);if(learned.has(de))sl.add(de);}}));
+    ms1el.textContent=sl.size+'/'+s.size+' learned';
+  }
+  if(ms2el) ms2el.textContent=learned.size+'/'+STEP2_TOTAL+' learned';
+}
+function toggleFlash(){
+  flashMode=!flashMode;flipped.clear();
+  const b=document.getElementById("fb");
+  b.textContent=flashMode?"✅ Flashcard ON":"👁 Flashcard mode";
+  b.classList.toggle("on",flashMode);
+  document.getElementById("fh").classList.toggle("show",flashMode);
+  document.getElementById("lang-row").style.display=flashMode?"flex":"none";
+  document.getElementById("display-row").style.display=flashMode?"none":"flex";
+  renderVocab();
+}
+function setDisplay(m){
+  displayMode=m;
+  ['both','en','mr'].forEach(x=>document.getElementById('disp-'+x).classList.toggle('active',x===m));
+  renderVocab();
+}
+function setLang(l){
+  lang=l;
+  document.getElementById("pill-en").classList.toggle("active",l==="en");
+  document.getElementById("pill-mr").classList.toggle("active",l==="mr");
+  flipped.clear();renderVocab();
+}
+function colToggle(id){
+  colState[id]=!colState[id];
+  document.getElementById(id+"-body").classList.toggle("open",colState[id]);
+  document.getElementById(id+"-chevron").classList.toggle("open",colState[id]);
+}
+function resetAll(){learned.clear();flipped.clear();renderVocab();updateStats();}
+function resetSection(id){
+  const g=G.find(x=>x.id===id);if(!g)return;
+  g.words.forEach(([de])=>{learned.delete(de);flipped.delete(de);});
+  renderVocab();updateStats();
+}
+function handleNormal(de){
+  if(learned.has(de))learned.delete(de);else learned.add(de);
+  updateStats();renderVocab();
+}
+function flipCard(el,de){flipped.add(de);el.classList.add("flipped");}
+function unflipCard(event,de){
+  event.stopPropagation();
+  flipped.delete(de);
+  const w=event.target.closest('.fc-wrap');
+  if(w)w.classList.remove("flipped");
+}
+function markLearned(el,de){
+  learned.add(de);updateStats();
+  el.style.transition="opacity .28s,transform .28s";
+  el.style.opacity="0";el.style.transform="scale(0.82)";
+  setTimeout(()=>renderVocab(),260);
+}
+function renderSecTabs(){
+  let rem, total;
+  if(currentMilestone === 1){
+    const ms1set=new Set(), ms1rem=new Set();
+    G.forEach(g=>g.words.forEach(([de])=>{
+      if(STEP1_WORDS[g.id]&&STEP1_WORDS[g.id].has(de)){
+        ms1set.add(de);
+        if(!learned.has(de)) ms1rem.add(de);
+      }
+    }));
+    total=ms1set.size; rem=ms1rem.size;
+  } else {
+    total=STEP2_TOTAL;
+    rem=G.reduce((s,g)=>s+g.words.filter(([de])=>!learned.has(de)).length,0);
+  }
+  const visibleSections=G.filter(g=>g.words.some(([de])=>isInMilestone(g.id,de)));
+  const all=[{id:"all",label:"All",count:rem},...visibleSections.map(g=>({
+    id:g.id,label:g.label,
+    count:g.words.filter(([de])=>isInMilestone(g.id,de)&&!learned.has(de)).length
+  }))];
+  document.getElementById("sec-tabs").innerHTML=all.map(t=>`<div class="sec-tab${t.id===activeSecTab?" active":""}" onclick="switchSecTab('${t.id}')">${t.label}<span class="cnt">${t.count}</span></div>`).join("");
+}
+function switchSecTab(id){activeSecTab=id;flipped.clear();renderSecTabs();renderVocab();}
+function esc(s){return s.replace(/\\/g,"\\\\").replace(/'/g,"\\'")}
+function renderVocab(){
+  const show=activeSecTab==="all"?G.filter(g=>g.words.some(([de])=>isInMilestone(g.id,de))):G.filter(g=>g.id===activeSecTab);
+  let html="";
+  show.forEach(g=>{
+    const idx=G.indexOf(g),p=pal(idx);
+    const remaining=g.words.filter(([de])=>isInMilestone(g.id,de)&&!learned.has(de));
+    const milestoneWords=g.words.filter(([de])=>isInMilestone(g.id,de));
+    const doneCount=milestoneWords.length-remaining.length;
+    html+=`<div class="section"><div class="sec-head"><div class="sec-icon" style="background:${p.bg}">${g.icon}</div><div class="sec-title">${g.label}</div><div class="sec-meta">${doneCount>0?`<span class="sec-done-badge">✓${doneCount}</span>`:""}<span class="sec-count">${remaining.length} left</span>${doneCount>0?`<button class="btn-reset-sec" onclick="resetSection('${g.id}')">↺</button>`:""}</div></div><div class="tip" style="background:${p.bg};border-left:3px solid ${p.text}">💡 ${g.tip}</div>`;
+    if(remaining.length===0){
+      html+=`<div class="sec-empty">🎉 All ${g.words.length} words learned! Hit reset to practise again.</div>`;
+    } else {
+      html+=`<div class="word-grid">`;
+      remaining.forEach(([de,en,mr])=>{
+        const d=esc(de),isF=flipped.has(de);
+        if(flashMode){
+          const prompt=lang==="mr"?mr:en,pLabel=lang==="mr"?"मराठी":"English",sub=lang==="mr"?en:"";
+          html+=`<div class="fc-wrap${isF?" flipped":""}"><div class="fc-inner"><div class="fc-front${lang==="mr"?" fc-front-mr":""}" onclick="flipCard(this.closest('.fc-wrap'),'${d}')"><div class="fc-lbl">${pLabel}</div><div class="fc-word">${prompt}</div></div><div class="fc-back" onclick="markLearned(this.closest('.fc-wrap'),'${d}')"><div class="fc-lbl">Deutsch</div><div class="fc-de">${de}</div>${sub?`<div class="fc-sub">${sub}</div>`:""}<button class="fc-no" onclick="unflipCard(event,'${d}')" title="Not yet">↩</button></div></div></div>`;
+        } else {
+          const showEn=displayMode!=='mr',showMr=displayMode!=='en';
+          const transLine=showEn&&showMr?`${en} · <span style="color:var(--teal-text);font-size:10px">${mr}</span>`:showEn?en:mr;
+          html+=`<div class="wc" onclick="handleNormal('${d}')"><div class="de">${de}</div><div class="tr">${transLine}</div></div>`;
+        }
+      });
+      html+=`</div>`;
+    }
+    html+=`</div>`;
+  });
+  document.getElementById("vocab-content").innerHTML=html;
+  const tl=currentMilestone===1
+    ? (()=>{const s=new Set();G.forEach(g=>g.words.forEach(([de])=>{if(STEP1_WORDS[g.id]&&STEP1_WORDS[g.id].has(de)&&!learned.has(de))s.add(de);}));return s.size;})()
+    : G.reduce((s,g)=>s+g.words.filter(([de])=>!learned.has(de)).length,0)
+  document.getElementById("alldone").classList.toggle("show",tl===0&&milTotal>0);
+  renderSecTabs();
+}
+function epToggle(id){
+  epState[id]=!epState[id];
+  document.getElementById("body-"+id).classList.toggle("open",epState[id]);
+  document.getElementById("chev-"+id).classList.toggle("open",epState[id]);
+}
+const STEP1_WORDS = {
+  "greet":new Set(["Hallo","Guten Morgen","Guten Tag","Guten Abend","Gute Nacht","Auf Wiedersehen","Tschüss","Bitte","Danke","Vielen Dank","Entschuldigung","Ja","Nein","Klar","Wie bitte?","Alles klar?","Das macht nichts","Viel Glück!"]),
+  "people":new Set(["der Vater","die Mutter","der Bruder","die Schwester","der Sohn","die Tochter","die Eltern","die Familie","der Mann","die Frau","das Kind","der Freund","die Großmutter","der Großvater"]),
+  "intro":new Set(["Ich heiße …","Ich komme aus …","Ich wohne in …","Ich bin … Jahre alt.","der Vorname","der Familienname","das Alter","der Beruf","das Geburtsdatum","der Geburtsort","der Wohnort","Ich bin verheiratet.","Ich bin ledig.","studieren"]),
+  "numbers":new Set(["eins","zwei","drei","vier","fünf","sechs","sieben","acht","neun","zehn","elf","zwölf","zwanzig","dreißig","hundert","tausend","Wie viel Uhr ist es?","Es ist … Uhr.","halb drei","Viertel nach …","Viertel vor …","heute","morgen","gestern","jetzt","der Montag","der Dienstag","der Mittwoch","der Donnerstag","der Freitag","der Samstag","der Sonntag","das Wochenende","der Sommer","der Winter","das Datum"]),
+  "wh":new Set(["was","wer","warum","wann","welche","wo","woher","wohin","wie","wie viele","aber","oder","auch","denn","noch","nur"]),
+  "modal":new Set(["müssen","können","dürfen","sollen","wollen","möchten"]),
+  "verbs1":new Set(["sein","haben","kommen","gehen","fahren","wohnen","arbeiten","machen","sagen","fragen","antworten","verstehen","sprechen","hören","lesen","schreiben","finden","nehmen","geben","bekommen"]),
+  "verbs2":new Set(["einladen","helfen","brauchen","leihen","schenken","warten","lachen","kochen","schlafen"]),
+  "verbs3":new Set(["aufmachen","zumachen","aufstehen","einsteigen","aussteigen","abfahren","ankommen","anrufen","mitbringen","fernsehen"]),
+  "places":new Set(["der Bahnhof","das Hotel","das Restaurant","die Post","die Bank","die Apotheke","das Krankenhaus","links","rechts","geradeaus","nah","weit"]),
+  "travel":new Set(["die Fahrkarte","einfach","hin und zurück","der Zug","der Bus","das Auto","das Flugzeug","das Gepäck","der Koffer"]),
+  "food":new Set(["das Frühstück","das Brot","der Käse","das Ei","das Fleisch","der Fisch","das Gemüse","das Obst","der Apfel","der Kaffee","der Tee","das Wasser","der Wein","die Milch","die Tasse","der Teller","bestellen","die Rechnung","Guten Appetit!","Zahlen, bitte!"]),
+  "shopping":new Set(["kaufen","kosten","bezahlen","der Preis","das Geld","bar","billig","teuer","das Geschäft","das Geschenk"]),
+  "home":new Set(["die Wohnung","das Haus","das Zimmer","die Küche","das Bad","das Schlafzimmer","das Bett","der Tisch","der Stuhl","der Schrank","der Kühlschrank","die Tür","das Fenster","der Schlüssel"]),
+  "objects":new Set(["der Stift","der Kugelschreiber","das Handy","das Buch","die Zeitung","die Armbanduhr","das Wörterbuch"]),
+  "health":new Set(["der Kopf","das Auge","das Ohr","die Hand","der Arm","das Bein","krank","gesund","weh tun","das Fieber","der Arzt"]),
+  "adjectives":new Set(["groß","klein","gut","schlecht","schön","schnell","langsam","alt","neu","lang","kurz","hell","dunkel","müde","fertig","wichtig"]),
+  "leisure":new Set(["die Freizeit","der Sport","spielen","schwimmen","die Musik","das Kino","feiern","die Party","die Ferien","besuchen","treffen"]),
+  "adverbs":new Set(["leider","natürlich","vielleicht","gern / gerne","bald","gleich","manchmal","immer","nie","sehr","ein bisschen"]),
+  "weather":new Set(["das Wetter","die Sonne","sonnig","der Regen","warm","kalt","heiß","der Wind"]),
+  "colours":new Set(["schwarz","weiß","rot","blau","grün","gelb","braun","grau","die Farbe"]),
+  "notes_time":new Set(["genau","vor","nach","halb","halb acht","verboten","aufhören","Wie spät ist es?"]),
+  "notes_transport":new Set(["umsteigen","die Auskunft","der Schalter"])
+};
+const STEP1_TOTAL = 292;
+const STEP2_TOTAL = 700;
+let currentMilestone = 1; // 1 or 2
+
+
+function setMilestone(n) {
+  currentMilestone = n;
+  // Update buttons
+  document.getElementById('ms1-btn').className = 'ms-btn' + (n===1 ? ' active-ms1' : '');
+  document.getElementById('ms2-btn').className = 'ms-btn' + (n===2 ? ' active-ms2' : '');
+  // Update banner
+  const banner = document.getElementById('ms-banner');
+  if (n === 1) {
+    banner.className = 'ms-banner ms1';
+    banner.innerHTML = '🌱 <strong>Step 1 — Core ' + STEP1_TOTAL + ' words.</strong> These cover everything you need to pass. Complete Step 1 before unlocking Step 2.';
+  } else {
+    banner.className = 'ms-banner ms2';
+    banner.innerHTML = '🏆 <strong>Step 2 — All 700 words.</strong> The complete exam vocabulary. Every word from the official Goethe Wortliste and your notes.';
+  }
+  // Clear flipped state
+  flipped.clear();
+  // Update alldone text
+  const titleEl = document.getElementById('alldone-title');
+  const msgEl = document.getElementById('alldone-msg');
+  if(titleEl) titleEl.textContent = n===1 ? '🌱 Step 1 Complete!' : '🏆 All 700 Words Done!';
+  if(msgEl) msgEl.textContent = n===1 ? 'Core vocabulary mastered! Switch to Step 2 for all 700 words.' : 'Complete vocabulary mastered! You are fully prepared.';
+  // Re-render
+  renderVocab();
+  updateStats();
+}
+
+function isInMilestone(sectionId, germanWord) {
+  if (currentMilestone === 2) return true;
+  if (!STEP1_WORDS[sectionId]) return false;
+  return STEP1_WORDS[sectionId].has(germanWord);
+}
+
+renderSecTabs();renderVocab();updateStats();
+
+// ══ EXAM PRACTICE SCORE STATE ══
+const epAnswered = {};
+let epCorrectCount = 0;
+let epWrongCount = 0;
+const epSectionCounts = {hoeren:0, lesen:0, schreiben:0, sprechen:0};
+
+const Q_EXPLANATIONS = {
+  'h1q1': {correct:'B', explain:'Der Kunde fragt nach Größe 42 — that is what he wants. 40 and 44 are what is available.'},
+  'h1q2': {correct:'C', explain:'„Ich nehme den Fisch" — the man takes the fish. His wife takes the salad.'},
+  'h1q3': {correct:'B', explain:'The receptionist says „Zimmer 254" clearly — not 245 or 524.'},
+  'h2q1': {correct:'F', explain:'The train has 20 minutes delay (Verspätung). It does NOT depart on time (pünktlich). → Falsch.'},
+  'h2q2': {correct:'R', explain:'„zum halben Preis" = at half price = cheaper. The statement is correct. → Richtig.'},
+  'h2q3': {correct:'F', explain:'Opening times are Tue/Thu/Fri morning and Wed afternoon. Monday is not mentioned → Falsch (closed on Monday).'},
+  'h3q1': {correct:'B', explain:'Klaus says „wegen unserem Treffen am Donnerstag" — Thursday. 18 Uhr is the time.'},
+  'h3q2': {correct:'C', explain:'Christine says „Wir sehen uns dort im Café" — they will meet at the café near the university.'},
+  'l1q1': {correct:'R', explain:'„Wir fangen um 20 Uhr an" — 20 Uhr is 8 PM. → Richtig.'},
+  'l1q2': {correct:'F', explain:'Ralf says „bring etwas zu trinken mit" (bring drinks) and „Ich koche das Essen" (I cook the food). Anna should bring drinks, not food. → Falsch.'},
+  'l1q3': {correct:'F', explain:'„Ich fahre mit dem Zug nach Hamburg" — Petra travels by TRAIN, not by car. → Falsch.'},
+  'l2q1': {correct:'B', explain:'bauernmarkt.de is about fresh vegetables and fruit. techshop.de is electronics.'},
+  'l2q2': {correct:'A', explain:'sprachschule-berlin.de has German courses with evening classes. The fitness studio is not a language course.'},
+  'l2q3': {correct:'A', explain:'dr-boll-praxis.de is a medical practice. tierpension.de is a pet hotel — not for people.'},
+  'l3q1': {correct:'F', explain:'„Rauchen verboten" = smoking forbidden on the whole station. The statement says you CAN smoke → Falsch.'},
+  'l3q2': {correct:'F', explain:'„Sonntags geschlossen" = closed on Sundays. The statement says open on Sunday → Falsch.'},
+  'l3q3': {correct:'R', explain:'„Anmeldung online oder am Schalter" — you can register at the counter. → Richtig.'},
+  's1q1': {correct:'A', explain:'„Beruf" = profession/job. The answer is „Beruf: Ingenieur". Wohnort = residence, Geburtsort = birthplace.'},
+  's1q2': {correct:'B', explain:'„80336" is a Postleitzahl (postcode). Telefonnummer has different format. Geburtsdatum is a date.'},
+  's2q1': {correct:'A', explain:'„Liebe Lisa," is correct informal German greeting. „Sehr geehrter" is formal+masculine. Never „Hallo Liebe".'},
+  's2q2': {correct:'B', explain:'„Vielen Dank für die Einladung! Ich komme sehr gerne." accepts the invitation (Point 1). Options A and C cover Points 2 and 3.'},
+  'sp1q1': {correct:'C', explain:'„W" in German is „Weh". Not „Veh" (that is V) or „Doppel-Vu" (that is the English name). Confusing V/W is a common error!'},
+  'sp1q2': {correct:'B', explain:'„Z" in German is „Tset". Not „Zed" (English) or „Zeh" (which is not used).'},
+  'sp2q1': {correct:'A', explain:'„Wo kaufst du Getränke?" relates the question to the Einkaufen (shopping) theme. „Magst du Getränke?" is just about preference — not shopping.'},
+  'sp3q1': {correct:'A', explain:'„Können Sie mir bitte … geben?" is the correct polite request form. Short commands are impolite and cost marks in the exam.'},
+  'sp3q2': {correct:'A', explain:'„Ja, natürlich. Hier bitte." is a complete, natural positive reply. Options B and C are evasive or negative.'},
+};
+
+const Q_SECTION = {
+  h1q1:'hoeren',h1q2:'hoeren',h1q3:'hoeren',h2q1:'hoeren',h2q2:'hoeren',h2q3:'hoeren',h3q1:'hoeren',h3q2:'hoeren',
+  l1q1:'lesen',l1q2:'lesen',l1q3:'lesen',l2q1:'lesen',l2q2:'lesen',l2q3:'lesen',l3q1:'lesen',l3q2:'lesen',l3q3:'lesen',
+  s1q1:'schreiben',s1q2:'schreiben',s2q1:'schreiben',s2q2:'schreiben',
+  sp1q1:'sprechen',sp1q2:'sprechen',sp2q1:'sprechen',sp3q1:'sprechen',sp3q2:'sprechen',
+};
+const SC_EL = {hoeren:'sc-hoeren',lesen:'sc-lesen',schreiben:'sc-schreiben',sprechen:'sc-sprechen'};
+const TOTAL_Q = Object.keys(Q_EXPLANATIONS).length;
+
+function answerQ(qid, chosen, correct) {
+  if (epAnswered[qid]) return;
+  epAnswered[qid] = {chosen, correct};
+  const isCorrect = chosen === correct;
+  isCorrect ? epCorrectCount++ : epWrongCount++;
+
+  // Update section counter
+  const sec = Q_SECTION[qid];
+  epSectionCounts[sec]++;
+  const scEl = document.getElementById(SC_EL[sec]);
+  if (scEl) scEl.textContent = epSectionCounts[sec];
+
+  // Style all buttons
+  const optsDiv = document.getElementById('opts-' + qid);
+  if (optsDiv) {
+    optsDiv.querySelectorAll('.q-opt').forEach(btn => {
+      btn.disabled = true;
+      const btnVal = btn.getAttribute('onclick').match(/'([^']+)',\s*'([^']+)'\)/);
+      if (btnVal) {
+        const bChoice = btnVal[1];
+        if (bChoice === correct && bChoice === chosen) btn.classList.add('selected-correct');
+        else if (bChoice === chosen && bChoice !== correct) btn.classList.add('selected-wrong');
+        else if (bChoice === correct) btn.classList.add('show-correct');
+      }
+    });
+  }
+
+  // Style the qblock
+  const block = document.getElementById('qblock-' + qid);
+  if (block) block.classList.add(isCorrect ? 'answered-correct' : 'answered-wrong');
+
+  // Show reveal
+  const reveal = document.getElementById('reveal-' + qid);
+  if (reveal) {
+    const exp = Q_EXPLANATIONS[qid];
+    reveal.style.display = 'block';
+    reveal.className = 'q-reveal ' + (isCorrect ? 'correct' : 'wrong');
+    const icon = isCorrect ? '✓' : '✗';
+    const label = isCorrect ? 'Correct!' : 'Incorrect';
+    reveal.innerHTML = `<strong>${icon} ${label}</strong> — ${exp.explain}`;
+  }
+
+  updateEpTotal();
+}
+
+function updateEpTotal() {
+  const answered = Object.keys(epAnswered).length;
+  document.getElementById('ep-total').textContent = answered + '/' + TOTAL_Q;
+  document.getElementById('ep-pct').textContent = answered > 0 ? Math.round(epCorrectCount/answered*100) + '% correct' : '0%';
+  document.getElementById('ep-correct').textContent = epCorrectCount;
+  document.getElementById('ep-wrong').textContent = epWrongCount;
+}
+
+function resetAllExam() {
+  Object.keys(epAnswered).forEach(k => delete epAnswered[k]);
+  epCorrectCount = 0; epWrongCount = 0;
+  Object.keys(epSectionCounts).forEach(k => epSectionCounts[k] = 0);
+  // Reset all UI
+  document.querySelectorAll('.q-opt').forEach(btn => {
+    btn.disabled = false;
+    btn.classList.remove('selected-correct','selected-wrong','show-correct');
+  });
+  document.querySelectorAll('.q-reveal').forEach(el => el.style.display = 'none');
+  document.querySelectorAll('.qblock').forEach(el => el.classList.remove('answered-correct','answered-wrong'));
+  Object.values(SC_EL).forEach(id => { const el = document.getElementById(id); if(el) el.textContent = '0'; });
+  updateEpTotal();
+}
+
+// Teil 2 cards: [theme, word, model question, sample answers]
+const T2_CARDS = [
+  // ESSEN & TRINKEN
+  ["Essen & Trinken","Frühstück","Was isst du zum Frühstück?",["Ich esse meistens Brot mit Butter und Käse.","Ich frühstücke gern Joghurt und Obst.","Ich trinke Kaffee und esse ein Brötchen."]],
+  ["Essen & Trinken","Lieblingsessen","Was ist dein Lieblingsessen?",["Mein Lieblingsessen ist Pizza.","Ich esse am liebsten Pasta mit Tomatensauce.","Ich mag sehr gern Fisch mit Gemüse."]],
+  ["Essen & Trinken","Mittag","Was isst du zu Mittag?",["Meistens esse ich in der Kantine.","Ich koche mir oft Suppe oder Salat.","Manchmal gehe ich in ein Restaurant."]],
+  ["Essen & Trinken","Abendessen","Was kochst du zum Abendessen?",["Ich koche gern Pasta oder Reis.","Ich mache oft Salat und Brot abends.","Manchmal bestellen wir Pizza."]],
+  ["Essen & Trinken","Getränke","Was trinkst du am liebsten?",["Ich trinke am liebsten Wasser und Kaffee.","Ich mag Orangensaft sehr gern.","Abends trinke ich manchmal ein Bier."]],
+  ["Essen & Trinken","Sonntag","Was kochst du am Sonntag?",["Am Sonntag koche ich oft etwas Besonderes.","Meine Familie isst sonntags zusammen.","Wir frühstücken sonntags lange und gemütlich."]],
+  ["Essen & Trinken","Restaurant","Gehst du gern ins Restaurant?",["Ja, ich gehe einmal pro Woche ins Restaurant.","Ich gehe gern ins Restaurant, aber es ist teuer.","Manchmal essen wir im Restaurant, wenn wir feiern."]],
+  ["Essen & Trinken","Kaffee","Wie viele Tassen Kaffee trinkst du pro Tag?",["Ich trinke zwei oder drei Tassen Kaffee täglich.","Ich trinke keinen Kaffee, nur Tee.","Morgens trinke ich immer Kaffee."]],
+  ["Essen & Trinken","Kochen","Kannst du gut kochen?",["Ja, ich koche gern und gut.","Ich koche nur einfache Gerichte.","Nein, ich koche nicht so gern — ich kaufe lieber fertig."]],
+
+  // WOHNEN
+  ["Wohnen","Zimmer","Wie viele Zimmer hat deine Wohnung?",["Meine Wohnung hat drei Zimmer.","Ich wohne in einem Einzimmerappartement.","Wir haben vier Zimmer — Schlafzimmer, Wohnzimmer, Küche und Bad."]],
+  ["Wohnen","Miete","Ist deine Miete teuer?",["Ja, die Miete ist leider sehr teuer.","Ich zahle 800 Euro im Monat.","Die Miete ist okay für die Lage."]],
+  ["Wohnen","Stadt","In welcher Stadt wohnst du?",["Ich wohne in Berlin.","Ich wohne in München, im Zentrum.","Ich wohne in einer kleinen Stadt bei Frankfurt."]],
+  ["Wohnen","Wohnung","Wohnst du in einer Wohnung oder in einem Haus?",["Ich wohne in einer Wohnung im dritten Stock.","Wir wohnen in einem kleinen Haus mit Garten.","Ich wohne in einem Apartment in der Stadtmitte."]],
+  ["Wohnen","Balkon","Hat deine Wohnung einen Balkon?",["Ja, ich habe einen kleinen Balkon.","Leider hat meine Wohnung keinen Balkon.","Ich habe einen Garten — das ist besser als ein Balkon!"]],
+  ["Wohnen","Küche","Hast du eine große Küche?",["Ja, meine Küche ist schön groß.","Meine Küche ist klein, aber praktisch.","Ich habe eine offene Küche im Wohnzimmer."]],
+  ["Wohnen","Nachbarn","Hast du nette Nachbarn?",["Ja, meine Nachbarn sind sehr freundlich.","Ich kenne meine Nachbarn nicht so gut.","Ein Nachbar ist sehr nett, der andere ist leider laut."]],
+  ["Wohnen","Straße","Wie heißt deine Straße?",["Ich wohne in der Schillerstraße.","Meine Adresse ist Hauptstraße 12.","Ich wohne in einer ruhigen Nebenstraße."]],
+
+  // ARBEIT & BERUF
+  ["Arbeit","Beruf","Was bist du von Beruf?",["Ich bin Ingenieur.","Ich bin Lehrerin von Beruf.","Ich bin noch Student.","Ich arbeite als Ärztin."]],
+  ["Arbeit","Kollegen","Hast du nette Kollegen?",["Ja, meine Kollegen sind sehr freundlich.","Die meisten Kollegen sind nett.","Ich arbeite alleine, ich bin selbstständig."]],
+  ["Arbeit","Arbeitszeit","Wann fängst du mit der Arbeit an?",["Ich fange um neun Uhr an.","Meine Arbeitszeit ist von 8 bis 17 Uhr.","Ich arbeite manchmal auch abends."]],
+  ["Arbeit","Büro","Arbeitest du in einem Büro?",["Ja, ich arbeite in einem Büro im Zentrum.","Nein, ich arbeite im Homeoffice.","Manchmal arbeite ich im Büro, manchmal zu Hause."]],
+  ["Arbeit","Auto","Fährst du mit dem Auto zur Arbeit?",["Ja, ich fahre täglich mit dem Auto zur Arbeit.","Nein, ich nehme den Bus oder die Bahn.","Ich fahre mit dem Fahrrad — das ist gesünder."]],
+  ["Arbeit","Mittagspause","Was machst du in der Mittagspause?",["Ich esse in der Kantine.","Ich gehe spazieren oder kaufe etwas ein.","Ich esse schnell und dann arbeite ich weiter."]],
+  ["Arbeit","Urlaub","Wie viele Tage Urlaub hast du pro Jahr?",["Ich habe 25 Tage Urlaub.","Ich habe 30 Tage Urlaub pro Jahr.","Als Student habe ich lange Semesterferien."]],
+
+  // FREIZEIT & HOBBY
+  ["Freizeit","Sport","Treibst du gern Sport?",["Ja, ich spiele dreimal pro Woche Fußball.","Ich schwimme gern, aber nicht so oft.","Nein, ich mache keinen Sport."]],
+  ["Freizeit","Musik","Hörst du gern Musik?",["Ja, ich höre sehr gern Musik, am liebsten Pop.","Ich spiele auch Gitarre.","Ich höre Musik beim Kochen und Autofahren."]],
+  ["Freizeit","Kino","Gehst du gern ins Kino?",["Ja, ich gehe einmal im Monat ins Kino.","Ich schaue lieber zu Hause Filme.","Ich gehe gern ins Kino, aber die Tickets sind teuer."]],
+  ["Freizeit","Wochenende","Was machst du am Wochenende?",["Ich treffe Freunde oder mache einen Ausflug.","Samstags mache ich Sport, sonntags erhole ich mich.","Am Wochenende schlafe ich lange und koche gern."]],
+  ["Freizeit","Reise","Reist du gern?",["Ja, ich reise sehr gern, am liebsten ans Meer.","Ich fahre zweimal im Jahr in den Urlaub.","Ich reise gern, aber ich habe nicht viel Zeit."]],
+  ["Freizeit","Lesen","Liest du gern?",["Ja, ich lese sehr gern, am liebsten Krimis.","Ich lese manchmal, aber nicht so oft.","Ich lese lieber Zeitung als Bücher."]],
+  ["Freizeit","Freunde","Was machst du mit deinen Freunden?",["Wir gehen ins Kino oder ins Restaurant.","Wir machen zusammen Sport oder kochen.","Manchmal machen wir Ausflüge ins Grüne."]],
+  ["Freizeit","Internet","Wie lange bist du täglich im Internet?",["Ich bin etwa zwei bis drei Stunden online.","Ich nutze das Internet für die Arbeit und zur Unterhaltung.","Ich schaue Videos und chatte mit Freunden."]],
+
+  // EINKAUFEN
+  ["Einkaufen","Supermarkt","Wo kaufst du dein Essen ein?",["Ich gehe meistens in den Supermarkt um die Ecke.","Ich kaufe einmal pro Woche im großen Supermarkt ein.","Samstags gehe ich auf den Markt."]],
+  ["Einkaufen","Preis","Wie viel Geld gibst du beim Einkaufen aus?",["Ich gebe etwa 50 Euro pro Woche aus.","Das kommt auf die Woche an — manchmal mehr, manchmal weniger.","Ich versuche, nicht zu viel Geld für Essen auszugeben."]],
+  ["Einkaufen","Kleidung","Kaufst du gern Kleidung?",["Ja, ich kaufe gern neue Kleidung.","Ich kaufe Kleidung nur, wenn ich etwas brauche.","Ich kaufe lieber online als im Geschäft."]],
+  ["Einkaufen","Markt","Gehst du manchmal auf den Markt?",["Ja, samstags gehe ich auf den Wochenmarkt.","Leider nein, der Markt ist zu weit weg.","Ich kaufe gern frisches Gemüse und Obst auf dem Markt."]],
+  ["Einkaufen","Getränke","Wo kaufst du deine Getränke?",["Ich kaufe Getränke im Supermarkt.","Ich bestelle manchmal online.","Ich kaufe eine Kiste Wasser pro Woche."]],
+
+  // FAMILIE & FREUNDE
+  ["Familie","Kinder","Hast du Kinder?",["Ja, ich habe zwei Kinder.","Nein, ich habe noch keine Kinder.","Ich habe eine Tochter, sie ist fünf Jahre alt."]],
+  ["Familie","Geschwister","Hast du Geschwister?",["Ja, ich habe einen Bruder und eine Schwester.","Nein, ich bin ein Einzelkind.","Ich habe zwei Brüder."]],
+  ["Familie","Eltern","Wohnst du bei deinen Eltern?",["Nein, ich wohne allein.","Ja, ich wohne noch bei meinen Eltern.","Meine Eltern wohnen in einer anderen Stadt."]],
+  ["Familie","Geburtstag","Wie feierst du deinen Geburtstag?",["Ich feiere mit Familie und Freunden.","Ich mache eine kleine Party.","Manchmal gehen wir ins Restaurant."]],
+
+  // REISEN & VERKEHR
+  ["Reisen","Urlaub","Wohin fährst du in den Urlaub?",["Ich fahre gern ans Meer.","Letztes Jahr war ich in Italien.","Ich möchte mal nach Japan reisen."]],
+  ["Reisen","Verkehrsmittel","Mit welchem Verkehrsmittel fährst du zur Arbeit?",["Ich fahre mit dem Bus.","Ich nehme die U-Bahn.","Ich fahre meistens mit dem Fahrrad."]],
+  ["Reisen","Zug","Fährst du gern mit dem Zug?",["Ja, ich fahre sehr gern Zug.","Der Zug ist bequem, aber manchmal teuer.","Ich nehme den Zug, wenn ich lange Strecken fahre."]],
+  ["Reisen","Ausflug","Machst du gern Ausflüge?",["Ja, am Wochenende machen wir oft Ausflüge.","Ich fahre gern in die Natur.","Mit meiner Familie machen wir Ausflüge in die Berge."]],
+
+  // GESUNDHEIT
+  ["Gesundheit","Sport","Wie oft machst du Sport?",["Ich mache dreimal pro Woche Sport.","Ich gehe täglich eine halbe Stunde spazieren.","Leider mache ich nicht so viel Sport."]],
+  ["Gesundheit","Arzt","Gehst du oft zum Arzt?",["Nein, zum Glück bin ich selten krank.","Ich gehe einmal im Jahr zum Check-up.","Wenn ich krank bin, gehe ich sofort zum Arzt."]],
+
+  // SCHULE & SPRACHEN
+  ["Sprachen","Deutsch","Warum lernst du Deutsch?",["Ich lerne Deutsch für die Arbeit.","Ich möchte in Deutschland leben.","Mein Partner ist Deutsch, deshalb lerne ich die Sprache."]],
+  ["Sprachen","Kurs","Machst du einen Sprachkurs?",["Ja, ich mache einen Deutschkurs zweimal pro Woche.","Ich lerne mit einer App und einem Buch.","Ich lerne mit einem Lehrer online."]],
+,
+  // UMWELT & WOHNEN (from notebook)
+  ["Wohnen","Dorf / Stadt","Wohnst du in einer Stadt oder in einem Dorf?",["Ich wohne in einer großen Stadt.","Wir wohnen in einem kleinen Dorf auf dem Land.","Ich lebe in einer Kleinstadt, nicht weit von München."]],
+  ["Wohnen","Möbel","Welche Möbel hast du in deiner Wohnung?",["Ich habe ein Sofa, einen Tisch und zwei Stühle.","Mein Schlafzimmer hat ein Bett und einen großen Schrank.","Ich habe nicht viele Möbel — die Wohnung ist noch neu."]],
+  ["Wohnen","Etage / Stock","In welchem Stock wohnst du?",["Ich wohne im zweiten Stock.","Wir wohnen im Erdgeschoss — das ist praktisch.","Ich wohne im vierten Stock. Es gibt keinen Aufzug!"]],
+  ["Freizeit","Fotografie","Fotografierst du gern?",["Ja, ich fotografiere sehr gern — besonders Natur.","Ich mache Fotos mit meinem Handy.","Ich habe eine Kamera und fotografiere in meiner Freizeit."]],
+  ["Familie","Termin","Wie machst du Termine?",["Ich schreibe Termine in meinen Kalender.","Ich mache Arzttermine online.","Ich rufe an und frage, wann ein Termin frei ist."]],
+  ["Arbeit","Termin","Wie vereinbarst du einen Termin mit Kollegen?",["Ich schreibe eine E-Mail oder rufe an.","Wir nutzen einen Online-Kalender.","Ich frage meinen Chef persönlich."]],
+  ["Reisen","Übernachtung","Wo übernachtest du auf Reisen?",["Ich übernachte meistens im Hotel.","Manchmal schlafe ich bei Freunden.","Ich buche online ein günstiges Hotel."]],
+  ["Gesundheit","Termin","Wann gehst du zum Arzt?",["Ich gehe zum Arzt, wenn ich krank bin.","Einmal im Jahr mache ich einen Check-up-Termin.","Wenn ich Fieber habe, rufe ich sofort an."]],
+  ["Einkaufen","Angebot","Achtest du auf Angebote beim Einkaufen?",["Ja, ich schaue immer zuerst die Angebote an.","Manchmal kaufe ich mehr, wenn etwas günstig ist.","Ich lese die Werbung in der Zeitung."]],
+  ["Freizeit","Licht","Wie ist das Licht in deiner Wohnung?",["Ich habe viele Lampen — ich mag helles Licht.","Ich bevorzuge warmes, gedämpftes Licht.","In meinem Arbeitszimmer brauche ich viel Licht."]]
+];
+
+// Teil 3 cards: [emoji, German word, request sentences, yes-reply, no-reply]
+const T3_CARDS = [
+  ["🥤","Glas Wasser",["Ein Glas Wasser, bitte.","Können Sie mir bitte ein Glas Wasser geben?","Ich hätte gern ein Glas Wasser.","Darf ich bitte ein Glas Wasser haben?"],"Ja, natürlich. Hier bitte.","Tut mir leid, ich habe gerade keins."],
+  ["☕","Tasse Kaffee",["Eine Tasse Kaffee, bitte!","Können Sie mir bitte einen Kaffee bringen?","Ich hätte gern einen Kaffee, bitte.","Bringen Sie mir bitte einen Kaffee!"],"Ja, gerne! Möchten Sie Milch und Zucker?","Tut mir leid, wir haben keinen Kaffee mehr."],
+  ["🍺","Bier",["Ein Bier bitte!","Ich hätte gern ein Bier.","Können Sie mir bitte ein Bier bringen?"],"Ja, natürlich. Sofort!","Leider haben wir kein Bier mehr."],
+  ["🍞","Brot",["Könnte ich bitte ein Brot haben?","Geben Sie mir bitte ein Brot.","Ich hätte gern ein Brot, bitte."],"Ja, hier bitte. Bitte sehr.","Es tut mir leid, wir haben kein Brot mehr."],
+  ["🍎","Äpfel",["Drei Äpfel, bitte!","Können Sie mir bitte Äpfel geben?","Ich hätte gern ein Kilo Äpfel."],"Ja, natürlich. Hier sind drei Äpfel.","Leider haben wir heute keine Äpfel."],
+  ["🍅","Tomaten",["Ein Kilo Tomaten, bitte!","Können Sie mir bitte Tomaten geben?","Ich hätte gern ein halbes Kilo Tomaten."],"Ja, gerne. Frische Tomaten aus Italien.","Tut mir leid, Tomaten haben wir leider nicht."],
+  ["🥛","Milch",["Können Sie mir bitte Milch geben?","Ich hätte gern mehr Milch, bitte.","Bitte füllen Sie mehr Milch ins Glas."],"Ja, hier ist die Milch.","Tut mir leid, ich habe keine Milch mehr."],
+  ["✏️","Stift",["Haben Sie vielleicht einen Stift für mich?","Können Sie mir bitte einen Stift geben?","Kannst du mir einen Stift leihen?","Darf ich bitte Ihren Stift benutzen?"],"Ja, hier ist ein Stift.","Tut mir leid, ich habe keinen Stift."],
+  ["✏️","Bleistift",["Leihen Sie mir bitte Ihren Bleistift?","Kannst du mir deinen Bleistift geben?","Haben Sie vielleicht einen Bleistift?"],"Ja, natürlich. Hier bitte.","Nein, leider habe ich keinen Bleistift."],
+  ["📖","Buch",["Kannst du mir bitte das Buch leihen?","Gib mir bitte das Buch.","Können Sie mir bitte dieses Buch zeigen?","Darf ich kurz dein Buch haben?"],"Ja, natürlich. Hier ist das Buch.","Nein, ich lese es gerade."],
+  ["📰","Zeitung",["Geben Sie mir bitte die Zeitung!","Kann ich bitte die Zeitung lesen?","Ich hätte gern die Zeitung, bitte."],"Ja, bitte. Ich bin fertig damit.","Tut mir leid, ich lese sie noch."],
+  ["📱","Handy",["Kann ich Ihr Handy kurz benutzen?","Darf ich bitte Ihr Handy borgen?","Leihst du mir dein Handy bitte? Mein Akku ist leer."],"Ja, kein Problem. Hier.","Tut mir leid, ich brauche es selbst."],
+  ["📷","Kamera / Foto",["Könnten Sie bitte ein Foto von mir machen?","Darf ich hier fotografieren?","Können Sie uns bitte fotografieren?"],"Ja, gerne! Stellen Sie sich bitte dorthin.","Entschuldigung, hier darf man nicht fotografieren."],
+  ["🔑","Schlüssel",["Geben Sie mir bitte den Schlüssel.","Kannst du mir deinen Schlüssel leihen?","Ich kann meinen Schlüssel nicht finden — kann ich deinen nehmen?"],"Ja, hier ist der Schlüssel.","Nein, es tut mir leid. Ich brauche ihn selbst."],
+  ["🚗","Auto",["Leihen Sie mir bitte Ihr Auto?","Kannst du mir kurz dein Auto leihen?","Ich brauche ein Auto — kannst du mir helfen?"],"Ja, aber bring es mit vollem Tank zurück!","Nein, ich brauche das Auto selbst heute."],
+  ["🚲","Fahrrad",["Leihen Sie mir bitte Ihr Fahrrad?","Kann ich dein Fahrrad kurz nehmen?","Ich hätte gern ein Fahrrad für heute."],"Ja, natürlich. Hier ist es.","Leider nein, ich fahre gleich damit zur Arbeit."],
+  ["📻","Radio",["Machen Sie bitte das Radio an!","Könnten Sie bitte das Radio leiser machen?","Machen Sie bitte das Radio aus!"],"Ja, natürlich.","Tut mir leid, das Radio ist kaputt."],
+  ["💡","Lampe / Licht",["Könnten Sie bitte die Lampe anmachen?","Machen Sie bitte das Licht an.","Bitte machen Sie das Licht aus!"],"Ja, einen Moment.","Ich kann es leider nicht — die Lampe ist kaputt."],
+  ["📬","Briefmarken",["Kaufen Sie mir bitte drei Briefmarken!","Haben Sie Briefmarken?","Ich hätte gern fünf Briefmarken, bitte."],"Ja, hier sind drei Briefmarken.","Nein, Briefmarken bekommt man an der Post."],
+  ["💊","Medikament",["Haben Sie ein Medikament gegen Kopfschmerzen?","Können Sie mir bitte Aspirin geben?","Ich brauche ein Medikament — können Sie mir helfen?"],"Ja, hier ist Aspirin.","Nein, Medikamente gibt es nur in der Apotheke."],
+  ["📋","Formular",["Bitte drucken Sie das Formular für mich!","Können Sie mir das Formular geben?","Ich brauche das Anmeldeformular, bitte."],"Ja, hier ist das Formular.","Das Formular bekommen Sie am Schalter."],
+  ["🖨️","Drucker",["Darf ich bitte den Drucker benutzen?","Können Sie das Dokument für mich drucken?","Bitte drucken Sie das für mich aus!"],"Ja, natürlich. Er ist dort drüben.","Tut mir leid, der Drucker ist kaputt."],
+  ["📧","E-Mail",["Schicken Sie mir bitte eine E-Mail!","Können Sie mir die Informationen per E-Mail senden?","Bitte schreiben Sie mir eine E-Mail."],"Ja, ich schicke sie sofort.","Ich habe Ihre E-Mail-Adresse leider nicht."],
+  ["🔖","Speisekarte",["Bringen Sie mir bitte die Speisekarte!","Können wir bitte die Karte haben?","Ich möchte bestellen — haben Sie die Speisekarte?"],"Ja, sofort. Hier ist die Karte.","Einen Moment bitte!"],
+  ["💳","Rechnung",["Kann ich bitte zahlen?","Zahlen, bitte! / Die Rechnung, bitte.","Können Sie mir bitte die Rechnung bringen?"],"Ja, ich komme sofort.","Einen Moment, ich rechne das zusammen."],
+  ["🚿","Dusche / Bad",["Darf ich bitte die Dusche benutzen?","Wo ist die Dusche, bitte?","Kann ich bitte das Badezimmer benutzen?"],"Ja, natürlich. Es ist links.","Tut mir leid, das Bad ist gerade besetzt."],
+  ["🪟","Fenster",["Öffnen Sie bitte das Fenster!","Können Sie bitte das Fenster aufmachen?","Machen Sie bitte das Fenster zu!"],"Ja, natürlich.","Tut mir leid, es ist kaputt."],
+  ["🚪","Tür",["Machen Sie bitte die Tür zu!","Können Sie bitte die Tür aufmachen?","Schließen Sie bitte die Tür."],"Ja, sofort.","Die Tür klemmt leider."],
+  ["💐","Blumen",["Schenken Sie mir bitte die Blumen!","Kann ich diese Blumen kaufen?","Ich hätte gern einen Blumenstrauß, bitte."],"Ja, bitte. Hier sind die Blumen.","Tut mir leid, die Blumen sind nicht zum Verkauf."],
+  ["🎫","Fahrkarte",["Eine Fahrkarte nach München, bitte.","Ich hätte gern eine Fahrkarte, einfach.","Können Sie mir bitte helfen? Ich brauche eine Fahrkarte."],"Ja, hin und zurück oder einfach?","Am Automaten können Sie die Karte kaufen."],
+  ["🎟️","Eintrittskarte",["Eine Eintrittskarte, bitte!","Ich hätte gern zwei Eintrittskarten.","Was kostet eine Eintrittskarte?"],"Hier ist Ihre Karte. Das macht 12 Euro.","Leider sind alle Karten ausverkauft."],
+  ["🏨","Zimmer / Hotel",["Ich hätte gern ein Zimmer, bitte.","Haben Sie noch ein Einzelzimmer frei?","Bitte geben Sie mir den Zimmerschlüssel."],"Ja, wir haben noch ein freies Zimmer.","Leider sind wir ausgebucht."],
+  ["⌨️","Computer",["Darf ich bitte den Computer benutzen?","Kann ich kurz Ihren Computer benutzen?","Ich brauche einen Computer — können Sie mir helfen?"],"Ja, natürlich. Bitte setzen Sie sich.","Tut mir leid, er ist gerade in Benutzung."],
+  ["📚","Wörterbuch",["Geben Sie mir bitte das Wörterbuch!","Kann ich kurz dein Wörterbuch haben?","Ich brauche ein Wörterbuch, bitte."],"Ja, hier ist das Wörterbuch.","Ich habe leider kein Wörterbuch dabei."],
+  ["🪑","Stuhl / Platz",["Ist dieser Platz frei?","Darf ich mich hier hinsetzen?","Können Sie mir bitte einen Stuhl geben?"],"Ja, natürlich. Bitte setzen Sie sich.","Nein, dieser Platz ist leider besetzt."],
+  ["🌡️","Temperatur / Heizung",["Könnten Sie bitte die Heizung einschalten?","Ist es möglich, die Temperatur zu erhöhen?","Es ist kalt hier — könnten Sie die Heizung anmachen?"],"Ja, einen Moment.","Tut mir leid, die Heizung ist leider kaputt."],
+  ["🍽️","Teller",["Bringen Sie mir bitte einen Teller!","Können Sie mir bitte einen sauberen Teller geben?"],"Ja, sofort.","Einen Moment bitte, ich hole einen."],
+  ["🥄","Löffel",["Können Sie mir bitte einen Löffel geben?","Ich brauche einen Löffel, bitte."],"Hier ist ein Löffel.","Einen Moment, ich hole einen."],
+  ["🧂","Salz",["Können Sie mir bitte das Salz geben?","Herr Ober, kann ich bitte Salz haben?"],"Natürlich. Hier ist das Salz.","Einen Moment, ich bringe es."],
+  ["🥤","Mineralwasser",["Können Sie mir bitte Mineralwasser bringen?","Ich hätte gern eine Flasche Mineralwasser.","Geben Sie mir bitte eine Flasche Mineralwasser."],"Ja, mit oder ohne Kohlensäure?","Tut mir leid, wir haben nur Leitungswasser."],
+,
+  ["🕶️","Brille (Glasses)",["Haben Sie vielleicht eine Brille für mich?","Können Sie mir bitte meine Brille geben?","Ich brauche eine Brille — könnten Sie mir helfen?"],"Ja, hier ist Ihre Brille.","Tut mir leid, ich habe keine."],
+  ["🧤","Handschuhe (Gloves)",["Können Sie mir bitte Handschuhe geben?","Ich hätte gern ein Paar Handschuhe, bitte.","Haben Sie vielleicht Handschuhe für mich?"],"Ja, hier sind die Handschuhe.","Leider nein, ich habe keine Handschuhe."],
+  ["🍐","Birne (Pear)",["Ich hätte gern eine Birne, bitte.","Können Sie mir bitte eine Birne geben?","Drei Birnen, bitte!"],"Ja, natürlich. Hier ist eine frische Birne.","Tut mir leid, wir haben keine Birnen mehr."],
+  ["🍎","Apfel (Apple)",["Einen Apfel, bitte!","Können Sie mir bitte einen Apfel geben?","Ich hätte gern zwei Äpfel, bitte."],"Ja, natürlich. Hier.","Leider sind die Äpfel ausverkauft."],
+  ["💡","Licht / Lampe (Light)",["Können Sie bitte das Licht anmachen?","Könnten Sie bitte die Lampe einschalten?","Machen Sie bitte das Licht aus!"],"Ja, einen Moment.","Tut mir leid, die Lampe ist kaputt."],
+  ["✍️","Unterschrift (Signature)",["Können Sie hier bitte unterschreiben?","Ich brauche Ihre Unterschrift, bitte.","Könnten Sie bitte hier unterschreiben?"],"Ja, natürlich. Wo soll ich unterschreiben?","Einen Moment, ich lese es zuerst."],
+  ["📅","Termin (Appointment)",["Kann ich einen Termin machen?","Haben Sie am Dienstag um 8 Uhr Zeit?","Können wir uns am Donnerstag treffen?"],"Ja, Dienstag um 8 Uhr geht gut.","Tut mir leid, da habe ich keine Zeit."],
+  ["🪟","Licht aus (Turn off light)",["Können Sie bitte das Licht ausmachen?","Machen Sie bitte das Licht aus!","Könnten Sie bitte das Licht ausschalten?"],"Ja, sofort.","Oh, tut mir leid, einen Moment."],
+  ["🔥","Feuer / Streichholz (Fire/matches)",["Haben Sie Feuer, bitte?","Ich hätte gern ein Streichholz, bitte.","Können Sie mir bitte Feuer geben?"],"Ja, bitte sehr.","Nein, ich rauche nicht."],
+  ["🚶","Draußen (Outside)",["Können wir draußen sprechen?","Darf ich kurz draußen warten?","Könnten wir uns draußen treffen?"],"Ja, natürlich. Gehen wir draußen.","Es ist leider zu kalt draußen."]
+];
+
+// ──── TEIL 2 State ────
+const T2_THEMES = [...new Set(T2_CARDS.map(c=>c[0]))];
+let t2Deck = [...T2_CARDS.map((_,i)=>i)];
+let t2Idx = 0;
+let t2Shown = false;
+let t2FilterTheme = "all";
+
+function buildT2ThemeTabs(){
+  const div = document.getElementById('t2-theme-tabs');
+  if(!div) return;
+  let html = `<div class="theme-tab active" onclick="t2SetTheme('all')">All (${T2_CARDS.length})</div>`;
+  T2_THEMES.forEach(th=>{
+    const count = T2_CARDS.filter(c=>c[0]===th).length;
+    html += `<div class="theme-tab" onclick="t2SetTheme('${th}')">${th} (${count})</div>`;
+  });
+  div.innerHTML = html;
+}
+
+function t2SetTheme(theme){
+  t2FilterTheme = theme;
+  document.querySelectorAll('#t2-theme-tabs .theme-tab').forEach(el=>{
+    el.classList.toggle('active', el.textContent.startsWith(theme==='all'?'All':theme));
+  });
+  const filtered = theme==='all'
+    ? T2_CARDS.map((_,i)=>i)
+    : T2_CARDS.map((_,i)=>i).filter(i=>T2_CARDS[i][0]===theme);
+  t2Deck = [...filtered];
+  t2Idx = 0;
+  t2Shown = false;
+  t2Render();
+  document.getElementById('t2-count-badge').textContent = t2Deck.length+' cards';
+}
+
+function t2Shuffle(){
+  for(let i=t2Deck.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[t2Deck[i],t2Deck[j]]=[t2Deck[j],t2Deck[i]];}
+  t2Idx=0;t2Shown=false;t2Render();
+}
+function t2Reset(){ t2Idx=0;t2Shown=false;t2Render(); }
+
+function t2Nav(dir){
+  t2Idx = Math.max(0, Math.min(t2Deck.length-1, t2Idx+dir));
+  t2Shown=false; t2Render();
+}
+
+function t2Flip(){
+  t2Shown = !t2Shown;
+  t2Render();
+}
+
+function t2Render(){
+  const card = document.getElementById('t2-card');
+  if(!card) return;
+  const ci = t2Deck[t2Idx];
+  const [theme, word, question, answers] = T2_CARDS[ci];
+  document.getElementById('t2-progress').textContent = (t2Idx+1)+' / '+t2Deck.length;
+  document.getElementById('t2-counter').textContent = (t2Idx+1)+'/'+t2Deck.length;
+  document.getElementById('t2-prev').disabled = t2Idx===0;
+  document.getElementById('t2-next').disabled = t2Idx===t2Deck.length-1;
+
+  if(!t2Shown){
+    card.innerHTML = `<div class="pc-front">
+      <div class="pc-theme-label">Theme</div>
+      <div class="pc-theme">${theme}</div>
+      <div class="pc-word">${word}</div>
+      <div class="pc-tap">tap to reveal question →</div>
+    </div>`;
+  } else {
+    const ansHtml = answers.map(a=>`<div class="pc-answer">💬 ${a}</div>`).join('');
+    card.innerHTML = `<div class="pc-back">
+      <div class="pc-back-label">Model Question — ${theme} · ${word}</div>
+      <div class="pc-question">❓ ${question}</div>
+      <div class="pc-answers">${ansHtml}</div>
+    </div>`;
+  }
+}
+
+// ──── TEIL 3 State ────
+let t3Deck = T3_CARDS.map((_,i)=>i);
+let t3Idx = 0;
+let t3Shown = false;
+
+function t3Shuffle(){
+  for(let i=t3Deck.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[t3Deck[i],t3Deck[j]]=[t3Deck[j],t3Deck[i]];}
+  t3Idx=0;t3Shown=false;t3Render();
+}
+function t3Reset(){ t3Idx=0;t3Shown=false;t3Render(); }
+
+function t3Nav(dir){
+  t3Idx = Math.max(0, Math.min(t3Deck.length-1, t3Idx+dir));
+  t3Shown=false; t3Render();
+}
+
+function t3Flip(){
+  t3Shown = !t3Shown;
+  t3Render();
+}
+
+function t3Render(){
+  const card = document.getElementById('t3-card');
+  if(!card) return;
+  const ci = t3Deck[t3Idx];
+  const [emoji, word, requests, yesReply, noReply] = T3_CARDS[ci];
+  document.getElementById('t3-progress').textContent = (t3Idx+1)+' / '+t3Deck.length;
+  document.getElementById('t3-counter').textContent = (t3Idx+1)+'/'+t3Deck.length;
+  document.getElementById('t3-prev').disabled = t3Idx===0;
+  document.getElementById('t3-next').disabled = t3Idx===t3Deck.length-1;
+
+  if(!t3Shown){
+    card.innerHTML = `<div class="pc-front t3">
+      <div class="pc-theme-label">Object / Image Card</div>
+      <div class="pc-word" style="font-size:48px">${emoji}</div>
+      <div class="pc-hint" style="color:var(--teal-text);font-size:13px;font-weight:500;margin-top:4px">${word}</div>
+      <div class="pc-tap" style="color:var(--teal-text);opacity:.4;margin-top:12px">tap to reveal requests →</div>
+    </div>`;
+  } else {
+    const reqHtml = requests.map(r=>`<div class="pc-answer">🗣️ ${r}</div>`).join('');
+    card.innerHTML = `<div class="pc-back t3">
+      <div class="pc-back-label">Polite Request — ${emoji} ${word}</div>
+      <div class="pc-question">How to ask:</div>
+      <div class="pc-answers">${reqHtml}
+        <div class="pc-answer" style="margin-top:6px;border-color:var(--green-border)">✅ Yes: <em>${yesReply}</em></div>
+        <div class="pc-answer" style="border-color:var(--coral-border)">❌ No: <em>${noReply}</em></div>
+      </div>
+    </div>`;
+  }
+}
+
+// ──── Section toggles ────
+const spState = {t2:false, t3:false};
+function spToggle(id){
+  spState[id]=!spState[id];
+  document.getElementById('body-'+id).classList.toggle('open',spState[id]);
+  document.getElementById('chev-'+id).classList.toggle('open',spState[id]);
+  if(spState[id]){
+    if(id==='t2'){buildT2ThemeTabs();t2Render();}
+    if(id==='t3'){t3Render();}
+  }
+}
+
+// init counts
+document.getElementById('t2-count-badge').textContent = T2_CARDS.length+' cards';
+document.getElementById('t3-count-badge').textContent = T3_CARDS.length+' cards';
+
+</script>
+</body>
+</html>
