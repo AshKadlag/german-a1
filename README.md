@@ -1,5 +1,5 @@
 🇩🇪 German A1 — Complete Study Guide
-A personal study guide built for the Goethe-Zertifikat A1 exam.
+A personal study guide built for German A1 exam.
 🔗 Live: https://github.com/AshKadlag/german-a1
 
 What's inside
