@@ -230,7 +230,8 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
 <div class="page-wrap">
 <div class="page-header">
   <h1>🇩🇪 German A1 — Complete Study Guide</h1>
-  <p>A1 German · <a href style="color:sea green"="https://www.linkedin.com/in/aishwarya-kadlag-2109/">Aishwarya Kadlag</a>'s Study Notes · A1 Exam Vocabulary · English &amp; Marathi · Exam structure &amp; practice for 90%+</p>
+  <p style="margin-bottom:4px">Goethe-Zertifikat A1 · Full exam vocabulary · English &amp; Marathi · Exam practice for 90%+</p>
+  <p style="font-size:12px;color:var(--text3)">Built by <a href="https://www.linkedin.com/in/aishwarya-kadlag-2109/" target="_blank" rel="noopener" style="color:var(--blue-text);text-decoration:none;font-weight:500">Aishwarya Kadlag ↗</a></p>
 </div>
 <div class="top-tabs">
   <div class="top-tab active" id="ttab-vocab" onclick="switchTopTab('vocab')">📚 Vocabulary</div>
@@ -1118,7 +1119,8 @@ function renderVocab(){
   document.getElementById("vocab-content").innerHTML=html;
   const tl=currentMilestone===1
     ? (()=>{const s=new Set();G.forEach(g=>g.words.forEach(([de])=>{if(STEP1_WORDS[g.id]&&STEP1_WORDS[g.id].has(de)&&!learned.has(de))s.add(de);}));return s.size;})()
-    : G.reduce((s,g)=>s+g.words.filter(([de])=>!learned.has(de)).length,0)
+    : G.reduce((s,g)=>s+g.words.filter(([de])=>!learned.has(de)).length,0);
+  const milTotal=currentMilestone===1?STEP1_TOTAL:STEP2_TOTAL;
   document.getElementById("alldone").classList.toggle("show",tl===0&&milTotal>0);
   renderSecTabs();
 }
@@ -1371,7 +1373,7 @@ const T2_CARDS = [
   // SCHULE & SPRACHEN
   ["Sprachen","Deutsch","Warum lernst du Deutsch?",["Ich lerne Deutsch für die Arbeit.","Ich möchte in Deutschland leben.","Mein Partner ist Deutsch, deshalb lerne ich die Sprache."]],
   ["Sprachen","Kurs","Machst du einen Sprachkurs?",["Ja, ich mache einen Deutschkurs zweimal pro Woche.","Ich lerne mit einer App und einem Buch.","Ich lerne mit einem Lehrer online."]],
-,
+
   // UMWELT & WOHNEN (from notebook)
   ["Wohnen","Dorf / Stadt","Wohnst du in einer Stadt oder in einem Dorf?",["Ich wohne in einer großen Stadt.","Wir wohnen in einem kleinen Dorf auf dem Land.","Ich lebe in einer Kleinstadt, nicht weit von München."]],
   ["Wohnen","Möbel","Welche Möbel hast du in deiner Wohnung?",["Ich habe ein Sofa, einen Tisch und zwei Stühle.","Mein Schlafzimmer hat ein Bett und einen großen Schrank.","Ich habe nicht viele Möbel — die Wohnung ist noch neu."]],
@@ -1427,7 +1429,6 @@ const T3_CARDS = [
   ["🥄","Löffel",["Können Sie mir bitte einen Löffel geben?","Ich brauche einen Löffel, bitte."],"Hier ist ein Löffel.","Einen Moment, ich hole einen."],
   ["🧂","Salz",["Können Sie mir bitte das Salz geben?","Herr Ober, kann ich bitte Salz haben?"],"Natürlich. Hier ist das Salz.","Einen Moment, ich bringe es."],
   ["🥤","Mineralwasser",["Können Sie mir bitte Mineralwasser bringen?","Ich hätte gern eine Flasche Mineralwasser.","Geben Sie mir bitte eine Flasche Mineralwasser."],"Ja, mit oder ohne Kohlensäure?","Tut mir leid, wir haben nur Leitungswasser."],
-,
   ["🕶️","Brille (Glasses)",["Haben Sie vielleicht eine Brille für mich?","Können Sie mir bitte meine Brille geben?","Ich brauche eine Brille — könnten Sie mir helfen?"],"Ja, hier ist Ihre Brille.","Tut mir leid, ich habe keine."],
   ["🧤","Handschuhe (Gloves)",["Können Sie mir bitte Handschuhe geben?","Ich hätte gern ein Paar Handschuhe, bitte.","Haben Sie vielleicht Handschuhe für mich?"],"Ja, hier sind die Handschuhe.","Leider nein, ich habe keine Handschuhe."],
   ["🍐","Birne (Pear)",["Ich hätte gern eine Birne, bitte.","Können Sie mir bitte eine Birne geben?","Drei Birnen, bitte!"],"Ja, natürlich. Hier ist eine frische Birne.","Tut mir leid, wir haben keine Birnen mehr."],
