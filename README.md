@@ -41,4 +41,4 @@ A personal study guide built for the Goethe-Zertifikat A1 exam.
 
 ## Usage
 
-Just open `index.html` in any browser. No installation, no internet required after loading (except Google Fonts).
+Just download and open `index.html` file in any browser. No installation, no internet required after loading. Happy learning!
