@@ -3,9 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>German A1 — Complete Study Guide</title>
-<meta name="description" content="Free German A1 Goethe-Zertifikat study guide — full exam vocabulary, flashcards (English + Marathi), exam structure, practice questions.">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta name="google-site-verification" content="LY-NcORwYFIq2Coq3mNHuWEOkXCAKURn-ruoWMgVOjI" />
+<title>German A1 Study Guide with Marathi Translations — Free Deutsch A1 मराठी</title>
+<meta name="description" content="Free German A1 vocabulary list with Marathi (मराठी) and English translations — 300 essential words, flashcards, audio, and exam practice for Indian students." />
+<meta name="keywords" content="German A1 Marathi, German vocabulary Marathi translation, Deutsch A1 मराठी, German A1 Indian students, learn German in Marathi, German words Marathi meaning, German A1 exam India, Deutsch lernen Marathi, German A1 vocabulary list" />
+<meta name="author" content="Aishwarya Kadlag" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://ashkadlag.github.io/german-a1/" />
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="German A1 Study Guide with Marathi Translations" />
+<meta property="og:description" content="Free German A1 vocabulary with Marathi (मराठी) translations — 300 words, audio, flashcards and exam practice for Indian students." />
+<meta property="og:url" content="https://ashkadlag.github.io/german-a1/" />
+<meta property="og:site_name" content="German A1 Study Guide" />
+<!-- Schema.org -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"German A1 Study Guide with Marathi Translations","description":"Free German A1 vocabulary list with Marathi and English translations — 300 words, flashcards, listening audio and exam practice.","url":"https://ashkadlag.github.io/german-a1/","author":{"@type":"Person","name":"Aishwarya Kadlag","url":"https://www.linkedin.com/in/aishwarya-kadlag"},"applicationCategory":"EducationalApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&family=Noto+Sans+Devanagari:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -210,58 +225,65 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
 .sched-d strong{font-weight:500;color:var(--text)}
 
 /* ── Milestone selector ── */
-.milestone-bar{display:flex;align-items:center;gap:10px;padding:.75rem 1rem;background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);margin-bottom:1rem;flex-wrap:wrap}
-.milestone-label{font-size:12px;font-weight:500;color:var(--text2);white-space:nowrap}
-.milestone-btns{display:flex;gap:6px;flex:1;min-width:0}
-.ms-btn{flex:1;padding:8px 12px;border:2px solid var(--border);border-radius:var(--r);font-size:12.5px;font-weight:500;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .2s;text-align:center;background:var(--surface);color:var(--text2);line-height:1.3}
+
+
+
 .ms-btn:hover{border-color:var(--purple-border);color:var(--purple-text)}
 .ms-btn.active-ms1{background:var(--blue-bg);border-color:var(--blue-border);color:var(--blue-text)}
 .ms-btn.active-ms2{background:var(--green-bg);border-color:var(--green-border);color:var(--green-text)}
 .ms-btn .ms-count{font-size:11px;opacity:.75;display:block;font-weight:400;font-family:'DM Mono',monospace}
-.ms-banner{font-size:12px;padding:6px 10px;border-radius:7px;margin-bottom:.875rem;text-align:center;line-height:1.5}
+
 .ms-banner.ms1{background:var(--blue-bg);border:1px solid var(--blue-border);color:var(--blue-text)}
 .ms-banner.ms2{background:var(--green-bg);border:1px solid var(--green-border);color:var(--green-text)}
-.ms-tag{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;padding:1px 6px;border-radius:4px;margin-left:5px;vertical-align:middle}
+
 .ms-tag.t1{background:var(--blue-bg);color:var(--blue-text);border:1px solid var(--blue-border)}
 .ms-tag.t2{background:var(--green-bg);color:var(--green-text);border:1px solid var(--green-border)}
+.audio-btn{display:inline-flex;align-items:center;gap:5px;padding:4px 11px;border:1px solid var(--blue-border);border-radius:20px;background:var(--blue-bg);color:var(--blue-text);font-size:11px;font-family:'DM Sans',sans-serif;cursor:pointer;margin-bottom:.5rem;transition:all .15s;font-weight:500;user-select:none}
+.audio-btn:hover{background:var(--blue-text);color:#fff}
+.audio-btn:active{transform:scale(.95)}
+/* Schreiben tab */
+.sw-section{background:var(--surface);border:1px solid var(--border);border-radius:var(--rl);margin-bottom:.875rem;overflow:hidden}
+.sw-head{display:flex;align-items:center;gap:8px;padding:.625rem .875rem;cursor:pointer;user-select:none}
+.sw-head:hover{background:var(--surface2)}
+.sw-head-title{font-size:13px;font-weight:500;flex:1}
+.sw-chev{font-size:9.5px;color:var(--text3);transition:transform .25s}
+.sw-chev.open{transform:rotate(180deg)}
+.sw-body{overflow:hidden;max-height:0;transition:max-height .4s ease}
+.sw-body.open{max-height:4000px}
+.sw-inner{border-top:1px solid var(--border);padding:.875rem}
+.letter-box{border-radius:var(--r);padding:1rem;font-size:13px;line-height:2;margin-bottom:.875rem;font-family:'DM Sans',sans-serif}
+.letter-box.formal{background:var(--blue-bg);border:1px solid var(--blue-border);color:var(--blue-text)}
+.letter-box.informal{background:var(--pink-bg);border:1px solid var(--pink-border);color:var(--pink-text)}
+.letter-box .phrase{display:inline-block;background:var(--surface);border-radius:5px;padding:1px 7px;margin:1px 2px;font-size:12px;font-weight:500}
+.letter-box.formal .phrase{border:1px solid var(--blue-border);color:var(--blue-text)}
+.letter-box.informal .phrase{border:1px solid var(--pink-border);color:var(--pink-text)}
+.letter-section-label{font-size:9.5px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;opacity:.6;margin-bottom:3px;margin-top:8px}
+.phrase-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:.875rem}
+.phrase-card{background:var(--surface2);border-radius:8px;padding:9px 11px;font-size:12px;line-height:1.6}
+.phrase-card strong{font-weight:600;color:var(--text)}
+.phrase-card .de{font-size:13px;font-weight:500;color:var(--text);margin-bottom:2px}
+.phrase-card .en{font-size:11px;color:var(--text2)}
+.formal-badge{background:var(--blue-bg);color:var(--blue-text);border:1px solid var(--blue-border);font-size:9px;font-weight:600;padding:1px 6px;border-radius:4px;text-transform:uppercase;letter-spacing:.4px;vertical-align:middle;margin-left:4px}
+.informal-badge{background:var(--pink-bg);color:var(--pink-text);border:1px solid var(--pink-border);font-size:9px;font-weight:600;padding:1px 6px;border-radius:4px;text-transform:uppercase;letter-spacing:.4px;vertical-align:middle;margin-left:4px}
+@media(max-width:480px){.phrase-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <div class="page-wrap">
 <div class="page-header">
   <h1>🇩🇪 German A1 — Complete Study Guide</h1>
-  <p style="margin-bottom:4px">Goethe-Zertifikat A1 · Full exam vocabulary · English &amp; Marathi · Exam practice for 90%+</p>
+  <p style="margin-bottom:4px">German A1 Exam Vocabulary · English &amp; Marathi · Flashcards · Exam Practice</p>
   <p style="font-size:12px;color:var(--text3)">Built by <a href="https://www.linkedin.com/in/aishwarya-kadlag-2109/" target="_blank" rel="noopener" style="color:var(--blue-text);text-decoration:none;font-weight:500">Aishwarya Kadlag ↗</a></p>
 </div>
 <div class="top-tabs">
   <div class="top-tab active" id="ttab-vocab" onclick="switchTopTab('vocab')">📚 Vocabulary</div>
   <div class="top-tab" id="ttab-exam" onclick="switchTopTab('exam')">🎯 Exam Practice</div>
+  <div class="top-tab" id="ttab-schreiben" onclick="switchTopTab('schreiben')">✍️ Schreiben</div>
   <div class="top-tab" id="ttab-sprechen" onclick="switchTopTab('sprechen')">🗣️ Sprechen</div>
 </div>
 
 <!-- ══ VOCAB TAB ══ -->
 <div class="tab-pane active" id="pane-vocab">
-  <div class="milestone-bar">
-    <span class="milestone-label">📍 Milestone:</span>
-    <div class="milestone-btns">
-      <button class="ms-btn active-ms1" id="ms1-btn" onclick="setMilestone(1)">
-        🌱 Step 1 — Core Words
-        <span class="ms-count" id="ms1-count">292 words</span>
-      </button>
-      <button class="ms-btn" id="ms2-btn" onclick="setMilestone(2)">
-        🏆 Step 2 — All Words
-        <span class="ms-count" id="ms2-count">700 words</span>
-      </button>
-    </div>
-  </div>
-  <div class="ms-banner ms1" id="ms-banner">
-    🌱 <strong>Step 1 — Core 292 words.</strong> These cover everything you need to pass. Complete Step 1 before moving to Step 2.
-  </div>
-  <div class="stats">
-    <div class="stat"><div class="stat-num" id="lc" style="color:var(--purple-text)">0</div><div class="stat-label">learned</div></div>
-    <div class="stat"><div class="stat-num" id="tc">0</div><div class="stat-label">total</div></div>
-    <div class="stat"><div class="stat-num" id="pc" style="color:var(--teal-text)">0%</div><div class="stat-label">progress</div></div>
-  </div>
   <div class="pbar-wrap"><div class="pbar" id="pb"></div></div>
   <div class="btn-row">
     <button class="btn" id="fb" onclick="toggleFlash()">👁 Flashcard mode</button>
@@ -330,7 +352,7 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
         <div class="es-teil-row"><div class="es-teil-lbl">Teil 3<span>(6 marks)</span></div><div class="es-teil-content"><strong>Request questions</strong> — image card → polite request. Partner replies yes/no.</div><div class="es-teil-mark">6 marks</div></div>
       </div></div>
       <div class="es-note"><strong>* Lesen + Schreiben combined</strong> in one 45-min paper. <strong>No sectional cut-off</strong>. Speaking held separately in groups. Prep: <strong>80–120 hours</strong>.</div>
-      <div class="es-source">Source: <a href="https://www.thelanguageoffice.com/exam-pattern-of-goethe-institut-a1/" target="_blank">The Language Office</a> · <a href="https://www.goethe.de/en/spr/prf/ueb/pa1.html" target="_blank">Goethe-Institut official</a></div>
+      
     </div></div>
   </div>
 
@@ -356,7 +378,8 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
 
       <div id="qblock-h1q1" class="qblock">
         <div class="ex-label">Teil 1 — Dialogue (heard twice, pick A/B/C)</div>
-        <div class="ex-text">🔊 <em>[Shop]</em> — Kunde sucht eine Jacke in Größe 42. Verkäuferin: „Leider nur noch Größe 40 und 44. Die Jacke kostet 65 Euro."</div>
+        <button class="audio-btn" onclick="playAudio('Leider haben wir nur noch Größe 40 und 44. Die Jacke kostet 65 Euro.')">▶ Anhören</button>
+      <div class="ex-text">🔊 <em>[Shop]</em> — Kunde sucht eine Jacke in Größe 42. Verkäuferin: „Leider nur noch Größe 40 und 44. Die Jacke kostet 65 Euro."</div>
         <div class="ex-q">What size does the customer want?</div>
         <div class="q-opts" id="opts-h1q1">
           <button class="q-opt" onclick="answerQ('h1q1','A','B')">A — Size 40</button>
@@ -367,7 +390,8 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
       </div>
 
       <div id="qblock-h1q2" class="qblock">
-        <div class="ex-text">🔊 <em>[Restaurant]</em> — Gast: „Ich nehme den Fisch. Meine Frau möchte den Salat."</div>
+        <button class="audio-btn" onclick="playAudio('Ich nehme den Fisch. Meine Frau möchte den Salat.')">▶ Anhören</button>
+      <div class="ex-text">🔊 <em>[Restaurant]</em> — Gast: „Ich nehme den Fisch. Meine Frau möchte den Salat."</div>
         <div class="ex-q">What does the man order to eat?</div>
         <div class="q-opts" id="opts-h1q2">
           <button class="q-opt" onclick="answerQ('h1q2','A','C')">A — Salad</button>
@@ -378,7 +402,8 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
       </div>
 
       <div id="qblock-h1q3" class="qblock">
-        <div class="ex-text">🔊 <em>[Hotel desk]</em> — Gast: „Ich habe ein Zimmer bestellt." Rezeption: „Für drei Nächte, Zimmer 254, zweiter Stock."</div>
+        <button class="audio-btn" onclick="playAudio('Für drei Nächte, Zimmer 254, zweiter Stock.')">▶ Anhören</button>
+      <div class="ex-text">🔊 <em>[Hotel desk]</em> — Gast: „Ich habe ein Zimmer bestellt." Rezeption: „Für drei Nächte, Zimmer 254, zweiter Stock."</div>
         <div class="ex-q">Which room number does the guest have?</div>
         <div class="q-opts" id="opts-h1q3">
           <button class="q-opt" onclick="answerQ('h1q3','A','B')">A — Zimmer 245</button>
@@ -392,7 +417,8 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
 
       <div id="qblock-h2q1" class="qblock">
         <div class="ex-label">Teil 2 — Announcement (heard ONCE — True/False)</div>
-        <div class="ex-text">🔊 „Achtung auf Gleis 7. Der ICE 542 nach München hat heute leider 20 Minuten Verspätung."</div>
+        <button class="audio-btn" onclick="playAudio('Achtung auf Gleis 7. Der ICE 542 nach München hat heute leider 20 Minuten Verspätung.')">▶ Anhören</button>
+      <div class="ex-text">🔊 „Achtung auf Gleis 7. Der ICE 542 nach München hat heute leider 20 Minuten Verspätung."</div>
         <div class="ex-q">Statement: <em>Der Zug nach München fährt pünktlich ab.</em></div>
         <div class="q-opts tf" id="opts-h2q1">
           <button class="q-opt tf-opt" onclick="answerQ('h2q1','R','F')">✓ Richtig</button>
@@ -402,7 +428,8 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
       </div>
 
       <div id="qblock-h2q2" class="qblock">
-        <div class="ex-text">🔊 „Liebe Kunden, heute von 15 bis 18 Uhr: frisches Obst und Gemüse zum halben Preis in Abteilung 3."</div>
+        <button class="audio-btn" onclick="playAudio('Liebe Kunden, heute von 15 bis 18 Uhr: frisches Obst und Gemüse zum halben Preis in Abteilung 3.')">▶ Anhören</button>
+      <div class="ex-text">🔊 „Liebe Kunden, heute von 15 bis 18 Uhr: frisches Obst und Gemüse zum halben Preis in Abteilung 3."</div>
         <div class="ex-q">Statement: <em>Das Obst und Gemüse ist heute günstiger.</em></div>
         <div class="q-opts tf" id="opts-h2q2">
           <button class="q-opt tf-opt" onclick="answerQ('h2q2','R','R')">✓ Richtig</button>
@@ -412,7 +439,8 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
       </div>
 
       <div id="qblock-h2q3" class="qblock">
-        <div class="ex-text">🔊 „Hier ist die Praxis von Dr. Boll. Unsere Sprechzeiten sind Dienstag, Donnerstag und Freitag von 10 bis 13 Uhr und Mittwoch von 14 bis 18 Uhr."</div>
+        <button class="audio-btn" onclick="playAudio('Hier ist die Praxis von Dr. Boll. Unsere Sprechzeiten sind Dienstag, Donnerstag und Freitag von 10 bis 13 Uhr und Mittwoch von 14 bis 18 Uhr.')">▶ Anhören</button>
+      <div class="ex-text">🔊 „Hier ist die Praxis von Dr. Boll. Unsere Sprechzeiten sind Dienstag, Donnerstag und Freitag von 10 bis 13 Uhr und Mittwoch von 14 bis 18 Uhr."</div>
         <div class="ex-q">Statement: <em>Die Praxis ist am Montag geöffnet.</em></div>
         <div class="q-opts tf" id="opts-h2q3">
           <button class="q-opt tf-opt" onclick="answerQ('h2q3','R','F')">✓ Richtig</button>
@@ -425,7 +453,8 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
 
       <div id="qblock-h3q1" class="qblock">
         <div class="ex-label">Teil 3 — Phone monologue (heard twice, A/B/C)</div>
-        <div class="ex-text">🔊 „Hallo Maria, hier ist Klaus. Ich rufe wegen unserem Treffen am Donnerstag an. Kannst du um 18 Uhr kommen? Ich koche Pasta."</div>
+        <button class="audio-btn" onclick="playAudio('Hallo Maria, hier ist Klaus. Ich rufe wegen unserem Treffen am Donnerstag an. Kannst du um 18 Uhr kommen? Ich koche Pasta.')">▶ Anhören</button>
+      <div class="ex-text">🔊 „Hallo Maria, hier ist Klaus. Ich rufe wegen unserem Treffen am Donnerstag an. Kannst du um 18 Uhr kommen? Ich koche Pasta."</div>
         <div class="ex-q">When does Klaus want to meet?</div>
         <div class="q-opts" id="opts-h3q1">
           <button class="q-opt" onclick="answerQ('h3q1','A','B')">A — Wednesday at 18:00</button>
@@ -436,7 +465,8 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
       </div>
 
       <div id="qblock-h3q2" class="qblock">
-        <div class="ex-text">🔊 „Hallo, hier ist Christine. Ich bin gerade am Bahnhof angekommen. Ich nehme jetzt den Bus Nr. 3 und fahre sofort zur Universität. Wir sehen uns dann dort im Café. Du kannst mich auf dem Handy anrufen."</div>
+        <button class="audio-btn" onclick="playAudio('Hallo, hier ist Christine. Ich bin gerade am Bahnhof angekommen. Ich nehme jetzt den Bus Nummer 3 und fahre sofort zur Universität. Wir sehen uns dann dort im Café.')">▶ Anhören</button>
+      <div class="ex-text">🔊 „Hallo, hier ist Christine. Ich bin gerade am Bahnhof angekommen. Ich nehme jetzt den Bus Nr. 3 und fahre sofort zur Universität. Wir sehen uns dann dort im Café. Du kannst mich auf dem Handy anrufen."</div>
         <div class="ex-q">Where does Christine suggest they meet?</div>
         <div class="q-opts" id="opts-h3q2">
           <button class="q-opt" onclick="answerQ('h3q2','A','C')">A — At the train station</button>
@@ -677,8 +707,150 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
   </div>
 
   <div class="strategy-box"><strong>90% strategy:</strong> Hören — read questions before audio. Lesen — scan keywords, trust the text. Schreiben — cover all 3 points, use the template. Sprechen — memorise intro, use „Können Sie bitte…" for requests.</div>
-  <div class="source-line">Practice based on official Goethe A1 Modellsatz + Books 1 &amp; 2 · <a href="https://www.goethe.de/en/spr/prf/ueb/pa1.html" target="_blank">Official materials →</a></div>
+  <div class="source-line">Practice based on official Official A1 exam format · Books 1 &amp; 2</div>
 </div>
+<!-- ══ SCHREIBEN PRACTICE TAB ══ -->
+<div class="tab-pane" id="pane-schreiben">
+  <div style="background:var(--amber-bg);border:1px solid var(--amber-border);border-radius:var(--rl);padding:.875rem;margin-bottom:1rem;font-size:12.5px;color:var(--amber-text);line-height:1.6">
+    <strong>✍️ Schreiben — Teil 2 Letter Writing</strong><br>
+    Write ~30 words covering <strong>3 given points</strong>. Choose formal or informal based on who you are writing to. Formal = stranger/company. Informal = friend/family.
+  </div>
+
+  <!-- FORMAL vs INFORMAL toggle -->
+  <div style="display:flex;gap:8px;margin-bottom:1rem;flex-wrap:wrap">
+    <button class="btn on" id="sw-formal-btn" onclick="showLetterType('formal')" style="flex:1">📄 Formal Letter</button>
+    <button class="btn" id="sw-informal-btn" onclick="showLetterType('informal')" style="flex:1">💌 Informal Letter</button>
+  </div>
+
+  <!-- FORMAL LETTER -->
+  <div id="sw-formal" class="sw-section" style="display:block">
+    <div class="sw-head" onclick="swToggle('formal-struct')"><span style="font-size:15px">📄</span><span class="sw-head-title">Formal Letter Structure</span><span class="sw-badge" style="background:var(--blue-bg);color:var(--blue-text);border:1px solid var(--blue-border);font-size:9.5px;font-weight:500;padding:2px 7px;border-radius:5px;font-family:'DM Mono',monospace;margin-left:auto">Sehr geehrte/r …</span><span class="sw-chev" id="chev-formal-struct">▼</span></div>
+    <div class="sw-body open" id="body-formal-struct"><div class="sw-inner">
+      <div class="tip-box"><strong>When to use:</strong> Writing to a company, doctor's office, school, hotel, or any stranger. If the name is given use Sehr geehrte Frau [Name] / Sehr geehrter Herr [Name]. If unknown use Sehr geehrte Damen und Herren.</div>
+
+      <div class="letter-box formal">
+        <div class="letter-section-label">Greeting / Anrede</div>
+        <span class="phrase">Sehr geehrte Frau [Name],</span>
+        <span class="phrase">Sehr geehrter Herr [Name],</span>
+        <span class="phrase">Sehr geehrte Damen und Herren,</span>
+
+        <div class="letter-section-label" style="margin-top:10px">Opening sentence</div>
+        <span class="phrase">Ich schreibe Ihnen, denn ich möchte …</span>
+        <span class="phrase">Ich schreibe Ihnen bezüglich …</span>
+
+        <div class="letter-section-label" style="margin-top:10px">Body — cover your 3 points</div>
+        <span class="phrase">Ich möchte fragen, ob …</span>
+        <span class="phrase">Könnten Sie mir bitte … mitteilen?</span>
+        <span class="phrase">Ich würde mich freuen, wenn …</span>
+        <span class="phrase">Ich freue mich auf Ihre Antwort.</span>
+
+        <div class="letter-section-label" style="margin-top:10px">Closing / Grußformel</div>
+        <span class="phrase">Vielen Dank für Ihre Hilfe.</span>
+        <span class="phrase">Mit freundlichen Grüßen,</span>
+        <span class="phrase">[Ihr Name]</span>
+      </div>
+
+      <div class="tip-box" style="margin-top:0"><strong>Key rule:</strong> Always use <strong>Ihnen / Ihre / Sie</strong> (capital I!) for formal. Never use du/dein in formal letters.</div>
+
+      <div class="phrase-grid">
+        <div class="phrase-card"><div class="de">Sehr geehrte Frau Müller,</div><div class="en">Dear Ms Müller,</div></div>
+        <div class="phrase-card"><div class="de">Sehr geehrter Herr Schmidt,</div><div class="en">Dear Mr Schmidt,</div></div>
+        <div class="phrase-card"><div class="de">Sehr geehrte Damen und Herren,</div><div class="en">Dear Sir / Madam,</div></div>
+        <div class="phrase-card"><div class="de">Ich schreibe Ihnen, denn ich möchte …</div><div class="en">I am writing to you because I would like to …</div></div>
+        <div class="phrase-card"><div class="de">Ich freue mich auf Ihre Antwort.</div><div class="en">I look forward to your reply.</div></div>
+        <div class="phrase-card"><div class="de">Vielen Dank für Ihre Hilfe.</div><div class="en">Thank you very much for your help.</div></div>
+        <div class="phrase-card"><div class="de">Mit freundlichen Grüßen,</div><div class="en">Kind regards,</div></div>
+        <div class="phrase-card"><div class="de">Könnten Sie mir bitte … mitteilen?</div><div class="en">Could you please let me know …?</div></div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- INFORMAL LETTER -->
+  <div id="sw-informal" class="sw-section" style="display:none">
+    <div class="sw-head" onclick="swToggle('informal-struct')"><span style="font-size:15px">💌</span><span class="sw-head-title">Informal Letter Structure</span><span class="sw-badge" style="background:var(--pink-bg);color:var(--pink-text);border:1px solid var(--pink-border);font-size:9.5px;font-weight:500;padding:2px 7px;border-radius:5px;font-family:'DM Mono',monospace;margin-left:auto">Liebe/r …</span><span class="sw-chev" id="chev-informal-struct">▼</span></div>
+    <div class="sw-body open" id="body-informal-struct"><div class="sw-inner">
+      <div class="tip-box" style="background:var(--pink-bg);border-color:var(--pink-border);color:var(--pink-text)"><strong>When to use:</strong> Writing to a friend, classmate, neighbour or family member. Use du/dein. Greet with Hallo, Liebe (female) or Lieber (male).</div>
+
+      <div class="letter-box informal">
+        <div class="letter-section-label">Greeting / Anrede</div>
+        <span class="phrase">Hallo [Name]!</span>
+        <span class="phrase">Liebe [Name],</span>
+        <span class="phrase">Lieber [Name],</span>
+
+        <div class="letter-section-label" style="margin-top:10px">Opening sentence</div>
+        <span class="phrase">Wie geht es dir?</span>
+        <span class="phrase">Ich schreibe dir, denn ich möchte …</span>
+
+        <div class="letter-section-label" style="margin-top:10px">Body — cover your 3 points</div>
+        <span class="phrase">Ich möchte dich fragen, ob …</span>
+        <span class="phrase">Kannst du mir bitte … sagen?</span>
+        <span class="phrase">Ich würde mich sehr freuen, wenn …</span>
+
+        <div class="letter-section-label" style="margin-top:10px">Closing / Grußformel</div>
+        <span class="phrase">Bis bald.</span>
+        <span class="phrase">Bitte schreib mir bald.</span>
+        <span class="phrase">Bitte schreib mir per Post.</span>
+        <span class="phrase">Ich warte auf deine Antwort.</span>
+        <span class="phrase">Viele Grüße,</span>
+        <span class="phrase">[Dein Name]</span>
+      </div>
+
+      <div class="tip-box" style="margin-top:0;background:var(--pink-bg);border-color:var(--pink-border);color:var(--pink-text)"><strong>Key rule:</strong> Always use <strong>dir / dein / du</strong> (lowercase!) for informal. Never use Sie/Ihnen in informal letters.</div>
+
+      <div class="phrase-grid">
+        <div class="phrase-card"><div class="de">Hallo Lisa!</div><div class="en">Hello Lisa!</div></div>
+        <div class="phrase-card"><div class="de">Liebe Maria, / Lieber Max,</div><div class="en">Dear Maria, / Dear Max,</div></div>
+        <div class="phrase-card"><div class="de">Wie geht es dir?</div><div class="en">How are you?</div></div>
+        <div class="phrase-card"><div class="de">Ich schreibe dir, denn ich möchte …</div><div class="en">I'm writing to you because I want to …</div></div>
+        <div class="phrase-card"><div class="de">Bis bald.</div><div class="en">See you soon.</div></div>
+        <div class="phrase-card"><div class="de">Bitte schreib mir bald.</div><div class="en">Please write back soon.</div></div>
+        <div class="phrase-card"><div class="de">Ich warte auf deine Antwort.</div><div class="en">I'm waiting for your reply.</div></div>
+        <div class="phrase-card"><div class="de">Viele Grüße,</div><div class="en">Many greetings,</div></div>
+      </div>
+    </div></div>
+  </div>
+
+  <!-- FULL EXAMPLES -->
+  <div class="sw-section">
+    <div class="sw-head" onclick="swToggle('sw-examples')"><span style="font-size:15px">📝</span><span class="sw-head-title">Full Example Emails</span><span class="sw-chev" id="chev-sw-examples">▼</span></div>
+    <div class="sw-body" id="body-sw-examples"><div class="sw-inner">
+      <div class="tip-box"><strong>Exam tip:</strong> Cover all 3 points. Each point = 1–2 sentences. ~30 words total. Start and end correctly.</div>
+
+      <p style="font-size:12px;font-weight:600;color:var(--blue-text);margin-bottom:.5rem">📄 Formal example — Party invitation from a hotel</p>
+      <div style="background:var(--blue-bg);border:1px solid var(--blue-border);border-radius:var(--r);padding:.875rem;font-size:13px;line-height:2;color:var(--blue-text);font-family:'DM Mono',monospace;margin-bottom:1rem">
+        Sehr geehrte Damen und Herren,<br><br>
+        ich schreibe Ihnen, denn ich möchte eine Party reservieren.<br>
+        Wann haben Sie freie Plätze? Wie viele Personen können kommen?<br>
+        Was kostet ein Abendessen für zehn Personen?<br><br>
+        Ich freue mich auf Ihre Antwort.<br>
+        Mit freundlichen Grüßen,<br>
+        Aishwarya Kadlag
+      </div>
+
+      <p style="font-size:12px;font-weight:600;color:var(--pink-text);margin-bottom:.5rem">💌 Informal example — Replying to a party invitation from Lisa</p>
+      <div style="background:var(--pink-bg);border:1px solid var(--pink-border);border-radius:var(--r);padding:.875rem;font-size:13px;line-height:2;color:var(--pink-text);font-family:'DM Mono',monospace;margin-bottom:1rem">
+        Liebe Lisa,<br><br>
+        vielen Dank für die Einladung! Ich komme sehr gerne.<br>
+        Um wie viel Uhr beginnt die Party?<br>
+        Soll ich etwas mitbringen?<br><br>
+        Bis bald und viele Grüße,<br>
+        Aishwarya
+      </div>
+    </div></div>
+  </div>
+
+  <!-- CHECKLIST -->
+  <div style="background:var(--green-bg);border:1px solid var(--green-border);border-radius:var(--rl);padding:.875rem;font-size:12.5px;color:var(--green-text);line-height:1.8">
+    <strong>✅ Schreiben Teil 2 Checklist:</strong><br>
+    ☐ Correct greeting (Liebe/r OR Sehr geehrte/r)<br>
+    ☐ Point 1 covered (e.g. accept / decline / ask)<br>
+    ☐ Point 2 covered (e.g. ask time / date)<br>
+    ☐ Point 3 covered (e.g. ask what to bring)<br>
+    ☐ Correct closing (Viele Grüße OR Mit freundlichen Grüßen)<br>
+    ☐ ~30 words total — not too short, not too long
+  </div>
+</div>
+
 <!-- ══ SPRECHEN PRACTICE TAB ══ -->
 <div class="tab-pane" id="pane-sprechen">
 <style>
@@ -770,7 +942,7 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
       <span class="sp-head-title">Teil 2 — W-Question Cards</span>
       <div class="sp-head-meta">
         <span class="sp-badge">6 marks</span>
-        <span class="sp-badge" id="t2-count-badge">60 cards</span>
+        <span class="sp-badge" id="t2-count-badge">59 cards</span>
       </div>
       <span class="sp-chev" id="chev-t2">▼</span>
     </div>
@@ -819,7 +991,7 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
       <span class="sp-head-title">Teil 3 — Request Cards (Bitten formulieren)</span>
       <div class="sp-head-meta">
         <span class="sp-badge">6 marks</span>
-        <span class="sp-badge" id="t3-count-badge">40 cards</span>
+        <span class="sp-badge" id="t3-count-badge">50 cards</span>
       </div>
       <span class="sp-chev" id="chev-t3">▼</span>
     </div>
@@ -858,10 +1030,10 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
   <div style="background:var(--pink-bg);border:1px solid var(--pink-border);border-radius:var(--rl);padding:1rem;font-size:12.5px;color:var(--pink-text);line-height:1.7">
     <strong>Sprechen scoring tips:</strong> Fluency beats accuracy at A1 — don't freeze over grammar. Speak in complete sentences. Always relate Teil 2 questions to the theme. For Teil 3, use „bitte" in every request. Speak slowly and clearly — examiners reward confidence.
   </div>
-  <div class="source-line" style="margin-top:.75rem">Cards compiled from Goethe A1 Modellsatz, Quizlet community decks, and official exam sample papers</div>
+  <div class="source-line" style="margin-top:.75rem">Cards compiled from Official A1 exam sample papers and community decks</div>
 </div>
 
-<footer>Goethe-Institut A1 Wortliste + Aishwarya's exam list + additional exam-critical vocabulary · Marathi translations for study aid</footer>
+<footer>German A1 exam vocabulary · Aishwarya's study notes · Marathi translations for study aid</footer>
 </div>
 
 <script>
@@ -875,260 +1047,73 @@ const PALETTES=[
   {bg:"var(--pink-bg)",border:"var(--pink-border)",text:"var(--pink-text)"},
 ];
 const G=[
-{id:"greet",icon:"👋",label:"Greetings & Exam Phrases",tip:"Say every phrase out loud. The last three are exam survival phrases — know them cold.",words:[
-["Hallo","Hello","नमस्कार"],["Guten Morgen","Good morning","शुभ सकाळ"],["Guten Tag","Good day / Hello","नमस्कार (दिवसा)"],["Guten Abend","Good evening","शुभ संध्याकाळ"],["Gute Nacht","Good night","शुभ रात्री"],["Auf Wiedersehen","Goodbye (formal)","पुन्हा भेटू"],["Tschüss","Bye (informal)","बाय"],["Bitte","Please / You're welcome","कृपया"],["Danke","Thank you","धन्यवाद"],["Vielen Dank","Many thanks","खूप धन्यवाद"],["Entschuldigung","Excuse me / Sorry","माफ करा"],["Ja","Yes","होय"],["Nein","No","नाही"],["Klar","Sure / Of course","नक्कीच"],["Wie bitte?","Pardon?","काय म्हणालात?"],["Alles klar?","Everything OK?","सर्व ठीक आहे का?"],["Das macht nichts","It doesn't matter","काही हरकत नाही"],["Herzlichen Glückwunsch!","Congratulations!","अभिनंदन!"],["Viel Glück!","Good luck!","शुभेच्छा!"],["Herzlich willkommen!","Welcome!","स्वागत आहे!"],["Können Sie langsamer sprechen?","Can you speak slower?","कृपया हळू बोला?"],["Ich weiß das Wort nicht auf Deutsch.","I don't know the word in German.","मला हा शब्द जर्मनमध्ये माहित नाही."],["Können Sie mir helfen?","Can you help me?","तुम्ही माझी मदत करू शकता का?"]]},
+{id:"greet",icon:"👋",label:"Greetings & Phrases",tip:"Say every phrase out loud. The survival phrases at the end are critical for speaking.",words:[
+["Hallo","Hello","नमस्कार"],["Guten Morgen","Good morning","शुभ सकाळ"],["Guten Tag","Good day","नमस्कार"],["Guten Abend","Good evening","शुभ संध्याकाळ"],["Gute Nacht","Good night","शुभ रात्री"],["Auf Wiedersehen","Goodbye (formal)","पुन्हा भेटू"],["Tschüss","Bye (informal)","बाय"],["Bitte","Please","कृपया"],["Danke","Thank you","धन्यवाद"],["Vielen Dank","Many thanks","खूप धन्यवाद"],["Entschuldigung","Excuse me / Sorry","माफ करा"],["Ja","Yes","होय"],["Nein","No","नाही"],["Klar","Sure","नक्कीच"],["Wie bitte?","Pardon?","काय म्हणालात?"],["Alles klar?","Everything OK?","सर्व ठीक आहे का?"],["Das macht nichts","Doesn't matter","काही हरकत नाही"],["Viel Glück!","Good luck!","शुभेच्छा!"],["Können Sie langsamer sprechen?","Can you speak slower?","कृपया हळू बोला?"],["Ich weiß das Wort nicht auf Deutsch.","I don't know the word in German.","मला हा शब्द जर्मनमध्ये माहित नाही."]]},
 
-{id:"people",icon:"🧑",label:"People & Family",tip:"Learn Vater, Mutter, Bruder, Schwester, Sohn, Tochter as individual words — each tested alone.",words:[
-["der Mann","man / husband","पुरुष / नवरा"],["die Frau","woman / wife","स्त्री / बायको"],["das Kind","child","मूल"],["der Junge","boy","मुलगा"],["das Mädchen","girl","मुलगी"],["der Vater","father","वडील"],["die Mutter","mother","आई"],["der Bruder","brother","भाऊ"],["die Schwester","sister","बहीण"],["der Sohn","son","मुलगा (स्वतःचा)"],["die Tochter","daughter","मुलगी (स्वतःची)"],["die Eltern","parents","आईवडील"],["die Großmutter","grandmother","आजी"],["der Großvater","grandfather","आजोबा"],["die Geschwister","siblings","भावंडे"],["die Familie","family","कुटुंब"],["der Freund","friend / boyfriend","मित्र"],["die Freundin","girlfriend / female friend","मैत्रीण"],["der Kollege","colleague","सहकर्मचारी"],["der Verwandte","relative","नातेवाईक"],["der Chef","boss","बॉस"],["das Baby","baby","बाळ"],["der Mitglied","member","सदस्य"]]},
+{id:"people",icon:"🧑",label:"People & Family",tip:"Each family word is tested individually. Learn Vater, Mutter, Bruder, Schwester first.",words:[
+["der Vater","father","वडील"],["die Mutter","mother","आई"],["der Bruder","brother","भाऊ"],["die Schwester","sister","बहीण"],["der Sohn","son","मुलगा"],["die Tochter","daughter","मुलगी"],["die Eltern","parents","आईवडील"],["die Familie","family","कुटुंब"],["der Mann","man / husband","पुरुष"],["die Frau","woman / wife","स्त्री"],["das Kind","child","मूल"],["der Freund","friend","मित्र"],["die Freundin","girlfriend / female friend","मैत्रीण"],["die Großmutter","grandmother","आजी"],["der Großvater","grandfather","आजोबा"],["der Kollege","colleague","सहकर्मचारी"],["der Chef","boss","बॉस"],["das Baby","baby","बाळ"]]},
 
-{id:"intro",icon:"🪪",label:"Introductions & Personal Info",tip:"Schreiben Teil 1 form fields — know each individually: Vorname, Familienname, Geburtsdatum, Geburtsort, Beruf, Wohnort.",words:[
-["Ich heiße …","My name is …","माझे नाव ... आहे"],["Ich komme aus …","I come from …","मी ... येतो/येते"],["Ich wohne in …","I live in …","मी ... राहतो/राहते"],["Ich bin … Jahre alt.","I am … years old.","मी ... वर्षांचा/ची आहे."],["Von Beruf bin ich …","My profession is …","माझा व्यवसाय ... आहे"],["Ich bin verheiratet.","I am married.","मी विवाहित आहे."],["Ich bin ledig.","I am single.","मी अविवाहित आहे."],["der Vorname","first name","पहिले नाव"],["der Familienname","surname","आडनाव"],["die Adresse","address","पत्ता"],["der Wohnort","place of residence","राहण्याचे ठिकाण"],["das Alter","age","वय"],["der Geburtstag","birthday","वाढदिवस"],["der Geburtsort","place of birth","जन्मस्थान"],["das Geburtsdatum","date of birth","जन्मतारीख"],["der Beruf","profession","व्यवसाय"],["die Fremdsprache","foreign language","परदेशी भाषा"],["die Freizeit","free time","मोकळा वेळ"],["die Zeit","time","वेळ"],["studieren","to study","शिकणे"],["arbeiten","to work","काम करणे"],["die Firma","company","कंपनी"],["selbstständig","self-employed","स्वयंरोजगारी"]]},
+{id:"intro",icon:"🪪",label:"Introductions & Forms",tip:"Schreiben Teil 1 form fields — know Vorname, Familienname, Geburtsdatum, Geburtsort, Beruf, Wohnort.",words:[
+["Ich heiße …","My name is …","माझे नाव ... आहे"],["Ich komme aus …","I come from …","मी ... येतो"],["Ich wohne in …","I live in …","मी ... राहतो"],["Ich bin … Jahre alt.","I am … years old.","मी ... वर्षांचा आहे."],["Von Beruf bin ich …","My profession is …","माझा व्यवसाय आहे"],["Ich bin verheiratet.","I am married.","मी विवाहित आहे."],["Ich bin ledig.","I am single.","मी अविवाहित आहे."],["der Vorname","first name","पहिले नाव"],["der Familienname","surname","आडनाव"],["die Adresse","address","पत्ता"],["der Wohnort","place of residence","राहण्याचे ठिकाण"],["das Alter","age","वय"],["das Geburtsdatum","date of birth","जन्मतारीख"],["der Geburtsort","birthplace","जन्मस्थान"],["der Beruf","profession","व्यवसाय"],["studieren","to study","शिकणे"]]},
 
-{id:"numbers",icon:"🔢",label:"Numbers, Time & All Days",tip:"Each number/day is its own concept. Dates come up in Schreiben forms and Sprechen Teil 1.",words:[
-["eins","one","एक"],["zwei","two","दोन"],["drei","three","तीन"],["vier","four","चार"],["fünf","five","पाच"],["sechs","six","सहा"],["sieben","seven","सात"],["acht","eight","आठ"],["neun","nine","नऊ"],["zehn","ten","दहा"],["elf","eleven","अकरा"],["zwölf","twelve","बारा"],["zwanzig","twenty","वीस"],["dreißig","thirty","तीस"],["vierzig","forty","चाळीस"],["fünfzig","fifty","पन्नास"],["hundert","hundred","शंभर"],["tausend","thousand","हजार"],["Wie viel Uhr ist es?","What time is it?","किती वाजले?"],["Es ist … Uhr.","It is … o'clock.","... वाजले."],["halb drei","half past two (2:30)","अडीच"],["Viertel nach …","quarter past …","... वाजून पंधरा"],["Viertel vor …","quarter to …","... वाजायला पंधरा"],["heute","today","आज"],["morgen","tomorrow","उद्या"],["gestern","yesterday","काल"],["jetzt","now","आत्ता"],["sofort","immediately","लगेच"],["seit","since / for (time)","पासून"],["der Montag","Monday","सोमवार"],["der Dienstag","Tuesday","मंगळवार"],["der Mittwoch","Wednesday","बुधवार"],["der Donnerstag","Thursday","गुरुवार"],["der Freitag","Friday","शुक्रवार"],["der Samstag","Saturday","शनिवार"],["der Sonntag","Sunday","रविवार"],["die Woche","week","आठवडा"],["das Wochenende","weekend","आठवड्याचा शेवट"],["der Morgen","morning (6–9am)","सकाळ"],["der Vormittag","late morning (9–12)","पूर्वाह्न"],["der Mittag","midday (12–2pm)","दुपार"],["der Nachmittag","afternoon (2–6pm)","अपराह्न"],["der Abend","evening (6–10pm)","संध्याकाळ"],["die Nacht","night (10pm–6am)","रात्र"],["der Januar","January","जानेवारी"],["der Februar","February","फेब्रुवारी"],["der März","March","मार्च"],["der April","April","एप्रिल"],["der Mai","May","मे"],["der Juni","June","जून"],["der Juli","July","जुलै"],["der August","August","ऑगस्ट"],["der September","September","सप्टेंबर"],["der Oktober","October","ऑक्टोबर"],["der November","November","नोव्हेंबर"],["der Dezember","December","डिसेंबर"],["der Frühling","spring","वसंत ऋतू"],["der Sommer","summer","उन्हाळा"],["der Herbst","autumn","शरद ऋतू"],["der Winter","winter","हिवाळा"],["das Datum","the date","तारीख"]]},
+{id:"numbers",icon:"🔢",label:"Numbers, Time & Days",tip:"Dates come up in forms and Sprechen Teil 1. Weekdays are tested in listening dialogues.",words:[
+["eins","one","एक"],["zwei","two","दोन"],["drei","three","तीन"],["vier","four","चार"],["fünf","five","पाच"],["sechs","six","सहा"],["sieben","seven","सात"],["acht","eight","आठ"],["neun","nine","नऊ"],["zehn","ten","दहा"],["elf","eleven","अकरा"],["zwölf","twelve","बारा"],["zwanzig","twenty","वीस"],["dreißig","thirty","तीस"],["hundert","hundred","शंभर"],["tausend","thousand","हजार"],["Wie viel Uhr ist es?","What time is it?","किती वाजले?"],["Es ist … Uhr.","It is ... Uhr.","... वाजले."],["halb drei","half past two (2:30)","अडीच"],["heute","today","आज"],["morgen","tomorrow","उद्या"],["gestern","yesterday","काल"],["jetzt","now","आत्ता"],["der Montag","Monday","सोमवार"],["der Dienstag","Tuesday","मंगळवार"],["der Mittwoch","Wednesday","बुधवार"],["der Donnerstag","Thursday","गुरुवार"],["der Freitag","Friday","शुक्रवार"],["der Samstag","Saturday","शनिवार"],["der Sonntag","Sunday","रविवार"],["das Wochenende","weekend","आठवड्याचा शेवट"],["das Datum","the date","तारीख"],["der Sommer","summer","उन्हाळा"],["der Winter","winter","हिवाळा"]]},,
 
-{id:"wh",icon:"❓",label:"Question Words & Key Connectors",tip:"W-questions tested directly in Sprechen Teil 2 — know all 10. Connectors appear in every section.",words:[
-["was","what","काय"],["wer","who","कोण"],["warum","why","का"],["wann","when","कधी"],["welche","which","कोणता"],["wo","where","कुठे"],["woher","where from","कुठून"],["wohin","where to (direction)","कुठे (दिशा)"],["wie","how","कसे"],["wie viele","how many","किती"],["aber","but","पण"],["oder","or","किंवा"],["auch","also / too","सुद्धा"],["denn","because","कारण"],["noch","still / yet","अजून"],["nur","only","फक्त"],["schon","already","आधीच"],["bis","until / by","पर्यंत"],["ab","from (time/place)","पासून"],["von","from","कडून"],["an","at / to","ला"],["etwas","something","काहीतरी"],["jeder","each / every","प्रत्येक"],["zusammen","together","एकत्र"]]},
+{id:"wh",icon:"❓",label:"Question Words",tip:"All 10 W-questions are used in Sprechen Teil 2 — know them cold.",words:[
+["was","what","काय"],["wer","who","कोण"],["warum","why","का"],["wann","when","कधी"],["wo","where","कुठे"],["woher","where from","कुठून"],["wohin","where to","कुठे (दिशा)"],["wie","how","कसे"],["wie viele","how many","किती"],["welche","which","कोणता"],["aber","but","पण"],["oder","or","किंवा"]]},
 
 {id:"modal",icon:"🎯",label:"Modal Verbs — CRITICAL",tip:"All 6 modals appear in every exam section. Memorise all individually.",words:[
-["müssen","must / have to","पाहिजे / करायला हवे"],["können","can / to be able to","करू शकणे"],["dürfen","may / to be allowed to","परवानगी असणे"],["sollen","should / supposed to","करायला सांगितले आहे"],["wollen","to want to","हवे असणे"],["möchten","would like to","आवडेल"]]},
+["müssen","must / have to","पाहिजे"],["können","can / to be able to","करू शकणे"],["dürfen","may / to be allowed to","परवानगी असणे"],["sollen","should / supposed to","करायला सांगितले"],["wollen","to want to","हवे असणे"],["möchten","would like to","आवडेल"]]},
 
-{id:"adverbs",icon:"💬",label:"Key Adverbs",tip:"These small words appear in every section — in Hören dialogues, Lesen texts, and Sprechen replies.",words:[
-["leider","unfortunately","दुर्दैवाने"],["natürlich","naturally / of course","अर्थातच"],["vielleicht","maybe / perhaps","कदाचित"],["gern / gerne","gladly / with pleasure","आनंदाने"],["bald","soon","लवकरच"],["gleich","right away / straightaway","लगेच / एकाच"],["manchmal","sometimes","कधी कधी"],["meistens","mostly / usually","साधारणपणे"],["immer","always","नेहमी"],["nie","never","कधीच नाही"],["oft","often","अनेकदा"],["selten","rarely","क्वचित"],["ungefähr","approximately","अंदाजे"],["bestimmt","definitely / certainly","नक्कीच"],["wirklich","really","खरोखर"],["sehr","very","खूप"],["ein bisschen","a little bit","थोडे"],["zu","too (too much)","जास्त / अती"],["genug","enough","पुरेसे"],["fast","almost","जवळजवळ"]]},
+{id:"adverbs",icon:"💬",label:"Key Adverbs",tip:"Small words that appear in every section — Hören, Lesen, Sprechen replies.",words:[
+["leider","unfortunately","दुर्दैवाने"],["natürlich","of course","अर्थातच"],["vielleicht","maybe","कदाचित"],["gern / gerne","gladly","आनंदाने"],["bald","soon","लवकरच"],["manchmal","sometimes","कधी कधी"],["immer","always","नेहमी"],["nie","never","कधीच नाही"],["sehr","very","खूप"],["ein bisschen","a little bit","थोडे"]]},
 
-{id:"verbs1",icon:"⚡",label:"Core Verbs — Part 1",tip:"heißen, sein, haben, kommen, gehen, fahren, wohnen, arbeiten, machen — the absolute core.",words:[
-["heißen","to be called","नाव असणे"],["sein","to be","असणे"],["haben","to have","असणे (मालकी)"],["kommen","to come","येणे"],["gehen","to go","जाणे"],["fahren","to drive / travel","जाणे (वाहन)"],["wohnen","to live / reside","राहणे"],["leben","to live (exist)","जगणे"],["bleiben","to stay / remain","थांबणे"],["arbeiten","to work","काम करणे"],["machen","to make / do","करणे"],["sagen","to say","सांगणे"],["fragen","to ask","विचारणे"],["antworten","to answer","उत्तर देणे"],["rufen","to call / shout","बोलावणे"],["wissen","to know (facts)","माहित असणे"],["kennen","to know (people/places)","ओळखणे"],["verstehen","to understand","समजणे"],["sprechen","to speak","बोलणे"],["hören","to hear / listen","ऐकणे"],["lesen","to read","वाचणे"],["schreiben","to write","लिहिणे"],["suchen","to search","शोधणे"],["finden","to find","सापडणे"],["nehmen","to take","घेणे"],["geben","to give","देणे"],["bekommen","to receive","मिळणे"],["benutzen","to use","वापरणे"]]},
+{id:"verbs1",icon:"⚡",label:"Core Verbs 1",tip:"sein, haben, kommen, gehen, fahren, wohnen, arbeiten, machen — the absolute core verbs.",words:[
+["heißen","to be called","नाव असणे"],["sein","to be","असणे"],["haben","to have","असणे (मालकी)"],["kommen","to come","येणे"],["gehen","to go","जाणे"],["fahren","to travel","जाणे (वाहन)"],["wohnen","to live / reside","राहणे"],["arbeiten","to work","काम करणे"],["machen","to do","करणे"],["sagen","to say","सांगणे"],["verstehen","to understand","समजणे"],["sprechen","to speak","बोलणे"],["hören","to listen","ऐकणे"],["lesen","to read","वाचणे"],["schreiben","to write","लिहिणे"],["nehmen","to take","घेणे"],["geben","to give","देणे"],["bekommen","to receive","मिळणे"]]},
 
-{id:"verbs2",icon:"🔧",label:"Core Verbs — Part 2",tip:"Action verbs from Hören dialogues, Sprechen image cards, and Schreiben email prompts.",words:[
-["beginnen","to begin","सुरू करणे"],["anfangen","to start","सुरुवात करणे"],["bestellen","to order","मागवणे"],["einladen","to invite","आमंत्रण देणे"],["besuchen","to visit","भेट देणे"],["treffen","to meet","भेटणे"],["helfen","to help","मदत करणे"],["brauchen","to need","गरज असणे"],["kaufen","to buy","विकत घेणे"],["verkaufen","to sell","विकणे"],["bezahlen","to pay","पैसे देणे"],["leihen","to lend / borrow","उधार देणे/घेणे"],["schenken","to gift","भेट देणे"],["warten","to wait","थांबणे"],["laufen","to run","धावणे"],["lachen","to laugh","हसणे"],["weinen","to cry","रडणे"],["schlafen","to sleep","झोपणे"],["duschen","to shower","आंघोळ करणे"],["kochen","to cook","स्वयंपाक करणे"],["feiern","to celebrate","साजरे करणे"],["rauchen","to smoke","धुम्रपान करणे"],["ziehen","to move / relocate","हलणे"],["drucken","to print","छापणे"],["vergessen","to forget","विसरणे"],["schicken","to send","पाठवणे"]]},
+{id:"verbs2",icon:"🔧",label:"Core Verbs 2",tip:"Action verbs from listening dialogues, speaking cards and email prompts.",words:[
+["bestellen","to order","मागवणे"],["einladen","to invite","आमंत्रण देणे"],["besuchen","to visit","भेट देणे"],["treffen","to meet","भेटणे"],["helfen","to help","मदत करणे"],["brauchen","to need","गरज असणे"],["kaufen","to buy","विकत घेणे"],["bezahlen","to pay","पैसे देणे"],["leihen","to lend","उधार देणे"],["kochen","to cook","स्वयंपाक करणे"],["feiern","to celebrate","साजरे करणे"],["schicken","to send","पाठवणे"]]},
 
-{id:"verbs3",icon:"🔄",label:"Separable & Direction Verbs",tip:"Separable verbs come up in signs, dialogues, and Sprechen cards. The prefix splits off at end of sentence.",words:[
-["aufmachen","to open","उघडणे"],["zumachen","to close","बंद करणे"],["öffnen","to open (formal)","उघडणे"],["schließen","to close (formal)","बंद करणे"],["anmachen","to turn on","चालू करणे"],["ausmachen","to turn off","बंद करणे"],["aufstehen","to get up","उठणे"],["einsteigen","to board","चढणे"],["aussteigen","to get off","उतरणे"],["abfahren","to depart","निघणे"],["ankommen","to arrive","पोहोचणे"],["anrufen","to call (phone)","फोन करणे"],["zurückrufen","to call back","परत फोन करणे"],["mitnehmen","to take along","सोबत घेणे"],["mitbringen","to bring along","सोबत आणणे"],["fernsehen","to watch TV","टीव्ही पाहणे"],["telefonieren","to phone","फोन करणे"],["einkaufen","to shop","खरेदी करणे"],["umziehen","to move house","घर बदलणे"],["abholen","to pick up (someone)","घ्यायला येणे"],["aufhören","to stop / finish","थांबणे / संपवणे"]]},
+{id:"verbs3",icon:"🔄",label:"Separable Verbs",tip:"Prefix splits off at end of sentence. These come up in signs and dialogues.",words:[
+["aufmachen","to open","उघडणे"],["zumachen","to close","बंद करणे"],["aufstehen","to get up","उठणे"],["einsteigen","to board","चढणे"],["aussteigen","to get off","उतरणे"],["abfahren","to depart","निघणे"],["ankommen","to arrive","पोहोचणे"],["anrufen","to call (phone)","फोन करणे"],["mitbringen","to bring along","सोबत आणणे"],["einkaufen","to shop","खरेदी करणे"]]},
 
-{id:"places",icon:"🗺️",label:"Places & Directions",tip:"Each place and direction word is a separate tile. Directions are tested in Sprechen.",words:[
-["der Bahnhof","train station","रेल्वे स्थानक"],["der Bahnsteig","platform","रेल्वे प्लॅटफॉर्म"],["die Haltestelle","bus/tram stop","बस थांबा"],["die Straße","street","रस्ता"],["die Ecke","corner","कोपरा"],["der Ausgang","exit","बाहेर जाण्याचा मार्ग"],["der Eingang","entrance","प्रवेशद्वार"],["das Hotel","hotel","हॉटेल"],["das Restaurant","restaurant","रेस्टॉरंट"],["das Café","café","कॅफे"],["die Post","post office","पोस्ट ऑफिस"],["die Bank","bank","बँक"],["die Schule","school","शाळा"],["die Apotheke","pharmacy","औषधालय"],["das Krankenhaus","hospital","रुग्णालय"],["das Rathaus","town hall","नगरपालिका"],["links","left","डावीकडे"],["rechts","right","उजवीकडे"],["geradeaus","straight ahead","सरळ पुढे"],["oben","upstairs / above","वर"],["unten","downstairs / below","खाली"],["nah","near","जवळ"],["weit","far","दूर"],["der Stadtplan","city map","शहराचा नकाशा"],["die Sehenswürdigkeit","tourist sight","पर्यटन स्थळ"]]},
+{id:"places",icon:"🗺️",label:"Places & Directions",tip:"Directions tested in Sprechen. Place names in listening and reading exercises.",words:[
+["der Bahnhof","train station","रेल्वे स्थानक"],["die Haltestelle","bus stop","बस थांबा"],["das Hotel","hotel","हॉटेल"],["das Restaurant","restaurant","रेस्टॉरंट"],["die Apotheke","pharmacy","औषधालय"],["das Krankenhaus","hospital","रुग्णालय"],["die Bank","bank","बँक"],["die Post","post office","पोस्ट ऑफिस"],["die Schule","school","शाळा"],["links","left","डावीकडे"],["rechts","right","उजवीकडे"],["geradeaus","straight ahead","सरळ पुढे"]]},
 
-{id:"travel",icon:"🚆",label:"Travel & Transport",tip:"Ticket vocabulary is common in Hören. Each transport word is its own tile.",words:[
-["die Fahrkarte","ticket (train/bus)","तिकीट"],["das Ticket","ticket (general)","तिकीट"],["die Eintrittskarte","entry ticket","प्रवेश तिकीट"],["einfach","single / one-way","एकेरी"],["hin und zurück","return ticket","येणे-जाणे"],["der Zug","train","रेल्वे"],["die Bahn","railway / train","बाह्न"],["der Bus","bus","बस"],["das Taxi","taxi","टॅक्सी"],["das Flugzeug","airplane","विमान"],["das Fahrrad","bicycle","सायकल"],["das Auto","car","कार"],["das Schiff","ship","जहाज"],["die Autobahn","motorway","महामार्ग"],["der Flughafen","airport","विमानतळ"],["der Ausflug","trip / excursion","सहल"],["die Abfahrt","departure","प्रस्थान"],["die Ankunft","arrival","आगमन"],["das Gepäck","luggage","सामान"],["der Koffer","suitcase","सूटकेस"],["die Tasche","bag","पिशवी"],["die Handtasche","handbag","हँडबॅग"],["die Aktentasche","briefcase","ब्रीफकेस"]]},
+{id:"travel",icon:"🚆",label:"Travel & Transport",tip:"Ticket vocabulary is very common in listening. Learn einfach vs hin und zurück.",words:[
+["die Fahrkarte","ticket","तिकीट"],["einfach","one-way","एकेरी"],["hin und zurück","return","येणे-जाणे"],["der Zug","train","रेल्वे"],["der Bus","bus","बस"],["das Auto","car","कार"],["das Flugzeug","airplane","विमान"],["der Koffer","suitcase","सूटकेस"],["die Abfahrt","departure","प्रस्थान"],["die Ankunft","arrival","आगमन"]]},
 
-{id:"food",icon:"🍽️",label:"Food & Drink",tip:"Ordering: Ich möchte … / Ich nehme … — comes up in Hören Teil 1. Each food item is its own tile.",words:[
-["das Frühstück","breakfast","नाश्ता"],["das Mittagessen","lunch","दुपारचे जेवण"],["das Abendessen","dinner","रात्रीचे जेवण"],["das Brot","bread","ब्रेड"],["das Brötchen","bread roll","छोटी ब्रेड"],["die Butter","butter","लोणी"],["der Käse","cheese","चीज"],["das Ei","egg","अंडे"],["das Fleisch","meat","मांस"],["der Fisch","fish","मासा"],["das Gemüse","vegetables","भाज्या"],["das Obst","fruit","फळे"],["der Apfel","apple","सफरचंद"],["die Banane","banana","केळ"],["die Tomate","tomato","टोमॅटो"],["die Kartoffel","potato","बटाटा"],["der Schinken","ham","हॅम"],["der Kuchen","cake","केक"],["das Salz","salt","मीठ"],["der Zucker","sugar","साखर"],["das Öl","oil","तेल"],["der Kaffee","coffee","कॉफी"],["der Tee","tea","चहा"],["das Wasser","water","पाणी"],["das Bier","beer","बीअर"],["der Wein","wine","वाईन"],["der Saft","juice","रस"],["die Milch","milk","दूध"],["die Flasche","bottle","बाटली"],["die Tasse","cup","कप"],["der Teller","plate","ताट"],["das Besteck","cutlery","चमचा-काटा-सुरी"],["das Messer","knife","सुरी"],["die Gabel","fork","काटा"],["der Löffel","spoon","चमचा"],["der Hunger","hunger","भूक"],["der Durst","thirst","तहान"],["schmecken","to taste","चव येणे"],["die Bäckerei","bakery","बेकरी"],["bestellen","to order","मागवणे"],["die Speisekarte","menu","मेनू"],["die Rechnung","the bill","बिल"],["Guten Appetit!","Enjoy your meal!","जेवण गोड होवो!"],["Zahlen, bitte!","The bill, please!","बिल द्या!"]]},
+{id:"food",icon:"🍽️",label:"Food & Drink",tip:"Ordering in a restaurant appears in listening Teil 1. Each food item is its own card.",words:[
+["das Frühstück","breakfast","नाश्ता"],["das Brot","bread","ब्रेड"],["der Käse","cheese","चीज"],["das Ei","egg","अंडे"],["der Fisch","fish","मासा"],["das Gemüse","vegetables","भाज्या"],["das Obst","fruit","फळे"],["der Apfel","apple","सफरचंद"],["der Kaffee","coffee","कॉफी"],["der Tee","tea","चहा"],["das Wasser","water","पाणी"],["die Milch","milk","दूध"],["die Tasse","cup","कप"],["der Teller","plate","ताट"],["bestellen","to order","मागवणे"],["die Rechnung","the bill","बिल"],["Guten Appetit!","Enjoy your meal!","जेवण गोड होवो!"],["Zahlen, bitte!","The bill, please!","बिल द्या!"],["der Hunger","hunger","भूक"],["der Durst","thirst","तहान"]]},
 
-{id:"shopping",icon:"🛍️",label:"Shopping & Money",tip:"Price signs in Lesen Teil 3. Clothing in Hören dialogues. Each item is its own tile.",words:[
-["kaufen","to buy","विकत घेणे"],["verkaufen","to sell","विकणे"],["kosten","to cost","किंमत असणे"],["bezahlen","to pay","पैसे देणे"],["der Preis","price","किंमत"],["das Geld","money","पैसे"],["bar","cash","रोख"],["die Karte","payment card","कार्ड"],["das Angebot","offer / deal","ऑफर"],["die Rechnung","bill","बिल"],["billig","cheap","स्वस्त"],["günstig","good value","परवडणारे"],["teuer","expensive","महाग"],["ausverkauft","sold out","संपले"],["die Jacke","jacket","जॅकेट"],["der Anzug","suit / coat","सूट"],["die Hose","trousers","पँट"],["das Hemd","shirt","शर्ट"],["der Pullover","sweater","स्वेटर"],["der Rock","skirt","स्कर्ट"],["die Socken","socks","मोजे"],["die Schuhe","shoes","बूट"],["die Größe","size","आकार"],["das Geschäft","shop","दुकान"],["der Supermarkt","supermarket","सुपरमार्केट"],["die Kasse","checkout","कॅशियर"],["das Geschenk","gift","भेट"]]},
+{id:"shopping",icon:"🛍️",label:"Shopping & Money",tip:"Price signs in reading Teil 3. Clothing words in listening dialogues.",words:[
+["kaufen","to buy","विकत घेणे"],["kosten","to cost","किंमत असणे"],["der Preis","price","किंमत"],["das Geld","money","पैसे"],["bar","cash","रोख"],["billig","cheap","स्वस्त"],["teuer","expensive","महाग"],["die Größe","size","आकार"],["das Geschäft","shop","दुकान"],["die Jacke","jacket","जॅकेट"],["die Hose","trousers","पँट"],["das Hemd","shirt","शर्ट"]]},
 
-{id:"home",icon:"🏠",label:"Home, Rooms & Furniture",tip:"Room names in Sprechen Wohnen theme. Furniture words appear in Hören home scenes and Lesen signs.",words:[
-["die Wohnung","apartment","अपार्टमेंट"],["das Haus","house","घर"],["das Zimmer","room","खोली"],["die Küche","kitchen","स्वयंपाकघर"],["das Bad","bathroom","स्नानगृह"],["die Dusche","shower","शॉवर"],["das Schlafzimmer","bedroom","झोपण्याची खोली"],["der Balkon","balcony","गच्ची"],["der Garten","garden","बाग"],["das Dach","roof","छत"],["das Bett","bed","पलंग"],["das Sofa","sofa","सोफा"],["der Tisch","table","टेबल"],["der Esstisch","dining table","जेवणाचे टेबल"],["der Stuhl","chair","खुर्ची"],["der Schrank","wardrobe / cupboard","कपाट"],["die Lampe","lamp","दिवा"],["der Fernseher","TV","टीव्ही"],["der Kühlschrank","fridge","फ्रीज"],["der Herd","cooker","शेगडी"],["die Waschmaschine","washing machine","वॉशिंग मशीन"],["die Tür","door","दरवाजा"],["das Fenster","window","खिडकी"],["der Aufzug","lift / elevator","लिफ्ट"],["der Schlüssel","key","किल्ली"],["die Miete","rent","भाडे"],["mieten","to rent","भाड्याने घेणे"],["der Vermieter","landlord","मकानमालक"]]},
+{id:"home",icon:"🏠",label:"Home & Rooms",tip:"Room names come up in Sprechen Wohnen theme. Furniture in listening home scenes.",words:[
+["die Wohnung","apartment","अपार्टमेंट"],["das Haus","house","घर"],["das Zimmer","room","खोली"],["die Küche","kitchen","स्वयंपाकघर"],["das Bad","bathroom","स्नानगृह"],["das Schlafzimmer","bedroom","झोपण्याची खोली"],["das Bett","bed","पलंग"],["der Tisch","table","टेबल"],["der Stuhl","chair","खुर्ची"],["der Schrank","wardrobe","कपाट"],["die Tür","door","दरवाजा"],["das Fenster","window","खिडकी"],["der Schlüssel","key","किल्ली"],["die Miete","rent","भाडे"]]},
 
-{id:"objects",icon:"🧴",label:"Everyday Objects",tip:"Sprechen Teil 3 image cards come from this group — Stift, Handy, Glas, Buch are most common.",words:[
-["der Kugelschreiber","ballpoint pen","बॉलपेन"],["der Stift","pen","पेन"],["der Bleistift","pencil","पेन्सिल"],["die Armbanduhr","wristwatch","मनगटाचे घड्याळ"],["das Handy","mobile phone","मोबाईल"],["der Computer","computer","संगणक"],["der Drucker","printer","प्रिंटर"],["die Zeitung","newspaper","वर्तमानपत्र"],["das Buch","book","पुस्तक"],["die Briefmarken","stamps","तिकिटे (पोस्ट)"],["der Flaschenöffner","bottle opener","बाटली उघडणारा"],["das Paket","package / parcel","पार्सल"],["das Wörterbuch","dictionary","शब्दकोश"]]},
+{id:"objects",icon:"🧴",label:"Everyday Objects",tip:"Sprechen Teil 3 image cards come from this group — Stift, Handy, Buch are most common.",words:[
+["der Stift","pen","पेन"],["der Kugelschreiber","ballpoint pen","बॉलपेन"],["der Bleistift","pencil","पेन्सिल"],["das Handy","mobile phone","मोबाईल"],["das Buch","book","पुस्तक"],["das Wörterbuch","dictionary","शब्दकोश"],["die Zeitung","newspaper","वर्तमानपत्र"],["das Paket","parcel","पार्सल"]]},
 
-{id:"health",icon:"💊",label:"Health & Body",tip:"Each body part is its own tile. weh tun = to hurt. Medical vocab comes up in Hören Teil 1 dialogues.",words:[
-["der Kopf","head","डोके"],["das Haar","hair","केस"],["das Auge","eye","डोळा"],["das Ohr","ear","कान"],["die Nase","nose","नाक"],["der Mund","mouth","तोंड"],["der Hals","throat / neck","घसा / मान"],["der Arm","arm","हात (वरचा)"],["die Hand","hand","हात"],["der Bauch","stomach","पोट"],["der Rücken","back","पाठ"],["das Bein","leg","पाय"],["der Fuß","foot","पाय (तळपाय)"],["krank","ill / sick","आजारी"],["gesund","healthy","निरोगी"],["weh tun","to hurt","दुखणे"],["der Schmerz","pain","दुखणे / वेदना"],["das Fieber","fever","ताप"],["das Medikament","medication","औषध"],["Mir ist schlecht.","I feel sick.","मला बरे वाटत नाही."],["Es geht mir besser.","I'm feeling better.","बरे वाटत आहे."],["der Arzt","doctor","डॉक्टर"],["die Praxis","doctor's surgery","दवाखाना"],["der Termin","appointment","अपॉइंटमेंट"],["die Apotheke","pharmacy","औषधालय"],["Wie geht's?","How are you? (informal)","कसे आहात?"],["Wie geht es Ihnen?","How are you? (formal)","तुम्ही कसे आहात?"]]},
+{id:"health",icon:"💊",label:"Health & Body",tip:"Each body part is its own card. weh tun = to hurt. Medical vocab in listening dialogues.",words:[
+["der Kopf","head","डोके"],["das Auge","eye","डोळा"],["das Ohr","ear","कान"],["die Hand","hand","हात"],["der Arm","arm","हात (वरचा)"],["das Bein","leg","पाय"],["krank","ill / sick","आजारी"],["gesund","healthy","निरोगी"],["weh tun","to hurt","दुखणे"],["das Fieber","fever","ताप"],["der Arzt","doctor","डॉक्टर"],["der Termin","appointment","अपॉइंटमेंट"]]},
 
-{id:"weather",icon:"🌤️",label:"Weather & Nature",tip:"Weather comes up in Sprechen (describing where you live) and Hören (travel/outdoor scene dialogues).",words:[
-["das Wetter","the weather","हवामान"],["die Sonne","the sun","सूर्य"],["sonnig","sunny","उन्हाळी / सनी"],["der Regen","rain","पाऊस"],["regnen","to rain","पाऊस पडणे"],["der Schnee","snow","बर्फ"],["schneien","to snow","बर्फ पडणे"],["der Wind","wind","वारा"],["windig","windy","वाऱ्याचे"],["die Wolke","cloud","ढग"],["bewölkt","cloudy","ढगाळ"],["der Nebel","fog","धुके"],["warm","warm","उबदार"],["kalt","cold","थंड"],["heiß","hot","गरम"],["kühl","cool","थोडे थंड"],["das Klima","climate","हवामान (दीर्घकालीन)"],["das Grad","degree (temperature)","अंश (तापमान)"],["der Baum","tree","झाड"],["die Blume","flower","फूल"],["der Hund","dog","कुत्रा"],["die Katze","cat","मांजर"],["das Tier","animal","प्राणी"]]},
+{id:"weather",icon:"🌤️",label:"Weather",tip:"Weather comes up in Sprechen (describing where you live) and listening outdoor scenes.",words:[
+["das Wetter","weather","हवामान"],["die Sonne","sun","सूर्य"],["sonnig","sunny","उन्हाळी"],["der Regen","rain","पाऊस"],["der Schnee","snow","बर्फ"],["der Wind","wind","वारा"],["warm","warm","उबदार"],["kalt","cold","थंड"],["heiß","hot","गरम"],["bewölkt","cloudy","ढगाळ"]]},
 
-{id:"adjectives",icon:"✏️",label:"Adjectives",tip:"Each adjective is its own tile — learn them independently, not as pairs.",words:[
-["groß","big / tall","मोठा"],["klein","small / short","लहान"],["alt","old","जुना / वृद्ध"],["neu","new","नवीन"],["gut","good","चांगला"],["schlecht","bad","वाईट"],["schön","beautiful / nice","सुंदर"],["schnell","fast","जलद"],["langsam","slow","हळू"],["laut","loud","मोठ्याने"],["leise","quiet","हळूच"],["leicht","light / easy","हलके / सोपे"],["schwer","heavy / difficult","जड / कठीण"],["lang","long","लांब"],["kurz","short","छोटा"],["hell","bright / light","उजळ"],["dunkel","dark","अंधारे"],["viel","much / a lot","जास्त"],["wenig","little / few","कमी"],["müde","tired","थकलेला"],["fertig","done / ready","तयार"],["wichtig","important","महत्त्वाचे"],["richtig","correct / right","बरोबर"],["falsch","wrong / incorrect","चुकीचे"],["offen","open","उघडे"],["geschlossen","closed","बंद"],["frei","free / available","मोकळे"],["besetzt","occupied / taken","व्यापलेले"],["krank","ill / sick","आजारी"],["gesund","healthy","निरोगी"],["warm","warm","उबदार"],["kalt","cold","थंड"]]},
+{id:"adjectives",icon:"✏️",label:"Adjectives",tip:"Learn each adjective independently, not as pairs. Opposites help: groß/klein, gut/schlecht.",words:[
+["groß","big / tall","मोठा"],["klein","small / short","लहान"],["gut","good","चांगला"],["schlecht","bad","वाईट"],["schön","beautiful / nice","सुंदर"],["schnell","fast","जलद"],["langsam","slow","हळू"],["alt","old","जुना"],["neu","new","नवीन"],["laut","loud","मोठ्याने"],["leise","quiet","हळूच"],["hell","bright","उजळ"],["dunkel","dark","अंधारे"],["müde","tired","थकलेला"],["fertig","ready","तयार"],["wichtig","important","महत्त्वाचे"]]},
 
-{id:"leisure",icon:"🎉",label:"Leisure, Hobbies & Social",tip:"Hobbies come up in Sprechen Teil 1 self-intro. Social scenes appear in Hören Teil 1 dialogues.",words:[
-["die Freizeit","free time","मोकळा वेळ"],["das Hobby","hobby","छंद"],["der Sport","sport","खेळ"],["spielen","to play","खेळणे"],["schwimmen","to swim","पोहणे"],["wandern","to hike","भ्रमण करणे"],["die Musik","music","संगीत"],["das Konzert","concert","मैफल"],["das Kino","cinema","सिनेमा"],["feiern","to celebrate","साजरे करणे"],["die Party","party","पार्टी"],["die Ferien","school holidays","सुट्टी"],["der Urlaub","vacation / holiday","सुट्टी (प्रौढांसाठी)"],["der Verein","club / association","क्लब"],["einladen","to invite","आमंत्रण देणे"],["die Einladung","invitation","आमंत्रण"],["besuchen","to visit","भेट देणे"],["treffen","to meet","भेटणे"],["der Ausflug","trip / excursion","सहल"],["das Geschenk","gift","भेट"],["schenken","to give as a gift","भेट देणे"]]},
+{id:"leisure",icon:"🎉",label:"Leisure & Hobbies",tip:"Hobbies come up in Sprechen self-intro. Social scenes appear in listening Teil 1.",words:[
+["die Freizeit","free time","मोकळा वेळ"],["das Hobby","hobby","छंद"],["der Sport","sport","खेळ"],["spielen","to play","खेळणे"],["schwimmen","to swim","पोहणे"],["die Musik","music","संगीत"],["das Kino","cinema","सिनेमा"],["feiern","to celebrate","साजरे करणे"],["die Party","party","पार्टी"],["besuchen","to visit","भेट देणे"]]},
 
-{id:"housing_extra",icon:"🏘️",label:"Housing & Services",tip:"From Books 1&2 and official Wortliste — these appear in Lesen Teil 2 signs and Hören apartment dialogues.",words:[
-["die Anzeige","advertisement / notice","जाहिरात"],["besichtigen","to view / inspect","पाहणी करणे"],["vermieten","to rent out","भाड्याने देणे"],["der Vermieter","landlord","मकानमालक"],["die Treppe","staircase","जिना"],["der Stock","floor / storey","मजला"],["im ersten Stock","on the first floor","पहिल्या मजल्यावर"],["das Erdgeschoss","ground floor","तळमजला"],["der Keller","basement","तळघर"],["die Postleitzahl","postcode / zip code","पिनकोड"],["die Telefonnummer","phone number","फोन नंबर"],["die Vorwahl","area / dialling code","एरिया कोड"],["reserviert","reserved","राखीव"],["frei","free / available","मोकळे"],["besetzt","occupied / taken","व्यापलेले"],["die Heizung","heating","हीटिंग"],["die Strom","electricity","वीज"],["das Doppelzimmer","double room","डबल खोली"],["das Einzelzimmer","single room","एकल खोली"],["übernachten","to stay overnight","रात्री राहणे"],["die Unterkunft","accommodation","निवास"],["die Wohngemeinschaft","shared apartment (WG)","शेअर्ड फ्लॅट"]]},
+{id:"colours",icon:"🎨",label:"Colours",tip:"Colours come up in Sprechen (describing clothing) and reading (shop signs).",words:[
+["schwarz","black","काळा"],["weiß","white","पांढरा"],["rot","red","लाल"],["blau","blue","निळा"],["grün","green","हिरवा"],["gelb","yellow","पिवळा"],["braun","brown","तपकिरी"],["grau","grey","राखाडी"]]},
 
-{id:"services_money",icon:"🏦",label:"Post, Bank & Services",tip:"From Book 1 (Bank/Post/Telefon section). These appear in Hören Teil 2 announcements and Lesen signs.",words:[
-["die Post","post office","पोस्ट ऑफिस"],["der Brief","letter","पत्र"],["das Paket","parcel / package","पार्सल"],["der Schalter","counter / window","काउंटर"],["die Auskunft","information","माहिती"],["das Formular","form","फॉर्म"],["ausfüllen","to fill in","भरणे"],["unterschreiben","to sign","सही करणे"],["die Unterschrift","signature","सही"],["überweisen","to transfer (money)","पैसे ट्रान्सफर करणे"],["abholen","to pick up","घ्यायला जाणे"],["schicken","to send","पाठवणे"],["das Konto","bank account","बँक खाते"],["die Kontonummer","account number","खाते क्रमांक"],["bar bezahlen","to pay cash","रोख पैसे देणे"],["die Kreditkarte","credit card","क्रेडिट कार्ड"],["der Geldautomat","ATM","एटीएम"],["wechseln","to exchange / change","बदल करणे"],["die Quittung","receipt","पावती"],["das Internet","internet","इंटरनेट"],["die E-Mail","email","ईमेल"]]},
-
-{id:"colours",icon:"🎨",label:"Colours",tip:"Colours come up in Sprechen (describing clothing) and Lesen (shop signs). Learn each individually.",words:[
-["schwarz","black","काळा"],["weiß","white","पांढरा"],["rot","red","लाल"],["blau","blue","निळा"],["grün","green","हिरवा"],["gelb","yellow","पिवळा"],["orange","orange","केशरी"],["lila","purple / violet","जांभळा"],["rosa","pink","गुलाबी"],["braun","brown","तपकिरी"],["grau","grey","राखाडी"],["bunt","colourful","रंगीत"],["die Farbe","colour","रंग"],["hell","light (shade)","फिका"],["dunkel","dark (shade)","गडद"]]},
-
-{id:"work_school",icon:"💼",label:"Work, School & Courses",tip:"From Book 2 Wortschatz chapter 11 and Book 1. Beruf vocab is directly tested in Schreiben forms.",words:[
-["der Unterricht","lesson / class","वर्ग"],["der Kurs","course","कोर्स"],["der Sprachkurs","language course","भाषा कोर्स"],["die Schule","school","शाळा"],["die Universität","university","विद्यापीठ"],["der Kindergarten","kindergarten","बालवाडी"],["die Hausaufgaben","homework","गृहपाठ"],["der Stundenplan","timetable","वेळापत्रक"],["die Klasse","class / classroom","वर्ग"],["die Prüfung","exam / test","परीक्षा"],["bestehen","to pass (exam)","परीक्षा उत्तीर्ण होणे"],["das Büro","office","ऑफिस"],["die Stelle","job / position","नोकरी"],["verdienen","to earn","कमवणे"],["der Lohn","wage / pay","पगार"],["das Gehalt","salary","पगार"],["die Ausbildung","vocational training","प्रशिक्षण"],["der Praktikant","intern","इंटर्न"],["der Chef","boss","बॉस"],["der Angestellte","employee","कर्मचारी"],["kündigen","to quit / resign","राजीनामा देणे"]]},
-
-{id:"social_events",icon:"🎂",label:"Social & Celebrations",tip:"Hochzeit, Geburtstag, Einladung — come up in Hören Teil 1 dialogues and Schreiben email prompts.",words:[
-["die Hochzeit","wedding","लग्न"],["der Geburtstag","birthday","वाढदिवस"],["die Party","party","पार्टी"],["die Feier","celebration / party","साजरा"],["feiern","to celebrate","साजरे करणे"],["die Einladung","invitation","आमंत्रण"],["einladen","to invite","आमंत्रण देणे"],["das Geschenk","gift","भेट"],["schenken","to give as a gift","भेट देणे"],["gratulieren","to congratulate","अभिनंदन करणे"],["Herzlichen Glückwunsch!","Congratulations!","अभिनंदन!"],["Alles Gute!","All the best!","शुभेच्छा!"],["Prost!","Cheers!","चिअर्स!"],["der Gast","guest","पाहुणा"],["gefallen","to like / to please","आवडणे"],["wunderbar","wonderful","अप्रतिम"],["toll","great / brilliant","छान"],["prima","great / excellent","उत्कृष्ट"],["langweilig","boring","कंटाळवाणे"],["interessant","interesting","मनोरंजक"]]},
-
-{id:"key_phrases",icon:"💡",label:"Key Phrases & Expressions",tip:"From Books 1&2 — fixed phrases that appear across all exam sections. Learn each as one unit.",words:[
-["Wie bitte?","Pardon? (didn't catch that)","काय म्हणालात?"],["Das ist mir egal.","I don't mind / It doesn't matter to me.","मला काही फरक पडत नाही."],["Das geht nicht.","That won't work / That's not possible.","ते शक्य नाही."],["Das geht.","That works / That's possible.","ते शक्य आहे."],["Kein Problem.","No problem.","काही हरकत नाही."],["Moment, bitte.","Just a moment, please.","एक मिनिट कृपया."],["In Ordnung.","OK / Alright.","ठीक आहे."],["Gern geschehen.","My pleasure. (after thanks)","माझा आनंद."],["Schade.","What a pity / Too bad.","खेदाची गोष्ट."],["Na ja.","Well... (hesitation)","असं आहे..."],["Stimmt!","That's right!","बरोबर!"],["Wie heißt das auf Deutsch?","What is this called in German?","जर्मनमध्ये याला काय म्हणतात?"],["Können Sie das wiederholen?","Can you repeat that?","तुम्ही ते पुन्हा सांगाल का?"],["Ich bin nicht sicher.","I'm not sure.","मला खात्री नाही."],["Das weiß ich nicht.","I don't know that.","मला माहित नाही."],["Was bedeutet…?","What does … mean?","... चा अर्थ काय?"],["zu Fuß gehen","to go on foot","पायी जाणे"],["nach Hause gehen","to go home","घरी जाणे"],["zu Hause","at home","घरी"],["Gute Reise!","Have a good trip!","प्रवास शुभ होवो!"]]},
-
-{id:"notes_time",icon:"⏱️",label:"Time Words & Expressions",tip:"From Aishwarya's notes — time prepositions and key phrases for telling and asking time.",words:[
-["gleich","almost / in a moment","जवळजवळ / थोड्याच वेळात"],["genau","exactly","बरोबर / नक्की"],["vor","before / to (time)","आधी / कमी (वेळ)"],["nach","after / past (time)","नंतर / वाजून (वेळ)"],["das Viertel","quarter (15 minutes)","एक चतुर्थांश (15 मिनिटे)"],["kurz","short / shortly","थोडक्यात / लवकरच"],["halb","half","अर्धा"],["halb acht","7:30 (half past seven)","साडेसात"],["um … Uhr","at … o'clock","... वाजता"],["verboten","forbidden / prohibited","बंदी / मनाई"],["draußen","outside","बाहेर"],["draußen gehen","to go outside","बाहेर जाणे"],["aufhören","to stop / to finish","थांबणे / संपवणे"],["leise sein","to be quiet","शांत असणे"],["Wie spät ist es?","What time is it? (How late is it?)","किती वाजले?"],["Können Sie mir sagen, wie spät es ist?","Can you tell me what time it is?","तुम्ही मला सांगाल का किती वाजले?"],["Wie viel Uhr ist es?","What time is it?","किती वाजले?"]]},
-
-{id:"notes_transport",icon:"🚉",label:"Transport & Travel Words",tip:"From Aishwarya's notes — transport verbs especially umsteigen (to change trains) which is very common in Hören.",words:[
-["einsteigen","to board / step in","चढणे"],["aussteigen","to get off / step out","उतरणे"],["umsteigen","to change (train/bus)","बदलणे (रेल्वे/बस)"],["abholen","to pick up (someone)","घ्यायला जाणे"],["die Auskunft","information / enquiry desk","माहिती केंद्र"],["der Koffer","suitcase","सूटकेस"],["der Schalter","counter / ticket window","काउंटर"]]},
-
-{id:"notes_requests",icon:"🙏",label:"Request Phrases & Grammar Notes",tip:"From Aishwarya's notes — key patterns for Sprechen Teil 3 and Schreiben. bringen/geben/leihen always use 'mir'.",words:[
-["Können Sie hier unterschreiben?","Can you sign here?","तुम्ही इथे सही कराल का?"],["Können Sie mir etwas kochen, bitte?","Can you please cook something for me?","तुम्ही मला काहीतरी शिजवाल का?"],["Können wir uns treffen?","Can we meet?","आपण भेटू शकतो का?"],["der Termin","appointment","वेळ / अपॉइंटमेंट"],["der Kalender","calendar","कॅलेंडर"],["Haben Sie Zeit am … um … Uhr?","Do you have time on … at …?","तुम्हाला ... ला वेळ आहे का?"],["bringen → mir","to bring → (bring) to me","आणणे → मला"],["geben → mir","to give → (give) to me","देणे → मला"],["leihen → mir","to lend → (lend) to me","उधार देणे → मला"],["kaufen → mir","to buy → (buy) for me","विकत घेणे → माझ्यासाठी"],["schreiben → dir / Ihnen","to write → to you (inf/formal)","लिहिणे → तुला / तुम्हाला"],["Können Sie zum Chefbüro gehen?","Can you go to the boss's office?","तुम्ही बॉसच्या ऑफिसला जाल का?"]]},
-
-{id:"notes_objects2",icon:"🕶️",label:"More Objects & Useful Verbs",tip:"From Aishwarya's notes — objects and verbs that appear in Sprechen Teil 3 image cards and Lesen.",words:[
-["die Brille","glasses / spectacles","चश्मा"],["die Handschuhe","gloves","हातमोजे"],["die Birne","pear","नाशपाती"],["das Glas","glass (drinking)","पेला / ग्लास"],["fotografieren","to take a photo","फोटो काढणे"],["allein","alone / by oneself","एकटे"],["auf sein","to be open / switched on","उघडे असणे / चालू असणे"],["zu sein","to be closed / switched off","बंद असणे"],["zufrieden","satisfied / content","समाधानी"],["zufrieden sein","to be satisfied","समाधानी असणे"]]},
-
-{id:"notes_places",icon:"🏘️",label:"Places, Housing & Environment",tip:"From Aishwarya's notes — housing vocabulary and place words from the official Wortliste Umwelt/Wohnen themes.",words:[
-["das Dorf","village","गाव"],["das Land","country / countryside","देश / गाव / खेड्यातील भाग"],["die Länder","countries (plural)","देश (बहुवचन)"],["das Licht","light","प्रकाश"],["das Feuer","fire","आग"],["das Einzelzimmer","single room","एकल खोली"],["die Anzeige","advertisement / notice","जाहिरात / नोटिस"],["die Treppe","staircase","जिना"],["der Stock","floor / storey","मजला"],["die Etage","floor / storey (formal)","मजला"],["das Erdgeschoss","ground floor","तळमजला"],["das Untergeschoss","underground / basement floor","तळघर"],["die Möbel","furniture (plural)","फर्निचर"],["die Heimat","homeland / home","मातृभूमी / घर"],["die Ecke","corner","कोपरा"],["holen","to fetch / get / pick up","आणणे / घ्यायला जाणे"],["übernachten","to stay overnight","रात्री राहणे"]]}
+{id:"key_phrases",icon:"💡",label:"Key Phrases",tip:"Fixed expressions from exam books. Learn each as one unit — they appear across all sections.",words:[
+["Das geht nicht.","That's not possible.","ते शक्य नाही."],["Das geht.","That works.","ते शक्य आहे."],["Kein Problem.","No problem.","काही हरकत नाही."],["Moment, bitte.","Just a moment.","एक मिनिट."],["In Ordnung.","OK / Alright.","ठीक आहे."],["Stimmt!","That's right!","बरोबर!"],["Schade.","What a pity.","खेदाची गोष्ट."],["Wie heißt das auf Deutsch?","What is this called in German?","जर्मनमध्ये काय म्हणतात?"],["Können Sie das wiederholen?","Can you repeat that?","पुन्हा सांगाल का?"],["Das weiß ich nicht.","I don't know.","मला माहित नाही."],["zu Hause","at home","घरी"],["Gute Reise!","Have a good trip!","प्रवास शुभ होवो!"]]}
 ];
 
-let learned=new Set(),flipped=new Set(),flashMode=false,activeSecTab="all",lang="en",displayMode="both";
-const colState={sched:false,examstruct:false};
-const epState={hoeren:false,lesen:false,schreiben:false,sprechen:false};
-const answered={};
-
-function switchTopTab(t){
-  document.querySelectorAll('.top-tab').forEach(e=>e.classList.remove('active'));
-  document.querySelectorAll('.tab-pane').forEach(e=>e.classList.remove('active'));
-  document.getElementById('ttab-'+t).classList.add('active');
-  document.getElementById('pane-'+t).classList.add('active');
-}
-function pal(i){return PALETTES[i%PALETTES.length];}
-function updateStats(){
-  let total, learnedCount;
-  if(currentMilestone === 1){
-    // Step 1: unique words only
-    const ms1set = new Set();
-    const ms1learned = new Set();
-    G.forEach(g => g.words.forEach(([de]) => {
-      if(STEP1_WORDS[g.id] && STEP1_WORDS[g.id].has(de)){
-        ms1set.add(de);
-        if(learned.has(de)) ms1learned.add(de);
-      }
-    }));
-    total = ms1set.size;
-    learnedCount = ms1learned.size;
-  } else {
-    // Step 2: all 700 words (sections can share words — each tile is independent)
-    total = STEP2_TOTAL;
-    learnedCount = learned.size;
-  }
-  document.getElementById("tc").textContent=total;
-  document.getElementById("lc").textContent=learnedCount;
-  const p=total>0?Math.round(learnedCount/total*100):0;
-  document.getElementById("pc").textContent=p+"%";
-  document.getElementById("pb").style.width=p+"%";
-  // Update milestone button sub-labels
-  const ms1el=document.getElementById('ms1-count');
-  const ms2el=document.getElementById('ms2-count');
-  if(ms1el){
-    const s=new Set(),sl=new Set();
-    G.forEach(g=>g.words.forEach(([de])=>{if(STEP1_WORDS[g.id]&&STEP1_WORDS[g.id].has(de)){s.add(de);if(learned.has(de))sl.add(de);}}));
-    ms1el.textContent=sl.size+'/'+s.size+' learned';
-  }
-  if(ms2el) ms2el.textContent=learned.size+'/'+STEP2_TOTAL+' learned';
-}
-function toggleFlash(){
-  flashMode=!flashMode;flipped.clear();
-  const b=document.getElementById("fb");
-  b.textContent=flashMode?"✅ Flashcard ON":"👁 Flashcard mode";
-  b.classList.toggle("on",flashMode);
-  document.getElementById("fh").classList.toggle("show",flashMode);
-  document.getElementById("lang-row").style.display=flashMode?"flex":"none";
-  document.getElementById("display-row").style.display=flashMode?"none":"flex";
-  renderVocab();
-}
-function setDisplay(m){
-  displayMode=m;
-  ['both','en','mr'].forEach(x=>document.getElementById('disp-'+x).classList.toggle('active',x===m));
-  renderVocab();
-}
-function setLang(l){
-  lang=l;
-  document.getElementById("pill-en").classList.toggle("active",l==="en");
-  document.getElementById("pill-mr").classList.toggle("active",l==="mr");
-  flipped.clear();renderVocab();
-}
-function colToggle(id){
-  colState[id]=!colState[id];
-  document.getElementById(id+"-body").classList.toggle("open",colState[id]);
-  document.getElementById(id+"-chevron").classList.toggle("open",colState[id]);
-}
-function resetAll(){learned.clear();flipped.clear();renderVocab();updateStats();}
-function resetSection(id){
-  const g=G.find(x=>x.id===id);if(!g)return;
-  g.words.forEach(([de])=>{learned.delete(de);flipped.delete(de);});
-  renderVocab();updateStats();
-}
-function handleNormal(de){
-  if(learned.has(de))learned.delete(de);else learned.add(de);
-  updateStats();renderVocab();
-}
-function flipCard(el,de){flipped.add(de);el.classList.add("flipped");}
-function unflipCard(event,de){
-  event.stopPropagation();
-  flipped.delete(de);
-  const w=event.target.closest('.fc-wrap');
-  if(w)w.classList.remove("flipped");
-}
-function markLearned(el,de){
-  learned.add(de);updateStats();
-  el.style.transition="opacity .28s,transform .28s";
-  el.style.opacity="0";el.style.transform="scale(0.82)";
-  setTimeout(()=>renderVocab(),260);
-}
-function renderSecTabs(){
-  let rem, total;
-  if(currentMilestone === 1){
-    const ms1set=new Set(), ms1rem=new Set();
-    G.forEach(g=>g.words.forEach(([de])=>{
-      if(STEP1_WORDS[g.id]&&STEP1_WORDS[g.id].has(de)){
-        ms1set.add(de);
-        if(!learned.has(de)) ms1rem.add(de);
-      }
-    }));
-    total=ms1set.size; rem=ms1rem.size;
-  } else {
-    total=STEP2_TOTAL;
-    rem=G.reduce((s,g)=>s+g.words.filter(([de])=>!learned.has(de)).length,0);
-  }
-  const visibleSections=G.filter(g=>g.words.some(([de])=>isInMilestone(g.id,de)));
-  const all=[{id:"all",label:"All",count:rem},...visibleSections.map(g=>({
-    id:g.id,label:g.label,
-    count:g.words.filter(([de])=>isInMilestone(g.id,de)&&!learned.has(de)).length
-  }))];
-  document.getElementById("sec-tabs").innerHTML=all.map(t=>`<div class="sec-tab${t.id===activeSecTab?" active":""}" onclick="switchSecTab('${t.id}')">${t.label}<span class="cnt">${t.count}</span></div>`).join("");
-}
-function switchSecTab(id){activeSecTab=id;flipped.clear();renderSecTabs();renderVocab();}
-function esc(s){return s.replace(/\\/g,"\\\\").replace(/'/g,"\\'")}
-function renderVocab(){
-  const show=activeSecTab==="all"?G.filter(g=>g.words.some(([de])=>isInMilestone(g.id,de))):G.filter(g=>g.id===activeSecTab);
-  let html="";
-  show.forEach(g=>{
-    const idx=G.indexOf(g),p=pal(idx);
-    const remaining=g.words.filter(([de])=>isInMilestone(g.id,de)&&!learned.has(de));
-    const milestoneWords=g.words.filter(([de])=>isInMilestone(g.id,de));
-    const doneCount=milestoneWords.length-remaining.length;
-    html+=`<div class="section"><div class="sec-head"><div class="sec-icon" style="background:${p.bg}">${g.icon}</div><div class="sec-title">${g.label}</div><div class="sec-meta">${doneCount>0?`<span class="sec-done-badge">✓${doneCount}</span>`:""}<span class="sec-count">${remaining.length} left</span>${doneCount>0?`<button class="btn-reset-sec" onclick="resetSection('${g.id}')">↺</button>`:""}</div></div><div class="tip" style="background:${p.bg};border-left:3px solid ${p.text}">💡 ${g.tip}</div>`;
-    if(remaining.length===0){
-      html+=`<div class="sec-empty">🎉 All ${g.words.length} words learned! Hit reset to practise again.</div>`;
-    } else {
-      html+=`<div class="word-grid">`;
-      remaining.forEach(([de,en,mr])=>{
-        const d=esc(de),isF=flipped.has(de);
-        if(flashMode){
-          const prompt=lang==="mr"?mr:en,pLabel=lang==="mr"?"मराठी":"English",sub=lang==="mr"?en:"";
-          html+=`<div class="fc-wrap${isF?" flipped":""}"><div class="fc-inner"><div class="fc-front${lang==="mr"?" fc-front-mr":""}" onclick="flipCard(this.closest('.fc-wrap'),'${d}')"><div class="fc-lbl">${pLabel}</div><div class="fc-word">${prompt}</div></div><div class="fc-back" onclick="markLearned(this.closest('.fc-wrap'),'${d}')"><div class="fc-lbl">Deutsch</div><div class="fc-de">${de}</div>${sub?`<div class="fc-sub">${sub}</div>`:""}<button class="fc-no" onclick="unflipCard(event,'${d}')" title="Not yet">↩</button></div></div></div>`;
-        } else {
-          const showEn=displayMode!=='mr',showMr=displayMode!=='en';
-          const transLine=showEn&&showMr?`${en} · <span style="color:var(--teal-text);font-size:10px">${mr}</span>`:showEn?en:mr;
-          html+=`<div class="wc" onclick="handleNormal('${d}')"><div class="de">${de}</div><div class="tr">${transLine}</div></div>`;
-        }
-      });
-      html+=`</div>`;
-    }
-    html+=`</div>`;
-  });
-  document.getElementById("vocab-content").innerHTML=html;
-  const tl=currentMilestone===1
-    ? (()=>{const s=new Set();G.forEach(g=>g.words.forEach(([de])=>{if(STEP1_WORDS[g.id]&&STEP1_WORDS[g.id].has(de)&&!learned.has(de))s.add(de);}));return s.size;})()
-    : G.reduce((s,g)=>s+g.words.filter(([de])=>!learned.has(de)).length,0);
-  const milTotal=currentMilestone===1?STEP1_TOTAL:STEP2_TOTAL;
-  document.getElementById("alldone").classList.toggle("show",tl===0&&milTotal>0);
-  renderSecTabs();
-}
-function epToggle(id){
-  epState[id]=!epState[id];
-  document.getElementById("body-"+id).classList.toggle("open",epState[id]);
-  document.getElementById("chev-"+id).classList.toggle("open",epState[id]);
-}
 const STEP1_WORDS = {
   "greet":new Set(["Hallo","Guten Morgen","Guten Tag","Guten Abend","Gute Nacht","Auf Wiedersehen","Tschüss","Bitte","Danke","Vielen Dank","Entschuldigung","Ja","Nein","Klar","Wie bitte?","Alles klar?","Das macht nichts","Viel Glück!"]),
   "people":new Set(["der Vater","die Mutter","der Bruder","die Schwester","der Sohn","die Tochter","die Eltern","die Familie","der Mann","die Frau","das Kind","der Freund","die Großmutter","der Großvater"]),
@@ -1151,47 +1136,30 @@ const STEP1_WORDS = {
   "adverbs":new Set(["leider","natürlich","vielleicht","gern / gerne","bald","gleich","manchmal","immer","nie","sehr","ein bisschen"]),
   "weather":new Set(["das Wetter","die Sonne","sonnig","der Regen","warm","kalt","heiß","der Wind"]),
   "colours":new Set(["schwarz","weiß","rot","blau","grün","gelb","braun","grau","die Farbe"]),
-  "notes_time":new Set(["genau","vor","nach","halb","halb acht","verboten","aufhören","Wie spät ist es?"]),
   "notes_transport":new Set(["umsteigen","die Auskunft","der Schalter"])
 };
-const STEP1_TOTAL = 292;
-const STEP2_TOTAL = 700;
-let currentMilestone = 1; // 1 or 2
+const STEP1_TOTAL = 300;
 
 
-function setMilestone(n) {
-  currentMilestone = n;
-  // Update buttons
-  document.getElementById('ms1-btn').className = 'ms-btn' + (n===1 ? ' active-ms1' : '');
-  document.getElementById('ms2-btn').className = 'ms-btn' + (n===2 ? ' active-ms2' : '');
-  // Update banner
-  const banner = document.getElementById('ms-banner');
-  if (n === 1) {
-    banner.className = 'ms-banner ms1';
-    banner.innerHTML = '🌱 <strong>Step 1 — Core ' + STEP1_TOTAL + ' words.</strong> These cover everything you need to pass. Complete Step 1 before unlocking Step 2.';
-  } else {
-    banner.className = 'ms-banner ms2';
-    banner.innerHTML = '🏆 <strong>Step 2 — All 700 words.</strong> The complete exam vocabulary. Every word from the official Goethe Wortliste and your notes.';
-  }
-  // Clear flipped state
-  flipped.clear();
-  // Update alldone text
-  const titleEl = document.getElementById('alldone-title');
-  const msgEl = document.getElementById('alldone-msg');
-  if(titleEl) titleEl.textContent = n===1 ? '🌱 Step 1 Complete!' : '🏆 All 700 Words Done!';
-  if(msgEl) msgEl.textContent = n===1 ? 'Core vocabulary mastered! Switch to Step 2 for all 700 words.' : 'Complete vocabulary mastered! You are fully prepared.';
-  // Re-render
-  renderVocab();
-  updateStats();
-}
-
-function isInMilestone(sectionId, germanWord) {
-  if (currentMilestone === 2) return true;
-  if (!STEP1_WORDS[sectionId]) return false;
-  return STEP1_WORDS[sectionId].has(germanWord);
-}
 
 renderSecTabs();renderVocab();updateStats();
+
+// ── Audio (Web Speech API TTS) ──
+function playAudio(text) {
+  if (!window.speechSynthesis) { alert("Audio not supported in this browser."); return; }
+  window.speechSynthesis.cancel();
+  const utt = new SpeechSynthesisUtterance(text);
+  utt.lang = "de-DE";
+  utt.rate = 0.85;
+  utt.pitch = 1;
+  // Try to find a German voice
+  const voices = window.speechSynthesis.getVoices();
+  const de = voices.find(v => v.lang === "de-DE" || v.lang.startsWith("de"));
+  if (de) utt.voice = de;
+  window.speechSynthesis.speak(utt);
+}
+// Load voices (needed in some browsers)
+window.speechSynthesis.onvoiceschanged = () => { window.speechSynthesis.getVoices(); };
 
 // ══ EXAM PRACTICE SCORE STATE ══
 const epAnswered = {};
@@ -1570,6 +1538,21 @@ function t3Render(){
 
 // ──── Section toggles ────
 const spState = {t2:false, t3:false};
+const swState = {};
+
+function showLetterType(type) {
+  document.getElementById('sw-formal').style.display = type === 'formal' ? 'block' : 'none';
+  document.getElementById('sw-informal').style.display = type === 'informal' ? 'block' : 'none';
+  document.getElementById('sw-formal-btn').classList.toggle('on', type === 'formal');
+  document.getElementById('sw-informal-btn').classList.toggle('on', type === 'informal');
+}
+
+function swToggle(id) {
+  swState[id] = !swState[id];
+  document.getElementById('body-' + id).classList.toggle('open', swState[id]);
+  const chev = document.getElementById('chev-' + id);
+  if (chev) chev.classList.toggle('open', swState[id]);
+}
 function spToggle(id){
   spState[id]=!spState[id];
   document.getElementById('body-'+id).classList.toggle('open',spState[id]);
