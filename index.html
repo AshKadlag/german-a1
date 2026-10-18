@@ -1059,7 +1059,7 @@ const G=[
 ["Ich heiße …","My name is …","माझे नाव ... आहे"],["Ich komme aus …","I come from …","मी ... येतो"],["Ich wohne in …","I live in …","मी ... राहतो"],["Ich bin … Jahre alt.","I am … years old.","मी ... वर्षांचा आहे."],["Von Beruf bin ich …","My profession is …","माझा व्यवसाय आहे"],["Ich bin verheiratet.","I am married.","मी विवाहित आहे."],["Ich bin ledig.","I am single.","मी अविवाहित आहे."],["der Vorname","first name","पहिले नाव"],["der Familienname","surname","आडनाव"],["die Adresse","address","पत्ता"],["der Wohnort","place of residence","राहण्याचे ठिकाण"],["das Alter","age","वय"],["das Geburtsdatum","date of birth","जन्मतारीख"],["der Geburtsort","birthplace","जन्मस्थान"],["der Beruf","profession","व्यवसाय"],["studieren","to study","शिकणे"]]},
 
 {id:"numbers",icon:"🔢",label:"Numbers, Time & Days",tip:"Dates come up in forms and Sprechen Teil 1. Weekdays are tested in listening dialogues.",words:[
-["eins","one","एक"],["zwei","two","दोन"],["drei","three","तीन"],["vier","four","चार"],["fünf","five","पाच"],["sechs","six","सहा"],["sieben","seven","सात"],["acht","eight","आठ"],["neun","nine","नऊ"],["zehn","ten","दहा"],["elf","eleven","अकरा"],["zwölf","twelve","बारा"],["zwanzig","twenty","वीस"],["dreißig","thirty","तीस"],["hundert","hundred","शंभर"],["tausend","thousand","हजार"],["Wie viel Uhr ist es?","What time is it?","किती वाजले?"],["Es ist … Uhr.","It is ... Uhr.","... वाजले."],["halb drei","half past two (2:30)","अडीच"],["heute","today","आज"],["morgen","tomorrow","उद्या"],["gestern","yesterday","काल"],["jetzt","now","आत्ता"],["der Montag","Monday","सोमवार"],["der Dienstag","Tuesday","मंगळवार"],["der Mittwoch","Wednesday","बुधवार"],["der Donnerstag","Thursday","गुरुवार"],["der Freitag","Friday","शुक्रवार"],["der Samstag","Saturday","शनिवार"],["der Sonntag","Sunday","रविवार"],["das Wochenende","weekend","आठवड्याचा शेवट"],["das Datum","the date","तारीख"],["der Sommer","summer","उन्हाळा"],["der Winter","winter","हिवाळा"]]},,
+["eins","one","एक"],["zwei","two","दोन"],["drei","three","तीन"],["vier","four","चार"],["fünf","five","पाच"],["sechs","six","सहा"],["sieben","seven","सात"],["acht","eight","आठ"],["neun","nine","नऊ"],["zehn","ten","दहा"],["elf","eleven","अकरा"],["zwölf","twelve","बारा"],["zwanzig","twenty","वीस"],["dreißig","thirty","तीस"],["hundert","hundred","शंभर"],["tausend","thousand","हजार"],["Wie viel Uhr ist es?","What time is it?","किती वाजले?"],["Es ist … Uhr.","It is ... Uhr.","... वाजले."],["halb drei","half past two (2:30)","अडीच"],["heute","today","आज"],["morgen","tomorrow","उद्या"],["gestern","yesterday","काल"],["jetzt","now","आत्ता"],["der Montag","Monday","सोमवार"],["der Dienstag","Tuesday","मंगळवार"],["der Mittwoch","Wednesday","बुधवार"],["der Donnerstag","Thursday","गुरुवार"],["der Freitag","Friday","शुक्रवार"],["der Samstag","Saturday","शनिवार"],["der Sonntag","Sunday","रविवार"],["das Wochenende","weekend","आठवड्याचा शेवट"],["das Datum","the date","तारीख"],["der Sommer","summer","उन्हाळा"],["der Winter","winter","हिवाळा"]]},
 
 {id:"wh",icon:"❓",label:"Question Words",tip:"All 10 W-questions are used in Sprechen Teil 2 — know them cold.",words:[
 ["was","what","काय"],["wer","who","कोण"],["warum","why","का"],["wann","when","कधी"],["wo","where","कुठे"],["woher","where from","कुठून"],["wohin","where to","कुठे (दिशा)"],["wie","how","कसे"],["wie viele","how many","किती"],["welche","which","कोणता"],["aber","but","पण"],["oder","or","किंवा"]]},
@@ -1144,9 +1144,11 @@ const STEP1_TOTAL = 300;
 
 // ── State variables ──
 let learned = new Set();
+let flipped = new Set();
 let activeSecTab = "all";
 let flashMode = false;
 let displayMode = "both";
+let lang = "en";
 
 
 
@@ -1273,7 +1275,7 @@ function playAudio(text) {
   window.speechSynthesis.speak(utt);
 }
 // Load voices (needed in some browsers)
-window.speechSynthesis.onvoiceschanged = () => { window.speechSynthesis.getVoices(); };
+if(window.speechSynthesis){if(window.speechSynthesis) window.speechSynthesis.onvoiceschanged = () => { window.speechSynthesis.getVoices(); };}
 
 // ══ EXAM PRACTICE SCORE STATE ══
 const epAnswered = {};
