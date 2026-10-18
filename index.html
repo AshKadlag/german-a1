@@ -286,6 +286,7 @@ footer{text-align:center;font-size:11px;color:var(--text3);margin-top:2rem;paddi
 <!-- ══ VOCAB TAB ══ -->
 <div class="tab-pane active" id="pane-vocab">
   <div class="pbar-wrap"><div class="pbar" id="pb"></div></div>
+  <div class="stat-row" style="font-size:13px;color:var(--text-muted);margin:4px 0 8px;text-align:right"><span id="lc">0</span> learned · <span id="tc">0</span> total · <span id="pc">0%</span></div>
   <div class="btn-row">
     <button class="btn" id="fb" onclick="toggleFlash()">👁 Flashcard mode</button>
     <button class="btn btn-reset" onclick="resetAll()">↺ Reset all</button>
@@ -1140,6 +1141,13 @@ const STEP1_WORDS = {
   "notes_transport":new Set(["umsteigen","die Auskunft","der Schalter"])
 };
 const STEP1_TOTAL = 300;
+
+// ── State variables ──
+let learned = new Set();
+let activeSecTab = "all";
+let flashMode = false;
+let displayMode = "both";
+
 
 
 
