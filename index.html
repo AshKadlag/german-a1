@@ -1150,6 +1150,7 @@ let flashMode = false;
 let displayMode = "both";
 let lang = "en";
 const colState = {};
+const epState = {};
 
 
 
@@ -1678,6 +1679,11 @@ function spToggle(id){
     if(id==='t2'){buildT2ThemeTabs();t2Render();}
     if(id==='t3'){t3Render();}
   }
+}
+function epToggle(id){
+  epState[id]=!epState[id];
+  document.getElementById('body-'+id).classList.toggle('open',epState[id]);
+  document.getElementById('chev-'+id).classList.toggle('open',epState[id]);
 }
 
 // init counts
